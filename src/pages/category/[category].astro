@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/layout/Navbar';
+import Footer from '../../components/layout/Footer';
+import { CATEGORIES, getToolsByCategory } from '../../data/tools';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map(cat => ({
+    params: { category: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+const tools = getToolsByCategory(category.slug);
+---
+<BaseLayout
+  title={`${category.name} - Free Online Tools | CalculateAnything`}
+  description={`Browse ${category.count} free ${category.name.toLowerCase()} online. No sign-up required.`}
+  canonical={`https://calculateanything.pages.dev/category/${category.slug}`}
+>
+  <Navbar client:load />
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-6 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">{category.name}</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-3xl font-bold mb-2">{category.name}</h1>
+    <p class="text-gray-600 dark:text-gray-400 mb-8">{category.count} free tools in this category.</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {tools.map(tool => (
+        <a
+          href={`/tools/${tool.slug}`}
+          class="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-blue-500 hover:shadow-md transition-all bg-white dark:bg-gray-900"
+        >
+          <h2 class="font-semibold text-lg mb-1 text-gray-900 dark:text-gray-100">{tool.name}</h2>
+          <p class="text-sm text-gray-600 dark:text-gray-400">{tool.description}</p>
+        </a>
+      ))}
+    </div>
+  </main>
+  <Footer client:load />
+</BaseLayout>

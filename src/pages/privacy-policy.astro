@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+
+const lastUpdated = '1 July 2025';
+---
+<BaseLayout
+  title="Privacy Policy - CalculateAnything"
+  description="Read the CalculateAnything privacy policy to understand how we handle data, cookies, and your personal information."
+  canonical="https://calculateanything.pages.dev/privacy-policy"
+>
+  <Navbar client:load />
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">Privacy Policy</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Privacy Policy</h1>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mb-10">Last updated: {lastUpdated}</p>
+
+    <div class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">1. Overview</h2>
+        <p>
+          CalculateAnything ("we", "us", "our") operates the website at
+          <a href="https://calculateanything.pages.dev" class="text-blue-600 dark:text-blue-400 hover:underline">
+            calculateanything.pages.dev
+          </a>.
+          This Privacy Policy explains what information we collect, how we use it, and your rights regarding that information.
+          By using this website you agree to the practices described below.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">2. Information We Do Not Collect</h2>
+        <p>
+          Nearly all tools on CalculateAnything process your data entirely within your browser. Files you upload
+          (images, PDFs, etc.) and text you enter into tools are <strong>never sent to our servers</strong>. We do not
+          operate a database of user accounts or store any personally identifiable information on our servers.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">3. Browser Local Storage</h2>
+        <p>
+          We use your browser's <code class="font-mono text-sm bg-gray-100 dark:bg-gray-800 px-1 rounded">localStorage</code>
+          solely to improve your experience:
+        </p>
+        <ul class="list-disc list-inside mt-3 space-y-1">
+          <li><strong>Theme preference</strong> — light or dark mode setting.</li>
+          <li><strong>Recently used tools</strong> — the last 10 tools you visited.</li>
+          <li><strong>Favourite tools</strong> — tools you have starred for quick access.</li>
+        </ul>
+        <p class="mt-3">
+          This data is stored only on your device and is never transmitted to us. You can clear it at any time by
+          clearing your browser's site data.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">4. Cookies</h2>
+        <p>
+          CalculateAnything itself does not set any tracking cookies. However, third-party services we use may set
+          their own cookies:
+        </p>
+        <ul class="list-disc list-inside mt-3 space-y-1">
+          <li>
+            <strong>Google AdSense</strong> — if advertisements are displayed, Google may use cookies to show relevant
+            ads. See
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"
+               class="text-blue-600 dark:text-blue-400 hover:underline">
+              Google's advertising policies
+            </a> for details.
+          </li>
+          <li>
+            <strong>Analytics</strong> — we may use privacy-respecting analytics (such as aggregated page-view counts)
+            to understand which tools are popular. No personally identifiable information is collected.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">5. Third-Party Services</h2>
+        <p>Some tools may optionally call third-party APIs (for example, the IP Address Information tool). These calls
+           are made directly from your browser and are subject to the privacy policies of those third-party providers.
+           We encourage you to review their policies before using such features.</p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">6. Children's Privacy</h2>
+        <p>
+          CalculateAnything is not directed at children under the age of 13. We do not knowingly collect personal
+          information from children. If you believe a child has provided us with personal data, please contact us so
+          we can take appropriate action.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">7. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. Changes will be reflected by updating the "last updated"
+          date at the top of this page. We encourage you to review this policy periodically.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">8. Contact</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please
+          <a href="/contact" class="text-blue-600 dark:text-blue-400 hover:underline">contact us</a>.
+        </p>
+      </section>
+
+    </div>
+  </main>
+  <Footer client:load />
+</BaseLayout>

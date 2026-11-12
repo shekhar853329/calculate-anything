@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+---
+<BaseLayout
+  title="Contact Us - CalculateAnything"
+  description="Get in touch with the CalculateAnything team. Send us feedback, bug reports, or feature suggestions."
+  canonical="https://calculateanything.pages.dev/contact"
+>
+  <Navbar client:load />
+  <main class="max-w-2xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">Contact</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-3 text-gray-900 dark:text-gray-100">Contact Us</h1>
+    <p class="text-gray-600 dark:text-gray-400 mb-8">
+      Have feedback, spotted a bug, or want to suggest a new tool? Fill out the form below and we will get back to you.
+    </p>
+
+    <form
+      id="contact-form"
+      class="space-y-6"
+      novalidate
+    >
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Your Name <span aria-hidden="true" class="text-red-500">*</span>
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="name"
+          placeholder="Jane Smith"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition"
+        />
+        <p id="name-error" class="mt-1 text-sm text-red-600 dark:text-red-400 hidden" role="alert">Please enter your name.</p>
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Email Address <span aria-hidden="true" class="text-red-500">*</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="email"
+          placeholder="jane@example.com"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition"
+        />
+        <p id="email-error" class="mt-1 text-sm text-red-600 dark:text-red-400 hidden" role="alert">Please enter a valid email address.</p>
+      </div>
+
+      <div>
+        <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Subject
+        </label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          autocomplete="off"
+          placeholder="Bug report, feature request, general feedback…"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition"
+        />
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          Message <span aria-hidden="true" class="text-red-500">*</span>
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="6"
+          placeholder="Describe your feedback, the bug you found, or the tool you would like to see added…"
+          class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition resize-y"
+        ></textarea>
+        <p id="message-error" class="mt-1 text-sm text-red-600 dark:text-red-400 hidden" role="alert">Please enter a message.</p>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      >
+        Send Message
+      </button>
+    </form>
+  </main>
+  <Footer client:load />
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+
+  function showError(id: string, show: boolean) {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden', !show);
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = (document.getElementById('name') as HTMLInputElement).value.trim();
+    const email = (document.getElementById('email') as HTMLInputElement).value.trim();
+    const subject = (document.getElementById('subject') as HTMLInputElement).value.trim();
+    const message = (document.getElementById('message') as HTMLTextAreaElement).value.trim();
+
+    let valid = true;
+
+    if (!name) { showError('name-error', true); valid = false; } else { showError('name-error', false); }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showError('email-error', true); valid = false; } else { showError('email-error', false); }
+    if (!message) { showError('message-error', true); valid = false; } else { showError('message-error', false); }
+
+    if (!valid) return;
+
+    // Client-side mailto — no server needed
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+    const sub = encodeURIComponent(subject || 'CalculateAnything Feedback');
+    window.location.href = `mailto:contact@calculateanything.pages.dev?subject=${sub}&body=${body}`;
+  });
+</script>

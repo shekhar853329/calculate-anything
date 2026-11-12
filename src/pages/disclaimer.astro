@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+
+const lastUpdated = '1 July 2025';
+---
+<BaseLayout
+  title="Disclaimer - CalculateAnything"
+  description="Read the CalculateAnything disclaimer regarding the accuracy and limitations of our online tools and calculators."
+  canonical="https://calculateanything.pages.dev/disclaimer"
+>
+  <Navbar client:load />
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">Disclaimer</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Disclaimer</h1>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mb-10">Last updated: {lastUpdated}</p>
+
+    <div class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">General Disclaimer</h2>
+        <p>
+          The information and results provided by CalculateAnything ("the website") are intended for general informational
+          and educational purposes only. While we strive to ensure accuracy, the results produced by our tools are
+          provided <strong>"as is"</strong> without any guarantee of completeness, accuracy, or fitness for a particular purpose.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">No Professional Advice</h2>
+        <p>
+          The tools on this website — including but not limited to financial calculators, health calculators, legal
+          reference tools, and tax estimators — do <strong>not</strong> constitute professional financial, medical,
+          legal, or tax advice. Results should not be used as the sole basis for any financial, medical, or legal
+          decision.
+        </p>
+        <ul class="list-disc list-inside mt-3 space-y-1">
+          <li>
+            <strong>Finance:</strong> EMI, SIP, tax, and investment calculations are estimates based on the inputs
+            you provide. Consult a qualified financial advisor before making investment or borrowing decisions.
+          </li>
+          <li>
+            <strong>Health:</strong> BMI and other health-related tools are general indicators only. Consult a
+            qualified healthcare professional for medical guidance.
+          </li>
+          <li>
+            <strong>Legal &amp; Tax:</strong> Tax calculations are approximations based on generalised rules. Tax laws
+            vary by jurisdiction and change frequently. Always consult a qualified tax professional.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Accuracy of Results</h2>
+        <p>
+          We make every reasonable effort to ensure that our tools produce correct results. However, software can
+          contain bugs and edge cases. Results may differ from those produced by official government tools, certified
+          accounting software, or other authoritative sources. Always verify critical results with an independent source.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Image &amp; File Tools</h2>
+        <p>
+          File processing tools (image compressor, PDF merger, etc.) process files locally in your browser.
+          We are not responsible for any data loss or file corruption that may occur during processing. Always
+          keep a backup of important files before using any file conversion or compression tool.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">External Links &amp; Third-Party Content</h2>
+        <p>
+          Some tools may link to or retrieve data from third-party services (for example, IP geolocation APIs).
+          We are not responsible for the accuracy or availability of data from external sources, nor for the content
+          of third-party websites linked from this site.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Limitation of Liability</h2>
+        <p>
+          CalculateAnything and its operators shall not be held liable for any direct, indirect, incidental, or
+          consequential damages arising from your use of this website or reliance on any information or results
+          provided here. You use the website and its tools entirely at your own risk.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Contact</h2>
+        <p>
+          If you believe a tool is producing incorrect results or have any other concerns, please
+          <a href="/contact" class="text-blue-600 dark:text-blue-400 hover:underline">contact us</a>.
+          We take accuracy seriously and will investigate any reported issues promptly.
+        </p>
+      </section>
+
+    </div>
+  </main>
+  <Footer client:load />
+</BaseLayout>

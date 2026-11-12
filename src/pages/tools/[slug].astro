@@ -1,0 +1,33 @@
+---
+import ToolLayout from '../../layouts/ToolLayout.astro';
+import { TOOLS, getToolBySlug } from '../../data/tools';
+import ToolRenderer from '../../components/tool/ToolRenderer';
+
+export async function getStaticPaths() {
+  return TOOLS.map(tool => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+---
+<ToolLayout tool={tool}>
+  <ToolRenderer slug={tool.slug} client:load />
+</ToolLayout>
+
+<script define:vars={{ toolSlug: tool.slug, toolName: tool.name, toolCategorySlug: tool.categorySlug }}>
+  // Track recently used tools in localStorage
+  try {
+    const key = 'recentTools';
+    const entry = { slug: toolSlug, name: toolName, categorySlug: toolCategorySlug, visitedAt: Date.now() };
+    const existing = JSON.parse(localStorage.getItem(key) || '[]');
+    // Remove any previous occurrence of this slug
+    const filtered = existing.filter((t) => t.slug !== toolSlug);
+    // Prepend and keep only the last 10
+    const updated = [entry, ...filtered].slice(0, 10);
+    localStorage.setItem(key, JSON.stringify(updated));
+  } catch (_) {
+    // localStorage unavailable — silently ignore
+  }
+</script>

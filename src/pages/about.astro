@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+---
+<BaseLayout
+  title="About CalculateAnything - Free Online Tools for Everyone"
+  description="Learn about CalculateAnything — a free, ad-supported platform providing 110+ online tools including calculators, converters, formatters, and productivity tools."
+  canonical="https://calculateanything.pages.dev/about"
+>
+  <Navbar client:load />
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">About</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">About CalculateAnything</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 mb-10">
+      Your free, all-in-one toolkit for calculations, conversions, and everyday tasks — no account required.
+    </p>
+
+    <section class="prose dark:prose-invert max-w-none space-y-8">
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">What is CalculateAnything?</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          CalculateAnything is a free online tools platform that brings together 110+ utilities under one roof. Whether
+          you need to calculate your age, format JSON, generate a QR code, convert units, or run a Pomodoro timer —
+          you will find it here, ready to use in your browser with no sign-up and no installation.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Our Mission</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          We believe useful tools should be free and accessible to everyone. Our mission is to provide accurate,
+          fast, and privacy-respecting online tools that work for students, professionals, developers, and everyday
+          users around the world.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">What We Offer</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+          <li>Date &amp; age calculators — age, date difference, working days, and more</li>
+          <li>Mathematics tools — scientific calculator, percentage, fractions, statistics</li>
+          <li>Text &amp; formatting tools — JSON/XML/CSS formatters, case converters, diff checker</li>
+          <li>Developer tools — JWT decoder, regex tester, hash generator, QR code generator</li>
+          <li>Unit converters — length, weight, temperature, speed, data storage, and more</li>
+          <li>Finance calculators — EMI, GST, SIP, compound interest, income tax</li>
+          <li>Image &amp; file tools — compressor, resizer, PDF tools, format converters</li>
+          <li>Productivity tools — stopwatch, Pomodoro timer, typing speed test, and more</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Privacy First</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          Nearly all tools process data entirely in your browser. Files and sensitive inputs never leave your device.
+          We store your preferences (theme, recently used tools, favourites) only in your browser's local storage —
+          nothing is sent to our servers.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Free &amp; Supported by Ads</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          CalculateAnything is completely free to use. To keep the lights on and continue adding new tools, the site
+          displays non-intrusive advertisements. We appreciate your understanding.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">Get in Touch</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          Have a suggestion for a new tool or found a bug? We would love to hear from you.
+          Visit our <a href="/contact" class="text-blue-600 dark:text-blue-400 hover:underline">contact page</a> to
+          send us a message.
+        </p>
+      </div>
+    </section>
+  </main>
+  <Footer client:load />
+</BaseLayout>

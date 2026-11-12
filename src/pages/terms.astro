@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+
+const lastUpdated = '1 July 2025';
+---
+<BaseLayout
+  title="Terms and Conditions - CalculateAnything"
+  description="Read the terms and conditions governing your use of the CalculateAnything website and tools."
+  canonical="https://calculateanything.pages.dev/terms"
+>
+  <Navbar client:load />
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500 dark:text-gray-400">
+      <ol class="flex items-center gap-2">
+        <li><a href="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li class="text-gray-800 dark:text-gray-200 font-medium">Terms &amp; Conditions</li>
+      </ol>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Terms &amp; Conditions</h1>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mb-10">Last updated: {lastUpdated}</p>
+
+    <div class="space-y-8 text-gray-700 dark:text-gray-300 leading-relaxed">
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">1. Acceptance of Terms</h2>
+        <p>
+          By accessing or using CalculateAnything ("the website"), you agree to be bound by these Terms and Conditions.
+          If you do not agree, please discontinue use of the website immediately.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">2. Use of the Website</h2>
+        <p>You agree to use the website only for lawful purposes. You must not:</p>
+        <ul class="list-disc list-inside mt-3 space-y-1">
+          <li>Attempt to interfere with or disrupt the website's operation or infrastructure.</li>
+          <li>Use automated tools to scrape or extract content in a manner that places excessive load on our servers.</li>
+          <li>Use the website to distribute malware, spam, or any illegal content.</li>
+          <li>Reproduce, redistribute, or sell the website's content without written permission.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">3. Intellectual Property</h2>
+        <p>
+          All content on CalculateAnything — including but not limited to text, graphics, code, and tool implementations
+          — is the property of CalculateAnything or its licensors and is protected by applicable intellectual property
+          laws. You may use the tools for personal and professional purposes but may not copy or redistribute the
+          underlying code without permission.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">4. Disclaimer of Warranties</h2>
+        <p>
+          The website and all tools are provided <strong>"as is"</strong> without warranties of any kind, either express
+          or implied. We do not warrant that the website will be error-free, uninterrupted, or free of viruses or other
+          harmful components. You use the website at your own risk.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">5. Limitation of Liability</h2>
+        <p>
+          To the fullest extent permitted by applicable law, CalculateAnything and its operators shall not be liable for
+          any direct, indirect, incidental, special, consequential, or punitive damages arising from your use of or
+          inability to use the website or its tools, even if advised of the possibility of such damages.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">6. Third-Party Links</h2>
+        <p>
+          The website may contain links to third-party websites. These links are provided for convenience only. We have
+          no control over the content of those sites and accept no responsibility for them or for any loss or damage that
+          may arise from your use of them.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">7. Advertisements</h2>
+        <p>
+          CalculateAnything is supported by advertising. Advertisements are served by third-party networks (such as
+          Google AdSense). We are not responsible for the content of advertisements. Clicking an advertisement may
+          take you to a third-party website, and you do so at your own risk.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">8. Changes to Terms</h2>
+        <p>
+          We reserve the right to modify these Terms and Conditions at any time. Changes take effect when posted to this
+          page. Continued use of the website after any change constitutes your acceptance of the new terms.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">9. Governing Law</h2>
+        <p>
+          These Terms and Conditions are governed by and construed in accordance with applicable law. Any disputes
+          arising shall be resolved through the appropriate legal channels.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3 text-gray-900 dark:text-gray-100">10. Contact</h2>
+        <p>
+          For questions about these Terms and Conditions, please
+          <a href="/contact" class="text-blue-600 dark:text-blue-400 hover:underline">contact us</a>.
+        </p>
+      </section>
+
+    </div>
+  </main>
+  <Footer client:load />
+</BaseLayout>
