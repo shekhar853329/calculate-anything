@@ -1,8 +1,76 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { hasToolComponent } from '../../lib/toolComponents';
 
 interface ToolRendererProps {
   slug: string;
+}
+
+// ── Date & Age tool components ──────────────────────────────────────────────
+const AgeCalculator = lazy(() => import('../tools/age-calculator'));
+const AgeDifferenceCalculator = lazy(() => import('../tools/age-difference-calculator'));
+const DateDifferenceCalculator = lazy(() => import('../tools/date-difference-calculator'));
+const DateAddSubtract = lazy(() => import('../tools/date-add-subtract'));
+const DaysUntilCalculator = lazy(() => import('../tools/days-until-calculator'));
+const BirthdayCalculator = lazy(() => import('../tools/birthday-calculator'));
+const LeapYearChecker = lazy(() => import('../tools/leap-year-checker'));
+const WorkingDaysCalculator = lazy(() => import('../tools/working-days-calculator'));
+const TimeDurationCalculator = lazy(() => import('../tools/time-duration-calculator'));
+const UnixTimestampConverter = lazy(() => import('../tools/unix-timestamp-converter'));
+
+// ── Mathematics tool components ─────────────────────────────────────────────
+const ScientificCalculator = lazy(() => import('../tools/scientific-calculator'));
+const PercentageCalculator = lazy(() => import('../tools/percentage-calculator'));
+const FractionCalculator = lazy(() => import('../tools/fraction-calculator'));
+const RatioCalculator = lazy(() => import('../tools/ratio-calculator'));
+const AverageCalculator = lazy(() => import('../tools/average-calculator'));
+const SquareRootCalculator = lazy(() => import('../tools/square-root-calculator'));
+const PowerCalculator = lazy(() => import('../tools/power-calculator'));
+const PrimeNumberChecker = lazy(() => import('../tools/prime-number-checker'));
+const LcmHcfCalculator = lazy(() => import('../tools/lcm-hcf-calculator'));
+const FactorialCalculator = lazy(() => import('../tools/factorial-calculator'));
+const RandomNumberGenerator = lazy(() => import('../tools/random-number-generator'));
+const BmiCalculator = lazy(() => import('../tools/bmi-calculator'));
+const GpaCalculator = lazy(() => import('../tools/gpa-calculator'));
+const StandardDeviationCalculator = lazy(() => import('../tools/standard-deviation-calculator'));
+const ProfitLossCalculator = lazy(() => import('../tools/profit-loss-calculator'));
+
+/** Map tool slugs to their lazy-loaded components. */
+const TOOL_MAP: Record<string, React.ComponentType> = {
+  // Date & Age
+  'age-calculator': AgeCalculator,
+  'age-difference-calculator': AgeDifferenceCalculator,
+  'date-difference-calculator': DateDifferenceCalculator,
+  'date-add-subtract': DateAddSubtract,
+  'days-until-calculator': DaysUntilCalculator,
+  'birthday-calculator': BirthdayCalculator,
+  'leap-year-checker': LeapYearChecker,
+  'working-days-calculator': WorkingDaysCalculator,
+  'time-duration-calculator': TimeDurationCalculator,
+  'unix-timestamp-converter': UnixTimestampConverter,
+  // Mathematics
+  'scientific-calculator': ScientificCalculator,
+  'percentage-calculator': PercentageCalculator,
+  'fraction-calculator': FractionCalculator,
+  'ratio-calculator': RatioCalculator,
+  'average-calculator': AverageCalculator,
+  'square-root-calculator': SquareRootCalculator,
+  'power-calculator': PowerCalculator,
+  'prime-number-checker': PrimeNumberChecker,
+  'lcm-hcf-calculator': LcmHcfCalculator,
+  'factorial-calculator': FactorialCalculator,
+  'random-number-generator': RandomNumberGenerator,
+  'bmi-calculator': BmiCalculator,
+  'gpa-calculator': GpaCalculator,
+  'standard-deviation-calculator': StandardDeviationCalculator,
+  'profit-loss-calculator': ProfitLossCalculator,
+};
+
+function ToolLoading() {
+  return (
+    <div className="flex items-center justify-center py-12">
+      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500" />
+    </div>
+  );
 }
 
 function ToolComingSoon({ slug }: { slug: string }) {
@@ -31,19 +99,23 @@ function ToolNotFound({ slug }: { slug: string }) {
 /**
  * Renders the tool component for the given slug.
  *
- * Individual tool components are registered in toolComponents.ts and imported
- * lazily. Until a tool component has been created, this renders a "coming soon"
- * placeholder so pages build successfully without every component file existing.
- *
- * To wire up a real component, add its lazy import to toolComponents.ts
- * and ensure the component file exists at the expected path.
+ * Tools are lazily imported and wrapped in a Suspense boundary.
+ * Slugs registered in toolComponents.ts but not yet wired here
+ * show a "coming soon" placeholder.
  */
 export default function ToolRenderer({ slug }: ToolRendererProps) {
   if (!hasToolComponent(slug)) {
     return <ToolNotFound slug={slug} />;
   }
 
-  // Tool is registered but component files are not built yet.
-  // This placeholder is replaced once the tool components step runs.
-  return <ToolComingSoon slug={slug} />;
+  const ToolComponent = TOOL_MAP[slug];
+  if (!ToolComponent) {
+    return <ToolComingSoon slug={slug} />;
+  }
+
+  return (
+    <Suspense fallback={<ToolLoading />}>
+      <ToolComponent />
+    </Suspense>
+  );
 }
