@@ -1,0 +1,51 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
+import Breadcrumb from '../components/layout/Breadcrumb';
+import RelatedTools from '../components/tool/RelatedTools';
+import FAQ from '../components/tool/FAQ';
+import { getRelatedTools } from '../data/tools';
+
+const { tool } = Astro.props;
+const related = getRelatedTools(tool.slug);
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: tool.name,
+  description: tool.description,
+  url: `https://calculateanything.pages.dev/tools/${tool.slug}`,
+  applicationCategory: 'UtilityApplication',
+  operatingSystem: 'Web',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+});
+---
+<BaseLayout
+  title={`${tool.name} - Free Online ${tool.name} | CalculateAnything`}
+  description={tool.description}
+  canonical={`https://calculateanything.pages.dev/tools/${tool.slug}`}
+>
+  <script type="application/ld+json" set:html={schema} />
+  <Navbar client:load />
+  <main class="max-w-5xl mx-auto px-4 py-6">
+    <Breadcrumb
+      category={tool.category}
+      categorySlug={tool.categorySlug}
+      toolName={tool.name}
+      client:load
+    />
+    <div class="ad-slot my-4 h-24 bg-gray-100 dark:bg-gray-800 rounded flex items-center justify-center text-gray-400 text-sm">
+      Advertisement
+    </div>
+    <h1 class="text-3xl font-bold mb-2">{tool.name}</h1>
+    <p class="text-gray-600 dark:text-gray-400 mb-6">{tool.description}</p>
+    <slot />
+    <div class="ad-slot my-6 h-24 bg-gray-100 dark:bg-gray-800 rounded flex items-center justify-center text-gray-400 text-sm">
+      Advertisement
+    </div>
+    {related.length > 0 && <RelatedTools tools={related} client:load />}
+    <FAQ tool={tool} client:load />
+  </main>
+  <Footer client:load />
+</BaseLayout>
