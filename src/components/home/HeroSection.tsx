@@ -87,6 +87,7 @@ export default function HeroSection() {
             <input
               id="hero-search"
               type="search"
+              role="combobox"
               value={query}
               onChange={(e) => handleSearch(e.target.value)}
               onFocus={() => { if (results.length > 0) setShowDropdown(true); }}
@@ -94,7 +95,8 @@ export default function HeroSection() {
               autoComplete="off"
               className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 text-base transition-all"
               aria-autocomplete="list"
-              aria-controls="hero-search-results"
+              aria-haspopup="listbox"
+              aria-controls={showDropdown && results.length > 0 ? 'hero-search-results' : undefined}
               aria-expanded={showDropdown}
             />
           </div>

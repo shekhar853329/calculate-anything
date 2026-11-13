@@ -1,0 +1,45 @@
+{
+  "specVersion": "0.91",
+  "host": {
+    "displayName": "CalculateAnything",
+    "identifier": "calculate-anything.in"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:calculate-anything.in:site:calculators",
+      "displayName": "CalculateAnything Online Tools & Calculators",
+      "type": "text/html",
+      "url": "https://calculate-anything.in/tools",
+      "capabilities": [
+        "Calculators",
+        "UnitConversion",
+        "DeveloperUtilities",
+        "DataFormatting"
+      ],
+      "description": "Comprehensive suite of 110+ fast, client-side online calculators, converters, and developer utilities.",
+      "representativeQueries": [
+        "calculate exact age from date of birth",
+        "calculate monthly EMI and loan amortization",
+        "format and validate JSON strings",
+        "encode or decode text in base64",
+        "convert units like length, weight, and temperature"
+      ]
+    },
+    {
+      "identifier": "urn:air:calculate-anything.in:content:llms-txt",
+      "displayName": "CalculateAnything LLMs Documentation",
+      "type": "text/markdown",
+      "url": "https://calculate-anything.in/llms.txt",
+      "capabilities": [
+        "Documentation",
+        "ToolCatalog"
+      ],
+      "description": "LLM-optimized catalog and markdown documentation of all 110+ calculation tools.",
+      "representativeQueries": [
+        "list available calculators on calculate anything",
+        "what developer tools are available on calculate-anything.in"
+      ]
+    }
+  ]
+}
+
