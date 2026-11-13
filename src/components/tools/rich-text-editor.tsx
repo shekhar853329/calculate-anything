@@ -51,7 +51,7 @@ const SAMPLE_CONTENT = `<h2>Welcome to the Offline Rich Text Editor</h2>
 
 export default function RichTextEditor() {
   const { theme } = useTheme();
-  const [content, setContent] = useState<string>(SAMPLE_CONTENT);
+  const contentRef = useRef<string>(SAMPLE_CONTENT);
   const [mounted, setMounted] = useState<boolean>(false);
   const [copiedHtml, setCopiedHtml] = useState<boolean>(false);
   const [copiedText, setCopiedText] = useState<boolean>(false);
@@ -96,12 +96,12 @@ export default function RichTextEditor() {
   }, []);
 
   const handleEditorChange = (newContent: string, editor: any) => {
-    setContent(newContent);
+    contentRef.current = newContent;
     updateStats(editor);
   };
 
   const handleCopyHtml = () => {
-    const htmlToCopy = editorRef.current ? editorRef.current.getContent() : content;
+    const htmlToCopy = editorRef.current ? editorRef.current.getContent() : contentRef.current;
     navigator.clipboard.writeText(htmlToCopy).then(() => {
       setCopiedHtml(true);
       setTimeout(() => setCopiedHtml(false), 2000);
@@ -111,7 +111,7 @@ export default function RichTextEditor() {
   const handleCopyText = () => {
     const plainText = editorRef.current
       ? editorRef.current.getContent({ format: 'text' })
-      : content.replace(/<[^>]+>/g, '');
+      : contentRef.current.replace(/<[^>]+>/g, '');
     navigator.clipboard.writeText(plainText).then(() => {
       setCopiedText(true);
       setTimeout(() => setCopiedText(false), 2000);
@@ -123,10 +123,10 @@ export default function RichTextEditor() {
       format === 'html'
         ? editorRef.current
           ? editorRef.current.getContent()
-          : content
+          : contentRef.current
         : editorRef.current
           ? editorRef.current.getContent({ format: 'text' })
-          : content.replace(/<[^>]+>/g, '');
+          : contentRef.current.replace(/<[^>]+>/g, '');
 
     const blob = new Blob([data], {
       type: format === 'html' ? 'text/html;charset=utf-8' : 'text/plain;charset=utf-8',
@@ -144,7 +144,7 @@ export default function RichTextEditor() {
   const handleClear = () => {
     if (editorRef.current) {
       editorRef.current.setContent('');
-      setContent('');
+      contentRef.current = '';
       updateStats(editorRef.current);
     }
   };
@@ -152,7 +152,7 @@ export default function RichTextEditor() {
   const handleLoadSample = () => {
     if (editorRef.current) {
       editorRef.current.setContent(SAMPLE_CONTENT);
-      setContent(SAMPLE_CONTENT);
+      contentRef.current = SAMPLE_CONTENT;
       updateStats(editorRef.current);
     }
   };
@@ -238,7 +238,7 @@ export default function RichTextEditor() {
               editorRef.current = editor;
               updateStats(editor);
             }}
-            initialValue={content}
+            initialValue={SAMPLE_CONTENT}
             onEditorChange={handleEditorChange}
             init={{
               license_key: 'gpl',
@@ -251,8 +251,6 @@ export default function RichTextEditor() {
                 'advlist',
                 'anchor',
                 'autolink',
-                'autoresize',
-                'autosave',
                 'charmap',
                 'code',
                 'codesample',
