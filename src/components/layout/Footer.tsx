@@ -1,4 +1,5 @@
 import { Wrench } from 'lucide-react';
+import { useOnlineUsers } from '../../hooks/useOnlineUsers';
 
 const CATEGORIES = [
   { name: 'Date & Age', href: '/category/date-age' },
@@ -21,6 +22,8 @@ const LINKS = [
 ];
 
 export default function Footer() {
+  const onlineUsers = useOnlineUsers();
+
   return (
     <footer className="bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 mt-16">
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -79,7 +82,21 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800 text-center">
+        <div className="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
+          {onlineUsers !== null && (
+            <p
+              className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-400"
+              title="Visitors currently on the site"
+            >
+              <span className="relative flex h-2 w-2" aria-hidden="true">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+              </span>
+              <span>
+                {onlineUsers.toLocaleString()} {onlineUsers === 1 ? 'user' : 'users'} online now
+              </span>
+            </p>
+          )}
           <p className="text-xs text-gray-500 dark:text-gray-500">
             &copy; 2024 CalculateAnything. All rights reserved.
           </p>

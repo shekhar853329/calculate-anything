@@ -33,24 +33,29 @@ This opens a browser window to authorise Wrangler with your Cloudflare account.
 
 ## Deploy
 
-### Build + Deploy in one step
+### Deploy the site from PowerShell
 
-```bash
+Run these commands from the project root:
+
+```powershell
+$env:PUBLIC_PRESENCE_URL = "wss://calculate-anything-presence.shekharshine25.workers.dev/presence"
 pnpm run build
-npx wrangler pages deploy dist --project-name calculate-anything
+if ($LASTEXITCODE -eq 0) {
+    pnpm exec wrangler pages deploy dist --project-name calculate-anything --branch main --commit-dirty=true
+}
 ```
 
-Or use the combined deploy script:
+The environment variable must be set **before every production build**. Without it, the online-users counter is hidden. `--branch main` targets the production branch; `--commit-dirty=true` allows deployment of the current working tree.
 
-```bash
-pnpm run deploy
+Deploy the presence worker separately only when its code or configuration changes:
+
+```powershell
+pnpm presence:deploy
 ```
-
-> The `deploy` script in `package.json` runs `astro build` then `wrangler pages deploy` automatically.
 
 ### What happens
 
-1. `astro build` generates static files into the `dist/` folder (124 pages).
+1. `astro build` generates static files into the `dist/` folder.
 2. Wrangler uploads the `dist/` folder to Cloudflare Pages.
 3. Cloudflare serves the site from their global edge network.
 
@@ -61,8 +66,8 @@ pnpm run deploy
 | Type | URL |
 |---|---|
 | Production Domain | https://calculate-anything.in |
-| Cloudflare Pages URL | https://calculate-anything.pages.dev |
-| Latest deploy preview | https://05ca7711.calculate-anything-b3z.pages.dev |
+| Cloudflare Pages URL | https://calculate-anything-b3z.pages.dev |
+| Latest deployment URL | https://98defe69.calculate-anything-b3z.pages.dev |
 
 ---
 
@@ -85,6 +90,42 @@ compatibility_date = "2024-01-01"
 
 ---
 
+## Live Online Users Counter (Presence Worker)
+
+The footer shows a real-time count of visitors. It is served by a separate Cloudflare Worker (`cloudflare-worker/`) with a Durable Object that tracks open WebSocket connections. The Pages site itself stays static.
+
+### Deploy the worker
+
+```powershell
+pnpm exec wrangler login    # once, if not already logged in
+pnpm presence:deploy        # deploys cloudflare-worker/wrangler.toml
+```
+
+The deployed worker URL is `https://calculate-anything-presence.shekharshine25.workers.dev`.
+
+### Point the site at the worker
+
+`PUBLIC_PRESENCE_URL` is inlined at build time. Use the production value in the [deployment commands](#deploy-the-site-from-powershell). If it is unset, the footer hides the counter and no socket is opened.
+
+### Origin allowlist
+
+The worker only accepts WebSocket connections from origins listed in `ALLOWED_ORIGINS` in `cloudflare-worker/wrangler.toml`. Add any new production or preview domain there and redeploy the worker, or its connections will be rejected with HTTP 403.
+
+### Local development
+
+Run these in separate PowerShell terminals:
+
+```powershell
+pnpm presence:dev --port 8787 --ip 127.0.0.1
+```
+
+```powershell
+$env:PUBLIC_PRESENCE_URL = "ws://127.0.0.1:8787/presence"
+pnpm exec astro dev --background --port 4321
+```
+
+---
+
 ## Switching Cloudflare Accounts
 
 If you need to deploy from a different Cloudflare account:
@@ -96,9 +137,9 @@ npx wrangler logout
 # Log in with the new account
 npx wrangler login
 
-# Then deploy as normal
-pnpm run deploy
 ```
+
+Then follow the [production deployment commands](#deploy-the-site-from-powershell).
 
 ---
 
@@ -117,7 +158,7 @@ This means Cloudflare Pages is using pnpm 9 and reading `pnpm-workspace.yaml` as
 Run with the explicit project name flag:
 
 ```bash
-npx wrangler pages deploy dist --project-name calculate-anything
+pnpm exec wrangler pages deploy dist --project-name calculate-anything --branch main
 ```
 
 ### Uncommitted changes warning
@@ -125,7 +166,7 @@ npx wrangler pages deploy dist --project-name calculate-anything
 Safe to ignore — Wrangler deploys from `dist/` directly, not from git. Pass `--commit-dirty=true` to silence it:
 
 ```bash
-npx wrangler pages deploy dist --project-name calculate-anything --commit-dirty=true
+pnpm exec wrangler pages deploy dist --project-name calculate-anything --branch main --commit-dirty=true
 ```
 
 ---
@@ -142,3 +183,5 @@ The `deploy` script is already configured:
   "deploy": "astro build && wrangler pages deploy dist --project-name calculate-anything --commit-dirty=true"
 }
 ```
+
+Set `PUBLIC_PRESENCE_URL` first, as shown in the [production deployment commands](#deploy-the-site-from-powershell). The script uses the current Git branch; use the explicit `--branch main` command above when targeting production.
