@@ -14,6 +14,7 @@ const CATEGORIES = [
 const LINKS = [
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
+  { label: 'Sitemap', href: '/sitemap' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
   { label: 'Terms & Conditions', href: '/terms' },
   { label: 'Disclaimer', href: '/disclaimer' },

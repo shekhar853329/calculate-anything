@@ -1,11 +1,21 @@
 ---
 import '../styles/global.css';
+import { getCanonicalUrl } from '../utils/site';
+
 const {
   title = 'CalculateAnything - Free Online Tools',
   description = 'Free online calculators, converters, and tools for everyone.',
   canonical,
   ogImage = '/og-default.png',
 } = Astro.props;
+
+const siteOrigin = Astro.site ? Astro.site.origin : Astro.url.origin;
+const canonicalUrl = canonical
+  ? getCanonicalUrl(canonical, siteOrigin)
+  : getCanonicalUrl(Astro.url.pathname, siteOrigin);
+const fullOgImage = ogImage.startsWith('http')
+  ? ogImage
+  : `${siteOrigin}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
 ---
 <!doctype html>
 <html lang="en">
@@ -14,10 +24,11 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  {canonical && <link rel="canonical" href={canonical} />}
+  <link rel="canonical" href={canonicalUrl} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:image" content={fullOgImage} />
+  <meta property="og:url" content={canonicalUrl} />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

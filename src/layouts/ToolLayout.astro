@@ -10,13 +10,14 @@ import { getRelatedTools } from '../data/tools';
 
 const { tool } = Astro.props;
 const related = getRelatedTools(tool.slug);
+const origin = (Astro.site ? Astro.site.origin : Astro.url.origin).replace(/\/$/, '');
 
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
   name: tool.name,
   description: tool.description,
-  url: `https://calculateanything.pages.dev/tools/${tool.slug}`,
+  url: `${origin}/tools/${tool.slug}`,
   applicationCategory: 'UtilityApplication',
   operatingSystem: 'Web',
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
@@ -25,7 +26,7 @@ const schema = JSON.stringify({
 <BaseLayout
   title={`${tool.name} - Free Online ${tool.name} | CalculateAnything`}
   description={tool.description}
-  canonical={`https://calculateanything.pages.dev/tools/${tool.slug}`}
+  canonical={`/tools/${tool.slug}`}
 >
   <script type="application/ld+json" set:html={schema} />
   <Navbar client:load />

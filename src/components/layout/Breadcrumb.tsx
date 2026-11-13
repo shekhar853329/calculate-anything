@@ -15,6 +15,7 @@ export default function Breadcrumb({ category, categorySlug, toolName }: Breadcr
 
   // Inject JSON-LD breadcrumb structured data
   useEffect(() => {
+    const origin = typeof window !== 'undefined' ? window.location.origin : '';
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
@@ -22,7 +23,7 @@ export default function Breadcrumb({ category, categorySlug, toolName }: Breadcr
         '@type': 'ListItem',
         position: idx + 1,
         name: item.label,
-        ...(item.href ? { item: `https://calculateanything.pages.dev${item.href}` } : {}),
+        ...(item.href ? { item: `${origin}${item.href}` } : {}),
       })),
     };
     const existing = document.getElementById('breadcrumb-ld');

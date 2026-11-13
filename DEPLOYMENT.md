@@ -60,7 +60,8 @@ pnpm run deploy
 
 | Type | URL |
 |---|---|
-| Production | https://calculate-anything.pages.dev |
+| Production Domain | https://calculate-anything.in |
+| Cloudflare Pages URL | https://calculate-anything.pages.dev |
 | Latest deploy preview | https://05ca7711.calculate-anything-b3z.pages.dev |
 
 ---

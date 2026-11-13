@@ -6,7 +6,7 @@ import Footer from '../components/layout/Footer';
 <BaseLayout
   title="Contact Us - CalculateAnything"
   description="Get in touch with the CalculateAnything team. Send us feedback, bug reports, or feature suggestions."
-  canonical="https://calculateanything.pages.dev/contact"
+  canonical="/contact"
 >
   <Navbar client:load />
   <main class="max-w-2xl mx-auto px-4 py-12">
@@ -127,6 +127,6 @@ import Footer from '../components/layout/Footer';
     // Client-side mailto — no server needed
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
     const sub = encodeURIComponent(subject || 'CalculateAnything Feedback');
-    window.location.href = `mailto:contact@calculateanything.pages.dev?subject=${sub}&body=${body}`;
+    window.location.href = `mailto:contact@calculate-anything.in?subject=${sub}&body=${body}`;
   });
 </script>
