@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import Breadcrumb from '../components/layout/Breadcrumb';
+import ToolHeader from '../components/tool/ToolHeader';
 import RelatedTools from '../components/tool/RelatedTools';
 import FAQ from '../components/tool/FAQ';
 import { getRelatedTools } from '../data/tools';
@@ -28,24 +29,27 @@ const schema = JSON.stringify({
 >
   <script type="application/ld+json" set:html={schema} />
   <Navbar client:load />
-  <main class="max-w-5xl mx-auto px-4 py-6">
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 pt-2.5 pb-10">
     <Breadcrumb
       category={tool.category}
       categorySlug={tool.categorySlug}
       toolName={tool.name}
       client:load
     />
-    <div class="ad-slot my-4 h-24 bg-gray-100 dark:bg-gray-800 rounded flex items-center justify-center text-gray-400 text-sm">
-      Advertisement
+
+    {/* Compact Header with Icon, Category, Title, Bookmark & Share */}
+    <ToolHeader tool={tool} client:load />
+
+    {/* Dedicated Elevated Tool Workspace */}
+    <div class="bg-white dark:bg-gray-850 rounded-2xl border border-gray-200/90 dark:border-gray-800 shadow-sm p-4 sm:p-6 my-2.5">
+      <slot />
     </div>
-    <h1 class="text-3xl font-bold mb-2">{tool.name}</h1>
-    <p class="text-gray-600 dark:text-gray-400 mb-6">{tool.description}</p>
-    <slot />
-    <div class="ad-slot my-6 h-24 bg-gray-100 dark:bg-gray-800 rounded flex items-center justify-center text-gray-400 text-sm">
-      Advertisement
-    </div>
+
     {related.length > 0 && <RelatedTools tools={related} client:load />}
+
     <FAQ tool={tool} client:load />
   </main>
+
   <Footer client:load />
 </BaseLayout>

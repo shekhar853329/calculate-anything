@@ -7,22 +7,20 @@ import PopularTools from '../components/home/PopularTools';
 import RecentFavorites from '../components/home/RecentFavorites';
 import Footer from '../components/layout/Footer';
 ---
+
 <BaseLayout
   title="CalculateAnything - Free Online Tools & Calculators"
-  description="Free online calculators, converters, and tools for everyone. 110+ tools including age calculator, unit converter, JSON formatter, and more."
+  description="Free online calculators, converters, and tools for everyone. 110+ fast, client-side tools with no sign-up required."
 >
   <Navbar client:load />
-  <main>
+  <main class="min-h-screen">
     <HeroSection client:load />
-    <section class="max-w-6xl mx-auto px-4 py-10">
-      <h2 class="text-2xl font-bold mb-6">Browse by Category</h2>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
       <CategoryGrid client:load />
-    </section>
-    <section class="max-w-6xl mx-auto px-4 py-10">
-      <h2 class="text-2xl font-bold mb-6">Popular Tools</h2>
       <PopularTools client:load />
-    </section>
-    <RecentFavorites client:load />
+      <RecentFavorites client:load />
+    </div>
   </main>
   <Footer client:load />
 </BaseLayout>

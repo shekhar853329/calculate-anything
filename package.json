@@ -13,7 +13,6 @@
     "deploy": "astro build && wrangler pages deploy dist --project-name calculate-anything --commit-dirty=true",
     "astro": "astro"
   },
-  },
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.7",
     "@astrojs/react": "^7.1.7",

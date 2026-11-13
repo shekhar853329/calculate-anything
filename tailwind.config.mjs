@@ -6,6 +6,10 @@ export default {
     extend: {
       colors: {
         primary: { DEFAULT: '#3B82F6', foreground: '#ffffff' },
+        gray: {
+          750: '#242f42',
+          850: '#161f30',
+        },
       },
     },
   },

@@ -75,9 +75,7 @@ export default function EmiCalculator() {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
-        <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">EMI Calculator</h2>
-
+      <div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Loan Amount (₹)</label>
@@ -122,7 +120,7 @@ export default function EmiCalculator() {
       {result && !errorMsg && (
         <>
           {/* Summary */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
+          <div className="bg-gray-50/70 dark:bg-gray-800/60 rounded-2xl border border-gray-200/80 dark:border-gray-700/80 p-6">
             <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-4">Results</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
               <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 text-center">
@@ -163,7 +161,7 @@ export default function EmiCalculator() {
           </div>
 
           {/* Amortization schedule */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
+          <div className="bg-gray-50/70 dark:bg-gray-800/60 rounded-2xl border border-gray-200/80 dark:border-gray-700/80 p-6">
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100">Amortization Schedule</h3>
               <button

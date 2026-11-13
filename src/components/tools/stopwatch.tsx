@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { Play, Pause, Flag, RotateCcw } from 'lucide-react';
 
 function fmt(ms: number) {
   const h = Math.floor(ms / 3600000);
@@ -48,49 +49,68 @@ export default function Stopwatch() {
   }
 
   return (
-    <div className="space-y-6 text-center">
-      <div className="text-6xl font-mono font-bold tracking-tight text-blue-600 dark:text-blue-400">
-        {fmt(elapsed)}
+    <div className="space-y-8 text-center max-w-xl mx-auto py-4">
+      {/* Timer Display */}
+      <div className="p-8 rounded-3xl bg-gray-50/80 dark:bg-gray-800/60 border border-gray-200/80 dark:border-gray-700/80 shadow-inner">
+        <div className="text-5xl sm:text-7xl font-mono font-bold tracking-tight text-blue-600 dark:text-blue-400 select-all">
+          {fmt(elapsed)}
+        </div>
       </div>
 
+      {/* Control Buttons */}
       <div className="flex justify-center gap-3 flex-wrap">
         {!running ? (
-          <button onClick={start}
-            className="px-6 py-2 bg-green-500 text-white rounded-xl hover:bg-green-600 font-semibold">
-            {elapsed === 0 ? '▶ Start' : '▶ Resume'}
+          <button
+            onClick={start}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-semibold text-sm shadow-sm transition-all"
+          >
+            <Play className="w-4 h-4 fill-white" />
+            {elapsed === 0 ? 'Start' : 'Resume'}
           </button>
         ) : (
-          <button onClick={stop}
-            className="px-6 py-2 bg-yellow-500 text-white rounded-xl hover:bg-yellow-600 font-semibold">
-            ⏸ Stop
+          <button
+            onClick={stop}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-semibold text-sm shadow-sm transition-all"
+          >
+            <Pause className="w-4 h-4 fill-white" />
+            Pause
           </button>
         )}
-        <button onClick={lap} disabled={!running}
-          className="px-6 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 disabled:opacity-50 font-semibold">
-          🏁 Lap
+        <button
+          onClick={lap}
+          disabled={!running}
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-300 dark:disabled:bg-blue-900/50 text-white rounded-xl font-semibold text-sm shadow-sm transition-all disabled:cursor-not-allowed"
+        >
+          <Flag className="w-4 h-4" />
+          Lap
         </button>
-        <button onClick={reset}
-          className="px-6 py-2 bg-gray-200 dark:bg-gray-700 rounded-xl hover:bg-gray-300 dark:hover:bg-gray-600 font-semibold">
-          ↺ Reset
+        <button
+          onClick={reset}
+          disabled={elapsed === 0}
+          className="inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 disabled:opacity-40 rounded-xl font-semibold text-sm shadow-sm transition-all disabled:cursor-not-allowed"
+        >
+          <RotateCcw className="w-4 h-4" />
+          Reset
         </button>
       </div>
 
+      {/* Laps Table */}
       {laps.length > 0 && (
-        <div className="text-left overflow-x-auto">
+        <div className="text-left overflow-x-auto rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-850">
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="bg-gray-100 dark:bg-gray-800">
-                <th className="px-4 py-2 text-left">#</th>
-                <th className="px-4 py-2 text-right">Lap Time</th>
-                <th className="px-4 py-2 text-right">Total Time</th>
+              <tr className="bg-gray-50 dark:bg-gray-800/80 border-b border-gray-200 dark:border-gray-700">
+                <th className="px-4 py-2.5 text-left text-xs font-semibold text-gray-500 uppercase">Lap</th>
+                <th className="px-4 py-2.5 text-right text-xs font-semibold text-gray-500 uppercase">Split Time</th>
+                <th className="px-4 py-2.5 text-right text-xs font-semibold text-gray-500 uppercase">Overall Time</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
               {[...laps].reverse().map(l => (
-                <tr key={l.n} className="border-t dark:border-gray-700">
-                  <td className="px-4 py-2 text-gray-500">Lap {l.n}</td>
-                  <td className="px-4 py-2 text-right font-mono">{fmt(l.split)}</td>
-                  <td className="px-4 py-2 text-right font-mono text-gray-500">{fmt(l.time)}</td>
+                <tr key={l.n} className="hover:bg-gray-50/50 dark:hover:bg-gray-800/40">
+                  <td className="px-4 py-2 text-gray-600 dark:text-gray-400 font-medium">#{l.n}</td>
+                  <td className="px-4 py-2 text-right font-mono text-gray-900 dark:text-gray-100">{fmt(l.split)}</td>
+                  <td className="px-4 py-2 text-right font-mono text-blue-600 dark:text-blue-400 font-semibold">{fmt(l.time)}</td>
                 </tr>
               ))}
             </tbody>

@@ -1,8 +1,18 @@
 import { useState, useRef, useEffect } from 'react';
-import { Search, ArrowRight } from 'lucide-react';
+import { Search, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
 import { TOOLS } from '../../data/tools';
 import { searchTools } from '../../lib/search';
 import type { Tool } from '../../data/tools';
+import { ToolIcon, getCategoryTheme } from '../common/IconHelper';
+
+const TRENDING_SEARCHES = [
+  { name: 'Age Calculator', slug: 'age-calculator' },
+  { name: 'Percentage', slug: 'percentage-calculator' },
+  { name: 'BMI Calculator', slug: 'bmi-calculator' },
+  { name: 'EMI Calculator', slug: 'emi-calculator' },
+  { name: 'JSON Formatter', slug: 'json-formatter' },
+  { name: 'QR Code Generator', slug: 'qr-code-generator' },
+];
 
 export default function HeroSection() {
   const [query, setQuery] = useState('');
@@ -35,40 +45,54 @@ export default function HeroSection() {
 
   return (
     <section
-      className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 py-20 px-4"
+      className="relative overflow-hidden bg-gradient-to-b from-blue-50/60 via-white to-transparent dark:from-blue-950/20 dark:via-gray-900 dark:to-gray-900 pt-16 pb-12 px-4 sm:px-6 lg:px-8 border-b border-gray-100 dark:border-gray-800"
       aria-labelledby="hero-heading"
     >
-      <div className="max-w-3xl mx-auto text-center">
+      {/* Background ambient glow */}
+      <div
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-64 bg-gradient-to-r from-blue-400/10 via-indigo-400/10 to-teal-400/10 blur-3xl pointer-events-none"
+        aria-hidden="true"
+      />
+
+      <div className="relative max-w-4xl mx-auto text-center">
+        {/* Value Proposition Pills */}
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-xs font-semibold mb-6 border border-blue-200/60 dark:border-blue-800">
+          <Sparkles className="w-3.5 h-3.5" aria-hidden="true" />
+          <span>110+ Free Precision Calculators, Converters & Utilities</span>
+        </div>
+
         <h1
           id="hero-heading"
-          className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4 leading-tight"
+          className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 dark:text-gray-100 mb-5 tracking-tight leading-[1.12]"
         >
-          Free Online Tools for Everyone
+          Calculate, Convert & Format{' '}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">
+            Instantly
+          </span>
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-xl mx-auto">
-          110+ calculators, converters, and utilities for students, professionals, and developers.
-          No sign-up. No ads in the way. Just results.
+        <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+          High-performance, privacy-first tools running directly in your browser.
+          No sign-ups, no paywalls, zero friction.
         </p>
 
         {/* Search */}
-        <div ref={containerRef} className="relative max-w-xl mx-auto mb-8">
+        <div ref={containerRef} className="relative max-w-2xl mx-auto mb-6">
           <label htmlFor="hero-search" className="sr-only">
             Search tools
           </label>
-          <div className="relative">
-            <Search
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none"
-              aria-hidden="true"
-            />
+          <div className="relative shadow-lg shadow-blue-500/5 rounded-2xl">
+            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-gray-400">
+              <Search className="w-5 h-5" aria-hidden="true" />
+            </div>
             <input
               id="hero-search"
               type="search"
               value={query}
               onChange={(e) => handleSearch(e.target.value)}
               onFocus={() => { if (results.length > 0) setShowDropdown(true); }}
-              placeholder="Search for a tool…"
+              placeholder="Search 110+ tools (e.g. Age, BMI, JSON, EMI, Base64)..."
               autoComplete="off"
-              className="w-full pl-12 pr-4 py-3.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+              className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 text-base transition-all"
               aria-autocomplete="list"
               aria-controls="hero-search-results"
               aria-expanded={showDropdown}
@@ -81,41 +105,68 @@ export default function HeroSection() {
               id="hero-search-results"
               role="listbox"
               aria-label="Search suggestions"
-              className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-xl overflow-hidden z-20"
+              className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-2xl overflow-hidden z-30 text-left divide-y divide-gray-100 dark:divide-gray-800 max-h-96 overflow-y-auto"
             >
-              {results.map((tool) => (
-                <li key={tool.slug} role="option" aria-selected="false">
-                  <a
-                    href={`/tools/${tool.slug}`}
-                    onClick={() => setShowDropdown(false)}
-                    className="flex items-start gap-3 px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                  >
-                    <div className="min-w-0 flex-1">
-                      <p className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
-                        {tool.name}
-                      </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400 truncate mt-0.5">
-                        {tool.description}
-                      </p>
-                    </div>
-                    <span className="shrink-0 mt-0.5 text-xs bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full whitespace-nowrap">
-                      {tool.category}
-                    </span>
-                  </a>
-                </li>
-              ))}
+              {results.map((tool) => {
+                const theme = getCategoryTheme(tool.categorySlug);
+                return (
+                  <li key={tool.slug} role="option" aria-selected="false">
+                    <a
+                      href={`/tools/${tool.slug}`}
+                      onClick={() => setShowDropdown(false)}
+                      className="flex items-center gap-3.5 px-4.5 py-3 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors"
+                    >
+                      <div className={`w-9 h-9 rounded-lg flex items-center justify-center shrink-0 ${theme.bg} ${theme.text}`}>
+                        <ToolIcon name={tool.icon} className="w-4.5 h-4.5" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate">
+                          {tool.name}
+                        </p>
+                        <p className="text-xs text-gray-500 dark:text-gray-400 truncate mt-0.5">
+                          {tool.description}
+                        </p>
+                      </div>
+                      <span className={`shrink-0 text-[11px] font-medium px-2 py-0.5 rounded-full ${theme.badgeBg}`}>
+                        {tool.category}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           )}
         </div>
 
-        {/* CTA */}
-        <a
-          href="/tools"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition-colors shadow-sm text-sm"
-        >
-          Browse All Tools
-          <ArrowRight className="w-4 h-4" aria-hidden="true" />
-        </a>
+        {/* Quick Suggestion Chips */}
+        <div className="flex items-center justify-center gap-2 flex-wrap text-xs text-gray-500 dark:text-gray-400 mb-8">
+          <span className="font-semibold text-gray-700 dark:text-gray-300">Popular:</span>
+          {TRENDING_SEARCHES.map((item) => (
+            <a
+              key={item.slug}
+              href={`/tools/${item.slug}`}
+              className="px-2.5 py-1 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-blue-50 hover:text-blue-600 dark:hover:bg-gray-700 dark:hover:text-blue-400 transition-colors"
+            >
+              {item.name}
+            </a>
+          ))}
+        </div>
+
+        {/* Feature Checkmarks */}
+        <div className="flex items-center justify-center gap-6 sm:gap-8 text-xs sm:text-sm text-gray-500 dark:text-gray-400 pt-2">
+          <div className="flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+            <span>100% Free Forever</span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+            <span>Private & Browser-Based</span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+            <span>Instant Calculations</span>
+          </div>
+        </div>
       </div>
     </section>
   );
