@@ -125,53 +125,58 @@ export default function ScientificCalculator() {
     }, [result, expression]);
 
     return (
-                <div className="space-y-3 max-w-2xl mx-auto">
-                  {/* Unified Compact Screen Display */}
-                  <div className="bg-gray-950 rounded-2xl p-3 sm:p-4 border border-gray-800 shadow-inner">
-                    <div className="flex items-center justify-between text-xs text-gray-400 mb-1">
-                      <span className="font-semibold uppercase tracking-wider text-[11px] text-gray-500">
-                        Expression (Keyboard friendly)
-                      </span>
-                      <div className="flex items-center gap-2">
-                        {(result || expression) && (
-                          <button
-                            onClick={copyResult}
-                            className="inline-flex items-center gap-1 text-[11px] text-gray-400 hover:text-white transition-colors"
-                            aria-label="Copy result"
-                          >
-                            {copied ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
-                            <span>{copied ? 'Copied' : 'Copy'}</span>
-                          </button>
-            )}
-                        {expression && (
-                          <button
-                            onClick={() => { setExpression(''); setResult(''); setError(''); }}
-                            className="text-[11px] text-gray-400 hover:text-red-400 transition-colors"
-                          >
-                            Clear
-                          </button>
-                        )}
-                      </div>
-                    </div>
+      <div className="space-y-3 max-w-2xl mx-auto">
+        {/* Unified Compact Screen Display - Fixed Constant Height */}
+        <div className="bg-gray-950 rounded-2xl p-3 sm:p-4 border border-gray-800 shadow-inner flex flex-col justify-between">
+          <div className="flex items-center justify-between text-xs text-gray-400 mb-1 h-5 min-h-[1.25rem]">
+            <span className="font-semibold uppercase tracking-wider text-[11px] text-gray-500">
+              Expression (Keyboard friendly)
+            </span>
+            <div className="flex items-center gap-2">
+              {(result || expression) && (
+                <button
+                  onClick={copyResult}
+                  className="inline-flex items-center gap-1 text-[11px] text-gray-400 hover:text-white transition-colors"
+                  aria-label="Copy result"
+                >
+                  {copied ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
+                  <span>{copied ? 'Copied' : 'Copy'}</span>
+                </button>
+              )}
+              {expression && (
+                <button
+                  onClick={() => { setExpression(''); setResult(''); setError(''); }}
+                  className="text-[11px] text-gray-400 hover:text-red-400 transition-colors"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          </div>
 
-                    {/* Live Input Field */}
-                    <input
-                      ref={inputRef}
-                      type="text"
-                      value={expression}
-                      onChange={e => { setExpression(e.target.value); setError(''); }}
-                      onKeyDown={handleKeyDown}
-                      placeholder="0"
-                      className="w-full bg-transparent text-right font-mono text-base sm:text-lg text-gray-300 placeholder-gray-600 focus:outline-none"
-                    />
+          {/* Live Input Field with Fixed Height */}
+          <input
+            ref={inputRef}
+            type="text"
+            value={expression}
+            onChange={e => { setExpression(e.target.value); setError(''); }}
+            onKeyDown={handleKeyDown}
+            placeholder="0"
+            className="w-full h-8 sm:h-9 bg-transparent text-right font-mono text-base sm:text-lg text-gray-300 placeholder-gray-600 focus:outline-none"
+          />
 
-                    {/* Main Result Output */}
-                    <div className={`text-right text-3xl sm:text-4xl font-mono font-extrabold tracking-tight truncate mt-0.5 ${error ? 'text-red-400' : 'text-white'}`}>
-                      {error || result || (expression ? '' : '0')}
-                    </div>
-                  </div>
+          {/* Main Result Output with Constant Fixed Height */}
+          <div
+            className={`h-10 sm:h-12 flex items-center justify-end text-right text-3xl sm:text-4xl font-mono font-extrabold tracking-tight truncate mt-0.5 overflow-hidden select-all ${
+              error ? 'text-red-400' : 'text-white'
+            }`}
+            aria-live="polite"
+          >
+            {error || result || (expression ? '\u00A0' : '0')}
+          </div>
+        </div>
 
-                  {/* 5-Row × 7-Column Calculator Button Matrix */}
+        {/* 5-Row × 7-Column Calculator Button Matrix */}
                   <div className="grid grid-cols-7 gap-1 sm:gap-2 select-none">
                     {BUTTONS.flat().map((btn, idx) => {
                       let style = '';

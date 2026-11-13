@@ -1,27 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
-import HeroSection from '../components/home/HeroSection';
-import CategoryGrid from '../components/home/CategoryGrid';
-import PopularTools from '../components/home/PopularTools';
-import RecentFavorites from '../components/home/RecentFavorites';
+import HomeToolsDirectory from '../components/home/HomeToolsDirectory';
 import Footer from '../components/layout/Footer';
 ---
 
 <BaseLayout
-  title="CalculateAnything - Free Online Tools & Calculators"
-  description="Free online calculators, converters, and tools for everyone. 110+ fast, client-side tools with no sign-up required."
+  title="CalculateAnything - 110+ Free Online Calculators & Tools"
+  description="Free online calculators, converters, and tools organized by category. Fast, private, client-side utilities with no sign-up required."
   canonical="/"
 >
   <Navbar client:load />
-  <main class="min-h-screen">
-    <HeroSection client:load />
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
-      <CategoryGrid client:load />
-      <PopularTools client:load />
-      <RecentFavorites client:load />
-    </div>
+  <main class="min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <HomeToolsDirectory client:load />
   </main>
   <Footer client:load />
 </BaseLayout>
