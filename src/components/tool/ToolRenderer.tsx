@@ -50,6 +50,7 @@ const UrlEncoderDecoder = lazy(() => import('../tools/url-encoder-decoder'));
 const Base64EncoderDecoder = lazy(() => import('../tools/base64-encoder-decoder'));
 const HtmlEntityEncoderDecoder = lazy(() => import('../tools/html-entity-encoder-decoder'));
 const LoremIpsumGenerator = lazy(() => import('../tools/lorem-ipsum-generator'));
+const RichTextEditor = lazy(() => import('../tools/rich-text-editor'));
 
 // ── Developer Tools ──────────────────────────────────────────────────────────
 const JwtDecoder = lazy(() => import('../tools/jwt-decoder'));
@@ -176,6 +177,7 @@ const TOOL_MAP: Record<string, React.ComponentType> = {
   'base64-encoder-decoder': Base64EncoderDecoder,
   'html-entity-encoder-decoder': HtmlEntityEncoderDecoder,
   'lorem-ipsum-generator': LoremIpsumGenerator,
+  'rich-text-editor': RichTextEditor,
   // Developer Tools
   'jwt-decoder': JwtDecoder,
   'regex-tester': RegexTester,

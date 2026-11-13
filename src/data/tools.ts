@@ -321,6 +321,19 @@ export const TOOLS: Tool[] = [
 
   // ─── Category 3: Text & Formatting Tools ──────────────────────────────────
   {
+    id: 'rich-text-editor',
+    name: 'Rich Text Editor',
+    slug: 'rich-text-editor',
+    category: 'Text & Formatting Tools',
+    categorySlug: 'text-formatting',
+    description:
+      'Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.',
+    icon: 'FileEdit',
+    keywords: ['rich text editor', 'tinymce', 'wysiwyg', 'html editor', 'text formatting', 'word processor', 'document editor'],
+    related: ['word-character-counter', 'markdown-previewer', 'html-formatter', 'text-formatter'],
+    popular: true,
+  },
+  {
     id: 'json-formatter',
     name: 'JSON Formatter',
     slug: 'json-formatter',
@@ -1360,7 +1373,7 @@ export const TOOLS: Tool[] = [
 export const CATEGORIES = [
   { name: 'Date & Age Calculators', slug: 'date-age', icon: 'Calendar', count: 10 },
   { name: 'Mathematics Calculators', slug: 'mathematics', icon: 'Calculator', count: 15 },
-  { name: 'Text & Formatting Tools', slug: 'text-formatting', icon: 'FileText', count: 15 },
+  { name: 'Text & Formatting Tools', slug: 'text-formatting', icon: 'FileText', count: 16 },
   { name: 'Developer Tools', slug: 'developer', icon: 'Code2', count: 20 },
   { name: 'Unit & Conversion Tools', slug: 'unit-conversion', icon: 'ArrowLeftRight', count: 10 },
   { name: 'Finance & Business Calculators', slug: 'finance', icon: 'DollarSign', count: 10 },

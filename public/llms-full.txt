@@ -286,6 +286,13 @@ CalculateAnything provides client-side computational utilities across date/age, 
 - **Keywords**: lorem ipsum, placeholder text, dummy text, filler text
 - **Related Tools**: https://calculate-anything.in/tools/word-character-counter, https://calculate-anything.in/tools/text-formatter, https://calculate-anything.in/tools/text-case-converter
 
+### Rich Text Editor
+- **URL**: https://calculate-anything.in/tools/rich-text-editor
+- **Category**: Text & Formatting Tools
+- **Description**: Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
+- **Keywords**: rich text editor, tinymce, wysiwyg, html editor, text formatting, word processor, document editor
+- **Related Tools**: https://calculate-anything.in/tools/word-character-counter, https://calculate-anything.in/tools/markdown-previewer, https://calculate-anything.in/tools/html-formatter, https://calculate-anything.in/tools/text-formatter
+
 ### JWT Decoder
 - **URL**: https://calculate-anything.in/tools/jwt-decoder
 - **Category**: Developer Tools

@@ -21,6 +21,7 @@ CalculateAnything is an open web suite of 110+ calculation and conversion tools 
 - [Scientific Calculator](https://calculate-anything.in/tools/scientific-calculator): A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.
 - [BMI Calculator](https://calculate-anything.in/tools/bmi-calculator): Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.
 - [JSON Formatter](https://calculate-anything.in/tools/json-formatter): Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.
+- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
 - [Hash Generator](https://calculate-anything.in/tools/hash-generator): Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.
 - [QR Code Generator](https://calculate-anything.in/tools/qr-code-generator): Generate QR codes for URLs, text, Wi-Fi credentials, vCards, and more. Download as PNG or SVG.
 - [Password Generator](https://calculate-anything.in/tools/password-generator): Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.
@@ -76,6 +77,7 @@ CalculateAnything is an open web suite of 110+ calculation and conversion tools 
 - [Base64 Encoder/Decoder](https://calculate-anything.in/tools/base64-encoder-decoder): Encode plain text or binary data to Base64 format and decode Base64 strings back to their original content.
 - [HTML Entity Encoder/Decoder](https://calculate-anything.in/tools/html-entity-encoder-decoder): Convert special characters to HTML entities and decode HTML entities back to readable characters.
 - [Lorem Ipsum Generator](https://calculate-anything.in/tools/lorem-ipsum-generator): Generate placeholder Lorem Ipsum text by paragraphs, sentences, words, or bytes for use in design mockups and prototypes.
+- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
 
 ### Developer Tools
 

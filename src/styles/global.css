@@ -48,3 +48,61 @@ html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+/* TinyMCE Compact UI & Properly Scaled Unclipped Icons */
+.tox.tox-tinymce {
+  border-radius: 0.75rem !important;
+  border-color: rgba(229, 231, 235, 1) !important;
+}
+.dark .tox.tox-tinymce {
+  border-color: rgba(31, 41, 55, 1) !important;
+}
+.tox .tox-tbtn {
+  height: 28px !important;
+  min-width: 30px !important;
+  margin: 1px !important;
+  border-radius: 6px !important;
+}
+/* Scale down 24x24 icons cleanly using transform so vector paths are never clipped */
+.tox .tox-tbtn__icon-wrap svg,
+.tox .tox-icon svg {
+  transform: scale(0.78);
+  transform-origin: center center;
+}
+/* Keep chevron dropdown arrows crisp at natural scale */
+.tox .tox-tbtn__select-chevron svg,
+.tox .tox-split-button__chevron svg {
+  transform: scale(0.9);
+  transform-origin: center center;
+}
+.tox .tox-split-button {
+  margin: 1px !important;
+  border-radius: 6px !important;
+}
+.tox .tox-tbtn--select {
+  width: auto !important;
+  padding: 0 6px !important;
+}
+.tox .tox-tbtn__select-label {
+  font-size: 12px !important;
+  font-family: inherit !important;
+}
+.tox .tox-mbtn {
+  height: 24px !important;
+  font-size: 12px !important;
+  padding: 0 6px !important;
+  border-radius: 6px !important;
+}
+.tox .tox-toolbar,
+.tox .tox-toolbar__primary,
+.tox .tox-toolbar__overflow {
+  background: transparent !important;
+}
+.tox .tox-statusbar {
+  font-size: 11px !important;
+  height: 26px !important;
+}
+.tox .tox-statusbar__path-item,
+.tox .tox-statusbar__wordcount {
+  font-size: 11px !important;
+}

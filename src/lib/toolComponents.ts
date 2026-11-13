@@ -58,6 +58,7 @@ export const toolPaths: Record<string, string> = {
   'base64-encoder-decoder': '../components/tools/Base64EncoderDecoder',
   'html-entity-encoder-decoder': '../components/tools/HtmlEntityEncoderDecoder',
   'lorem-ipsum-generator': '../components/tools/LoremIpsumGenerator',
+  'rich-text-editor': '../components/tools/rich-text-editor',
 
   // ── Developer Tools ─────────────────────────────────────────────────────
   'jwt-decoder': '../components/tools/JwtDecoder',
