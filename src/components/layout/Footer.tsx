@@ -98,7 +98,7 @@ export default function Footer() {
             </p>
           )}
           <p className="text-xs text-gray-500 dark:text-gray-500">
-            &copy; 2024 CalculateAnything. All rights reserved.
+            &copy; 2026 CalculateAnything. All rights reserved.
           </p>
         </div>
       </div>

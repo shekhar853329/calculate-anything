@@ -22,3 +22,1300 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+.postman/resources.yaml
+postman/collections/Apointment/BenefitUpdate.request.yaml
+postman/collections/Apointment/Booking Copy.request.yaml
+postman/collections/Apointment/Booking.request.yaml
+postman/collections/Apointment/Search Copy.request.yaml
+postman/collections/Apointment/Search.request.yaml
+postman/collections/Apointment/Update.request.yaml
+postman/collections/Apointment/.resources/definition.yaml
+postman/collections/Apointment/.resources/Search Copy.resources/examples/Search.example.yaml
+postman/collections/Apointment/.resources/Search.resources/examples/Search.example.yaml
+postman/collections/Apointment Copy/Search Prod.request.yaml
+postman/collections/Apointment Copy/Search.request.yaml
+postman/collections/Apointment Copy/.resources/definition.yaml
+postman/collections/Apointment Copy/.resources/Search.resources/examples/32676.example.yaml
+postman/collections/Apointment Copy/.resources/Search.resources/examples/32681.example.yaml
+postman/collections/Apointment Copy/.resources/Search.resources/examples/53008.example.yaml
+postman/collections/Apointment Copy/.resources/Search.resources/examples/Search.example.yaml
+postman/collections/Azure Function App/broadcast Copy 2.request.yaml
+postman/collections/Azure Function App/broadcast Copy.request.yaml
+postman/collections/Azure Function App/broadcast.request.yaml
+postman/collections/Azure Function App/negotiate Copy.request.yaml
+postman/collections/Azure Function App/negotiate local Copy.request.yaml
+postman/collections/Azure Function App/negotiate local.request.yaml
+postman/collections/Azure Function App/negotiate WSA.request.yaml
+postman/collections/Azure Function App/TestFunction Local.request.yaml
+postman/collections/Azure Function App/TestFunction Local1.request.yaml
+postman/collections/Azure Function App/TestFunction WSA.request.yaml
+postman/collections/Azure Function App/TestFunction.request.yaml
+postman/collections/Azure Function App/.resources/definition.yaml
+postman/collections/BC/Metadata Copy.request.yaml
+postman/collections/BC/Metadata.request.yaml
+postman/collections/BC/.resources/definition.yaml
+postman/collections/BC API Get Metadata/Basic Authentication - Adjustments.request.yaml
+postman/collections/BC API Get Metadata/Get New Bearer Token.request.yaml
+postman/collections/BC API Get Metadata/itemLedgerEntry.request.yaml
+postman/collections/BC API Get Metadata/Metadata Basic Auth Copy.request.yaml
+postman/collections/BC API Get Metadata/Metadata Basic Auth.request.yaml
+postman/collections/BC API Get Metadata/Metadata OAuth 2.0.request.yaml
+postman/collections/BC API Get Metadata/New Request.request.yaml
+postman/collections/BC API Get Metadata/OAuth - Adjustments.request.yaml
+postman/collections/BC API Get Metadata/valueEntry.request.yaml
+postman/collections/BC API Get Metadata/.resources/definition.yaml
+postman/collections/Cache/EmployeeList.request.yaml
+postman/collections/Cache/.resources/definition.yaml
+postman/collections/Calculate Anything - IndexNow URL Submission/Submit all 126 sitemap URLs to IndexNow.request.yaml
+postman/collections/Calculate Anything - IndexNow URL Submission/.resources/definition.yaml
+postman/collections/DatingApp/New Request.request.yaml
+postman/collections/DatingApp/.resources/definition.yaml
+postman/collections/Docker/.resources/definition.yaml
+postman/collections/Docker/ApiGateway/GetAllProducts.request.yaml
+postman/collections/Docker/ApiGateway/.resources/definition.yaml
+postman/collections/Docker/Basket/.resources/definition.yaml
+postman/collections/Docker/Identity Server/Get Token Basket.request.yaml
+postman/collections/Docker/Identity Server/Get Token Catalog.request.yaml
+postman/collections/Docker/Identity Server/.resources/definition.yaml
+postman/collections/Docker TCM/.resources/definition.yaml
+postman/collections/Docker TCM/TCM.CRMService/CRM App.request.yaml
+postman/collections/Docker TCM/TCM.CRMService/.resources/definition.yaml
+postman/collections/Docker TCM/TCM.Web/Login.request.yaml
+postman/collections/Docker TCM/TCM.Web/PatientSerach.request.yaml
+postman/collections/Docker TCM/TCM.Web/.resources/definition.yaml
+postman/collections/Eligibility Azure Function Local/About.request.yaml
+postman/collections/Eligibility Azure Function Local/Check Copy.request.yaml
+postman/collections/Eligibility Azure Function Local/Check.request.yaml
+postman/collections/Eligibility Azure Function Local/New Request.request.yaml
+postman/collections/Eligibility Azure Function Local/Search.request.yaml
+postman/collections/Eligibility Azure Function Local/.resources/definition.yaml
+postman/collections/Eshop/New Request.request.yaml
+postman/collections/Eshop/Products Category.request.yaml
+postman/collections/Eshop/Products-1.request.yaml
+postman/collections/Eshop/Products.request.yaml
+postman/collections/Eshop/Update Product.request.yaml
+postman/collections/Eshop/.resources/definition.yaml
+postman/collections/Fortis API - Local/Batch Copy.request.yaml
+postman/collections/Fortis API - Local/Batches 1 Fortis.request.yaml
+postman/collections/Fortis API - Local/Batches 1 Local Copy.request.yaml
+postman/collections/Fortis API - Local/Batches 1 Local.request.yaml
+postman/collections/Fortis API - Local/Batches 1 QA.request.yaml
+postman/collections/Fortis API - Local/Batches 1 UAT.request.yaml
+postman/collections/Fortis API - Local/Batches 1.request.yaml
+postman/collections/Fortis API - Local/Batches.request.yaml
+postman/collections/Fortis API - Local/BatchesWithResponse Copy.request.yaml
+postman/collections/Fortis API - Local/BatchesWithResponse.request.yaml
+postman/collections/Fortis API - Local/BatchTransactions-Bybatchnumber.request.yaml
+postman/collections/Fortis API - Local/CC Refund - Terminal.request.yaml
+postman/collections/Fortis API - Local/CC Sale - Keyed.request.yaml
+postman/collections/Fortis API - Local/CC Sale - Terminal.request.yaml
+postman/collections/Fortis API - Local/Contact Search.request.yaml
+postman/collections/Fortis API - Local/Contact-1.request.yaml
+postman/collections/Fortis API - Local/Contact-2.request.yaml
+postman/collections/Fortis API - Local/Contact.request.yaml
+postman/collections/Fortis API - Local/Device Terms-1.request.yaml
+postman/collections/Fortis API - Local/Device Terms.request.yaml
+postman/collections/Fortis API - Local/Location details Copy.request.yaml
+postman/collections/Fortis API - Local/Location details.request.yaml
+postman/collections/Fortis API - Local/Refund-Prev-trans Copy.request.yaml
+postman/collections/Fortis API - Local/Terminal Cancel Action.request.yaml
+postman/collections/Fortis API - Local/Terminal Online Copy.request.yaml
+postman/collections/Fortis API - Local/Terminal Online.request.yaml
+postman/collections/Fortis API - Local/Transaction Async Status.request.yaml
+postman/collections/Fortis API - Local/Transaction Details.request.yaml
+postman/collections/Fortis API - Local/Transaction Refund.request.yaml
+postman/collections/Fortis API - Local/Transaction Void.request.yaml
+postman/collections/Fortis API - Local/.resources/definition.yaml
+postman/collections/Fortis API - Local/.resources/Batch Copy.resources/examples/900283 - Payment Id.example.yaml
+postman/collections/Fortis API - Local/.resources/Batch Copy.resources/examples/Batch Copy-146 Prod Issue.example.yaml
+postman/collections/Fortis API - Local/.resources/Batch Copy.resources/examples/Batch.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchTransactions-Bybatchnumber.resources/examples/Batch-1.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchTransactions-Bybatchnumber.resources/examples/Batch-2.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchTransactions-Bybatchnumber.resources/examples/Batch-3.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchTransactions-Bybatchnumber.resources/examples/Batch.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Fortis.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Fortis.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Fortis.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local Copy.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local Copy.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local Copy.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 Local.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 QA.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 QA.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 QA.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 UAT.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 UAT.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1 UAT.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches 1.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches-3.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches-4.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches-5.example.yaml
+postman/collections/Fortis API - Local/.resources/Batches.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse Copy.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse Copy.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse Copy.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse.resources/examples/Batches-1.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse.resources/examples/Batches-2.example.yaml
+postman/collections/Fortis API - Local/.resources/BatchesWithResponse.resources/examples/Batches.example.yaml
+postman/collections/Fortis API - Local/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed- X.example.yaml
+postman/collections/Fortis API - Local/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed.example.yaml
+postman/collections/Fortis API - Local/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal-1.example.yaml
+postman/collections/Fortis API - Local/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal-2.example.yaml
+postman/collections/Fortis API - Local/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact Search.resources/examples/Contact Search - 20003.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact Search.resources/examples/Contact Search-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact Search.resources/examples/Contact Search.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact-2.resources/examples/Contact.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact.resources/examples/Contact-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact.resources/examples/Contact-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Contact.resources/examples/Contact.example.yaml
+postman/collections/Fortis API - Local/.resources/Location details.resources/examples/Location details.example.yaml
+postman/collections/Fortis API - Local/.resources/Terminal Cancel Action.resources/examples/Terminal Cancel Action.example.yaml
+postman/collections/Fortis API - Local/.resources/Terminal Online Copy.resources/examples/Terminal Online.example.yaml
+postman/collections/Fortis API - Local/.resources/Terminal Online.resources/examples/Terminal Online.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status-3.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status-4.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status-5.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Async Status.resources/examples/Transaction Async Status.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/11f0ade6ffa3da60bf265bcb.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/11f0ade84de4b9f4b265d654.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/11f0ade88a44aa128e81281c.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/11f0ade642b64c1684422db3.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/Transaction Details-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Details.resources/examples/Transaction Details.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Void.resources/examples/Transaction Void-1.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Void.resources/examples/Transaction Void-2.example.yaml
+postman/collections/Fortis API - Local/.resources/Transaction Void.resources/examples/Transaction Void.example.yaml
+postman/collections/FortisMultipleProcessCode/Transaction Async Status.request.yaml
+postman/collections/FortisMultipleProcessCode/Transaction Details.request.yaml
+postman/collections/FortisMultipleProcessCode/.resources/definition.yaml
+postman/collections/FortisMultipleProcessCode/.resources/Transaction Details.resources/examples/StoreCredit.example.yaml
+postman/collections/FortisMultipleProcessCode/.resources/Transaction Details.resources/examples/Transaction Details.example.yaml
+postman/collections/HearUSA API/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/benefit/Returns benefit details for a patient appointment.request.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/Returns benefit details for a patient appointment.resources/examples/benefit details returned successfully.example.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/Returns benefit details for a patient appointment.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/Returns benefit details for a patient appointment.resources/examples/missing query parameters.example.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/Returns benefit details for a patient appointment.resources/examples/no patient benefit record found for provided identifiers.example.yaml
+postman/collections/HearUSA API/hear_usa/benefit/.resources/Returns benefit details for a patient appointment.resources/examples/unexpected server error.example.yaml
+postman/collections/HearUSA API/hear_usa/insurance_carriers/Lists all insurance carriers.request.yaml
+postman/collections/HearUSA API/hear_usa/insurance_carriers/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/insurance_carriers/.resources/Lists all insurance carriers.resources/examples/list of insurance carriers filtered by partner_id.example.yaml
+postman/collections/HearUSA API/hear_usa/insurance_carriers/.resources/Lists all insurance carriers.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/partners/Lists all active partners.request.yaml
+postman/collections/HearUSA API/hear_usa/partners/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/partners/.resources/Lists all active partners.resources/examples/list of active partners.example.yaml
+postman/collections/HearUSA API/hear_usa/partners/.resources/Lists all active partners.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/product_list/Returns available hearing aid products for a patient appointment.request.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/Returns available hearing aid products for a patient appointment.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/Returns available hearing aid products for a patient appointment.resources/examples/missing or invalid query parameters.example.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/Returns available hearing aid products for a patient appointment.resources/examples/no patient record found for provided identifiers.example.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/Returns available hearing aid products for a patient appointment.resources/examples/product list returned successfully.example.yaml
+postman/collections/HearUSA API/hear_usa/product_list/.resources/Returns available hearing aid products for a patient appointment.resources/examples/unexpected server error.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/Creates or matches a patient referral record.request.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/duplicate referral request.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/internal server error.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/invalid request parameters.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/patient, clinic, or provider not found.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/referral created or matched successfully.example.yaml
+postman/collections/HearUSA API/hear_usa/provider_referral/.resources/Creates or matches a patient referral record.resources/examples/unprocessable entity.example.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/Searches for a member by member number and date of birth.request.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/.resources/definition.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/.resources/Searches for a member by member number and date of birth.resources/examples/internal server error.example.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/.resources/Searches for a member by member number and date of birth.resources/examples/invalid or missing parameters.example.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/.resources/Searches for a member by member number and date of birth.resources/examples/missing or invalid authentication token.example.yaml
+postman/collections/HearUSA API/hear_usa/search_enrollment/.resources/Searches for a member by member number and date of birth.resources/examples/no member matched.example.yaml
+postman/collections/HearUSA Store1/CC Sale - Terminal.request.yaml
+postman/collections/HearUSA Store1/.resources/definition.yaml
+postman/collections/HearUSA- RTHE/.resources/definition.yaml
+postman/collections/HearUSA- RTHE/ECHO/ListCarriers - dev1.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/ListCarriers - staging.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/ListCarriersByPartner - dev1.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/ListPartners - dev1.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/ListPartners - staging.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/ProviderReferal - staging.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/search_enrollment - staging.request.yaml
+postman/collections/HearUSA- RTHE/ECHO/.resources/definition.yaml
+postman/collections/HearUSA- RTHE/TCM/BookAppointments.request.yaml
+postman/collections/HearUSA- RTHE/TCM/getCenters.request.yaml
+postman/collections/HearUSA- RTHE/TCM/getPatient.request.yaml
+postman/collections/HearUSA- RTHE/TCM/GetPatientAppointments.request.yaml
+postman/collections/HearUSA- RTHE/TCM/PutPatient.request.yaml
+postman/collections/HearUSA- RTHE/TCM/SearchAppointments.request.yaml
+postman/collections/HearUSA- RTHE/TCM/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListCarriers - dev1.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListCarriers - staging.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListCarriersByPartner - dev1.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListCarriersByPartner - stag.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListPartners - dev1.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ListPartners - staging.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ProviderReferal - dev1.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ProviderReferal - staging.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/search_enrollment - dev1.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/search_enrollment - staging.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 1- no patient found/Case 1 - benefit.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 1- no patient found/Case 1 - productList.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 1- no patient found/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 1- no patient found/.resources/Case 1 - benefit.resources/examples/Case 1 - benefit.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 1- no patient found/.resources/Case 1 - productList.resources/examples/Case 1 - productList.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 2- Patient found but benefit has not been verified or verif/Case 2 - benefit.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 2- Patient found but benefit has not been verified or verif/Case 2 - productList.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 2- Patient found but benefit has not been verified or verif/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 2- Patient found but benefit has not been verified or verif/.resources/Case 2 - benefit.resources/examples/Case 2 - benefit.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 2- Patient found but benefit has not been verified or verif/.resources/Case 2 - productList.resources/examples/Case 2 - productList.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 3- Patient Found with benefit and catalog is not discount_p/Case 3 - benefit.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 3- Patient Found with benefit and catalog is not discount_p/Case 3 - ProductList.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 3- Patient Found with benefit and catalog is not discount_p/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 3- Patient Found with benefit and catalog is not discount_p/.resources/Case 3 - ProductList.resources/examples/Case 3 - ProductList.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 3- Patient Found with benefit and catalog is not discount_p/.resources/Case 3 - benefit.resources/examples/Case 3 - benefit.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 4- Patient Found with benefit verified and catalog is disco/Case 4 - benefit.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 4- Patient Found with benefit verified and catalog is disco/Case 4 - productList.request.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 4- Patient Found with benefit verified and catalog is disco/.resources/definition.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 4- Patient Found with benefit verified and catalog is disco/.resources/Case 4 - benefit.resources/examples/Case 4 - benefit.example.yaml
+postman/collections/HearUSA- RTHE Copy/ECHO/ReadyForAppointment/Case 4- Patient Found with benefit verified and catalog is disco/.resources/Case 4 - productList.resources/examples/Case 4 - productList.example.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/BookAppointments.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/getCenters.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/getPatient.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/GetPatientAppointments.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/PutPatient.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/SearchAppointments.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/UpdateInsurance.request.yaml
+postman/collections/HearUSA- RTHE Copy/TCM/.resources/definition.yaml
+postman/collections/New Collection/.resources/definition.yaml
+postman/collections/New Collection-1/.resources/definition.yaml
+postman/collections/SalesOrder Creation/Add Sale Order Lines.request.yaml
+postman/collections/SalesOrder Creation/Create Sale.request.yaml
+postman/collections/SalesOrder Creation/Login.request.yaml
+postman/collections/SalesOrder Creation/PostSaleOrder.request.yaml
+postman/collections/SalesOrder Creation/Sale Order Creation.request.yaml
+postman/collections/SalesOrder Creation/Sale Order Details.request.yaml
+postman/collections/SalesOrder Creation/.resources/definition.yaml
+postman/collections/Samvaad/.resources/definition.yaml
+postman/collections/Samvaad/AuthController/Login.request.yaml
+postman/collections/Samvaad/AuthController/Logout.request.yaml
+postman/collections/Samvaad/AuthController/Me.request.yaml
+postman/collections/Samvaad/AuthController/Refresh.request.yaml
+postman/collections/Samvaad/AuthController/Register.request.yaml
+postman/collections/Samvaad/AuthController/.resources/definition.yaml
+postman/collections/Samvaad API/.resources/definition.yaml
+postman/collections/Samvaad API/api/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/login/-api-auth-login.request.yaml
+postman/collections/Samvaad API/api/auth/login/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/login/.resources/-api-auth-login.resources/examples/OK.example.yaml
+postman/collections/Samvaad API/api/auth/logout/-api-auth-logout.request.yaml
+postman/collections/Samvaad API/api/auth/logout/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/logout/.resources/-api-auth-logout.resources/examples/OK.example.yaml
+postman/collections/Samvaad API/api/auth/me/-api-auth-me.request.yaml
+postman/collections/Samvaad API/api/auth/me/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/me/.resources/-api-auth-me.resources/examples/OK.example.yaml
+postman/collections/Samvaad API/api/auth/refresh/-api-auth-refresh.request.yaml
+postman/collections/Samvaad API/api/auth/refresh/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/refresh/.resources/-api-auth-refresh.resources/examples/OK.example.yaml
+postman/collections/Samvaad API/api/auth/register/-api-auth-register.request.yaml
+postman/collections/Samvaad API/api/auth/register/.resources/definition.yaml
+postman/collections/Samvaad API/api/auth/register/.resources/-api-auth-register.resources/examples/OK.example.yaml
+postman/collections/TCM - Fortis API/EOD Transaction V2 Copy.request.yaml
+postman/collections/TCM - Fortis API/EOD Transaction V2 Store 1.request.yaml
+postman/collections/TCM - Fortis API/EOD Transaction V2 USA 10.request.yaml
+postman/collections/TCM - Fortis API/EOD Transaction V2.request.yaml
+postman/collections/TCM - Fortis API/New Request.request.yaml
+postman/collections/TCM - Fortis API/Settle a Batch Copy.request.yaml
+postman/collections/TCM - Fortis API/.resources/definition.yaml
+postman/collections/TCM - Fortis API/.resources/Settle a Batch Copy.resources/examples/Response_202.example.yaml
+postman/collections/TCM - Fortis API/.resources/Settle a Batch Copy.resources/examples/Response_401.example.yaml
+postman/collections/TCM - Fortis API/Contact/Contact-1.request.yaml
+postman/collections/TCM - Fortis API/Contact/Contact-2.request.yaml
+postman/collections/TCM - Fortis API/Contact/Contact.request.yaml
+postman/collections/TCM - Fortis API/Contact/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Contact/.resources/Contact-2.resources/examples/Contact.example.yaml
+postman/collections/TCM - Fortis API/Contact/.resources/Contact.resources/examples/Contact-1.example.yaml
+postman/collections/TCM - Fortis API/Contact/.resources/Contact.resources/examples/Contact-2.example.yaml
+postman/collections/TCM - Fortis API/Contact/.resources/Contact.resources/examples/Contact.example.yaml
+postman/collections/TCM - Fortis API/Device Terms/Device Terms-1.request.yaml
+postman/collections/TCM - Fortis API/Device Terms/Device Terms.request.yaml
+postman/collections/TCM - Fortis API/Device Terms/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Location/Location Details.request.yaml
+postman/collections/TCM - Fortis API/Location/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Terminal/Terminal Cancel Action.request.yaml
+postman/collections/TCM - Fortis API/Terminal/Terminal Online.request.yaml
+postman/collections/TCM - Fortis API/Terminal/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Terminal/.resources/Terminal Cancel Action.resources/examples/Terminal Cancel Action.example.yaml
+postman/collections/TCM - Fortis API/Terminal/.resources/Terminal Online.resources/examples/Terminal Online.example.yaml
+postman/collections/TCM - Fortis API/Transaction Update/Transaction Refund.request.yaml
+postman/collections/TCM - Fortis API/Transaction Update/Transaction Void.request.yaml
+postman/collections/TCM - Fortis API/Transaction Update/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Transaction Update/.resources/Transaction Void.resources/examples/Transaction Void-1.example.yaml
+postman/collections/TCM - Fortis API/Transaction Update/.resources/Transaction Void.resources/examples/Transaction Void-2.example.yaml
+postman/collections/TCM - Fortis API/Transaction Update/.resources/Transaction Void.resources/examples/Transaction Void-3.example.yaml
+postman/collections/TCM - Fortis API/Transaction Update/.resources/Transaction Void.resources/examples/Transaction Void.example.yaml
+postman/collections/TCM - Fortis API/Transactions/CC Refund - Keyed.request.yaml
+postman/collections/TCM - Fortis API/Transactions/CC Refund - Terminal.request.yaml
+postman/collections/TCM - Fortis API/Transactions/CC Refund - Transaction.request.yaml
+postman/collections/TCM - Fortis API/Transactions/CC Sale - Keyed.request.yaml
+postman/collections/TCM - Fortis API/Transactions/CC Sale - Terminal.request.yaml
+postman/collections/TCM - Fortis API/Transactions/Transaction Async Status.request.yaml
+postman/collections/TCM - Fortis API/Transactions/Transaction Details.request.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Refund - Transaction.resources/examples/CC Refund - Transaction.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed- X.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed-1.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed-2.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed-3.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Keyed.resources/examples/CC Sale - Keyed.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal-1.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal-2.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/CC Sale - Terminal.resources/examples/CC Sale - Terminal.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Async Status.resources/examples/Transaction Async Status-1.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Async Status.resources/examples/Transaction Async Status-2.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Async Status.resources/examples/Transaction Async Status-3.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Async Status.resources/examples/Transaction Async Status-4.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Async Status.resources/examples/Transaction Async Status.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Details.resources/examples/Transaction Details-1.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Details.resources/examples/Transaction Details-2.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Details.resources/examples/Transaction Details-3.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Details.resources/examples/Transaction Details-927944.example.yaml
+postman/collections/TCM - Fortis API/Transactions/.resources/Transaction Details.resources/examples/Transaction Details.example.yaml
+postman/collections/TCM - Fortis API/Transactions Read/Batch.request.yaml
+postman/collections/TCM - Fortis API/Transactions Read/Batches.request.yaml
+postman/collections/TCM - Fortis API/Transactions Read/.resources/definition.yaml
+postman/collections/TCM - Fortis API/Transactions Read/.resources/Batches.resources/examples/Batches.example.yaml
+postman/collections/TCM CRM API/.resources/definition.yaml
+postman/collections/TCM CRM API/api/.resources/definition.yaml
+postman/collections/TCM CRM API/api/AppointmentTypes/-api-AppointmentTypes.request.yaml
+postman/collections/TCM CRM API/api/AppointmentTypes/.resources/definition.yaml
+postman/collections/TCM CRM API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/-api-Appointments.request.yaml
+postman/collections/TCM CRM API/api/Appointments/New Request.request.yaml
+postman/collections/TCM CRM API/api/Appointments/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Appointments/.resources/-api-Appointments.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/.resources/-api-Appointments.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/.resources/-api-Appointments.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/-api-Appointments-Book QA2.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/-api-Appointments-Book QA5.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/-api-Appointments-Book.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA5.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA5.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book QA5.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/-api-Appointments-Check QA2.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/-api-Appointments-Check.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check QA2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check QA2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check QA2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/-api-Appointments-Search QA2 Copy.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/-api-Appointments-Search QA2.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/-api-Appointments-Search.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2 Copy.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2 Copy.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2 Copy.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search QA2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/-api-Appointments-Update QA2.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/-api-Appointments-Update.request.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update QA2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update QA2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update QA2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Centers/-api-Centers.request.yaml
+postman/collections/TCM CRM API/api/Centers/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Centers/.resources/-api-Centers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Centers/.resources/-api-Centers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Centers/.resources/-api-Centers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/HealthCheck/-api-HealthCheck.request.yaml
+postman/collections/TCM CRM API/api/HealthCheck/.resources/definition.yaml
+postman/collections/TCM CRM API/api/HealthCheck/.resources/-api-HealthCheck.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/-api-ItemMasters-1.request.yaml
+postman/collections/TCM CRM API/api/ItemMasters/-api-ItemMasters-2.request.yaml
+postman/collections/TCM CRM API/api/ItemMasters/-api-ItemMasters.request.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/{manufacturerSku}/-api-ItemMasters-manufacturerSku.request.yaml
+postman/collections/TCM CRM API/api/ItemMasters/{manufacturerSku}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/-api-ManufacturerColors-1.request.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/-api-ManufacturerColors-2.request.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/-api-ManufacturerColors.request.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/{code}/-api-ManufacturerColors-code.request.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/-api-Manufacturers-1.request.yaml
+postman/collections/TCM CRM API/api/Manufacturers/-api-Manufacturers-2.request.yaml
+postman/collections/TCM CRM API/api/Manufacturers/-api-Manufacturers.request.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/{code}/-api-Manufacturers-code.request.yaml
+postman/collections/TCM CRM API/api/Manufacturers/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignClinics/-api-MarketingCampaignClinics.request.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignClinics/.resources/definition.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignRegions/-api-MarketingCampaignRegions.request.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignRegions/.resources/definition.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaigns/-api-MarketingCampaigns.request.yaml
+postman/collections/TCM CRM API/api/MarketingCampaigns/.resources/definition.yaml
+postman/collections/TCM CRM API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Notes/-api-Notes-1.request.yaml
+postman/collections/TCM CRM API/api/Notes/-api-Notes-Appointment.request.yaml
+postman/collections/TCM CRM API/api/Notes/-api-Notes-Patient.request.yaml
+postman/collections/TCM CRM API/api/Notes/-api-Notes.request.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Appointment.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Appointment.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Appointment.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Patient.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Patient.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes-Patient.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Notes/.resources/-api-Notes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/-api-Orders Ordered QA1.request.yaml
+postman/collections/TCM CRM API/api/Orders/-api-Orders Ordered.request.yaml
+postman/collections/TCM CRM API/api/Orders/-api-Orders Shipped.request.yaml
+postman/collections/TCM CRM API/api/Orders/-api-Orders-1.request.yaml
+postman/collections/TCM CRM API/api/Orders/-api-Orders.request.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered QA1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered QA1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered QA1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Ordered.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Shipped.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Shipped.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders Shipped.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/.resources/-api-Orders.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/CreatePurchaseOrder/-api-Orders-CreatePurchaseOrder.request.yaml
+postman/collections/TCM CRM API/api/Orders/CreatePurchaseOrder/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Orders/UpdatePurchaseOrder/-api-Orders-UpdatePurchaseOrder.request.yaml
+postman/collections/TCM CRM API/api/Orders/UpdatePurchaseOrder/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Orders/UpdatePurchaseOrder/.resources/-api-Orders-UpdatePurchaseOrder.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Orders/UpdatePurchaseOrder/.resources/-api-Orders-UpdatePurchaseOrder.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Orders/UpdatePurchaseOrder/.resources/-api-Orders-UpdatePurchaseOrder.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/-api-Patients Copy 2.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/-api-Patients Copy.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/-api-Patients-1.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/-api-Patients-2.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/-api-Patients.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy 2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy 2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy 2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients Copy.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/.resources/-api-Patients.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/{id}/-api-Patients-id.request.yaml
+postman/collections/TCM CRM API/api/Patients-1/{id}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Pricing/-api-Pricing.request.yaml
+postman/collections/TCM CRM API/api/Pricing/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Pricing/.resources/-api-Pricing.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Pricing/.resources/-api-Pricing.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Pricing/.resources/-api-Pricing.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ProductCatalog/-api-ProductCatalog.request.yaml
+postman/collections/TCM CRM API/api/ProductCatalog/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Providers/-api-Providers.request.yaml
+postman/collections/TCM CRM API/api/Providers/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Providers/.resources/-api-Providers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Providers/.resources/-api-Providers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Providers/.resources/-api-Providers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ReferralSourceRegions/-api-ReferralSourceRegions.request.yaml
+postman/collections/TCM CRM API/api/ReferralSourceRegions/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/ReferralSources/-api-ReferralSources.request.yaml
+postman/collections/TCM CRM API/api/ReferralSources/.resources/definition.yaml
+postman/collections/TCM CRM API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Screenings/-api-Screenings-1.request.yaml
+postman/collections/TCM CRM API/api/Screenings/-api-Screenings-2.request.yaml
+postman/collections/TCM CRM API/api/Screenings/-api-Screenings.request.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Screenings/.resources/-api-Screenings.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Search/-api-Search.request.yaml
+postman/collections/TCM CRM API/api/Search/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Search/.resources/-api-Search.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Search/.resources/-api-Search.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Search/.resources/-api-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Validation/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Validation/Validate/-api-Validation-Validate.request.yaml
+postman/collections/TCM CRM API/api/Validation/Validate/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Vendors/-api-Vendors-1.request.yaml
+postman/collections/TCM CRM API/api/Vendors/-api-Vendors-2.request.yaml
+postman/collections/TCM CRM API/api/Vendors/-api-Vendors.request.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Vendors/.resources/-api-Vendors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/Vendors/{code}/-api-Vendors-code.request.yaml
+postman/collections/TCM CRM API/api/Vendors/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/invoice/-api-invoice Copy.request.yaml
+postman/collections/TCM CRM API/api/invoice/-api-invoice.request.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/definition.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice Copy.resources/examples/Local.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice Copy.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice Copy.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice Copy.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice.resources/examples/Local.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/invoice/.resources/-api-invoice.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/invoice/Deliver/-api-invoice-Deliver.request.yaml
+postman/collections/TCM CRM API/api/invoice/Deliver/.resources/definition.yaml
+postman/collections/TCM CRM API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/invoice/Generate/-api-invoice-Generate.request.yaml
+postman/collections/TCM CRM API/api/invoice/Generate/.resources/definition.yaml
+postman/collections/TCM CRM API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Generates Invoice File.example.yaml
+postman/collections/TCM CRM API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/-api-patients-insurance-1.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/-api-patients-insurance.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits-1.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/{id}/-api-patients-insurance-VerificationOfBenefits-get-id.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.request.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/definition.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/AppointmentTypes/-api-AppointmentTypes.request.yaml
+postman/collections/TCM CRM API Copy/api/AppointmentTypes/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/-api-Appointments.request.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/.resources/-api-Appointments.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/.resources/-api-Appointments.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/.resources/-api-Appointments.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Book/-api-Appointments-Book.request.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Book/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Check/-api-Appointments-Check.request.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Check/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Search/-api-Appointments-Search.request.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Search/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Update/-api-Appointments-Update.request.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Update/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Centers/-api-Centers.request.yaml
+postman/collections/TCM CRM API Copy/api/Centers/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Centers/.resources/-api-Centers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Centers/.resources/-api-Centers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Centers/.resources/-api-Centers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/HealthCheck/-api-HealthCheck.request.yaml
+postman/collections/TCM CRM API Copy/api/HealthCheck/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/HealthCheck/.resources/-api-HealthCheck.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/-api-ItemMasters-1.request.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/-api-ItemMasters-2.request.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/-api-ItemMasters.request.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/{manufacturerSku}/-api-ItemMasters-manufacturerSku.request.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/{manufacturerSku}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/-api-ManufacturerColors-1.request.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/-api-ManufacturerColors-2.request.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/-api-ManufacturerColors.request.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/{code}/-api-ManufacturerColors-code.request.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/-api-Manufacturers-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/-api-Manufacturers-2.request.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/-api-Manufacturers.request.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/{code}/-api-Manufacturers-code.request.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignClinics/-api-MarketingCampaignClinics.request.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignClinics/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignRegions/-api-MarketingCampaignRegions.request.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignRegions/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaigns/-api-MarketingCampaigns.request.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaigns/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/-api-Notes-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Notes/-api-Notes-2.request.yaml
+postman/collections/TCM CRM API Copy/api/Notes/-api-Notes.request.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Notes/.resources/-api-Notes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/-api-Orders-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Orders/-api-Orders.request.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/.resources/-api-Orders.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/CreatePurchaseOrder/-api-Orders-CreatePurchaseOrder.request.yaml
+postman/collections/TCM CRM API Copy/api/Orders/CreatePurchaseOrder/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/{id}/-api-Orders-GetPO-id.request.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/{id}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/-api-Patients-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/-api-Patients-2.request.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/-api-Patients.request.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/.resources/-api-Patients.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/{id}/-api-Patients-id.request.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/{id}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Pricing/-api-Pricing.request.yaml
+postman/collections/TCM CRM API Copy/api/Pricing/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Pricing/.resources/-api-Pricing.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Pricing/.resources/-api-Pricing.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Pricing/.resources/-api-Pricing.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ProductCatalog/-api-ProductCatalog.request.yaml
+postman/collections/TCM CRM API Copy/api/ProductCatalog/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Providers/-api-Providers.request.yaml
+postman/collections/TCM CRM API Copy/api/Providers/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Providers/.resources/-api-Providers.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Providers/.resources/-api-Providers.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Providers/.resources/-api-Providers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSourceRegions/-api-ReferralSourceRegions.request.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSourceRegions/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSources/-api-ReferralSources.request.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSources/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/-api-Screenings-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/-api-Screenings-2.request.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/-api-Screenings.request.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Screenings/.resources/-api-Screenings.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Search/-api-Search.request.yaml
+postman/collections/TCM CRM API Copy/api/Search/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Search/.resources/-api-Search.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Search/.resources/-api-Search.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Search/.resources/-api-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Validation/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Validation/Validate/-api-Validation-Validate.request.yaml
+postman/collections/TCM CRM API Copy/api/Validation/Validate/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/-api-Vendors-1.request.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/-api-Vendors-2.request.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/-api-Vendors.request.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-2.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-2.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/.resources/-api-Vendors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/{code}/-api-Vendors-code.request.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/{code}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/-api-invoice.request.yaml
+postman/collections/TCM CRM API Copy/api/invoice/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/invoice/.resources/-api-invoice.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/.resources/-api-invoice.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/.resources/-api-invoice.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Deliver/-api-invoice-Deliver.request.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Deliver/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Generate/-api-invoice-Generate.request.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Generate/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Generates Invoice File.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/-api-patients-insurance-1.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/-api-patients-insurance.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits-1.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/{id}/-api-patients-insurance-VerificationOfBenefits-get-id.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.request.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/definition.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Server Error.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Success.example.yaml
+postman/collections/TCM CRM API Copy/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/.resources/definition.yaml
+postman/collections/TCM Services API/api/.resources/definition.yaml
+postman/collections/TCM Services API/api/AppointmentTypes/-api-AppointmentTypes.request.yaml
+postman/collections/TCM Services API/api/AppointmentTypes/.resources/definition.yaml
+postman/collections/TCM Services API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/AppointmentTypes/.resources/-api-AppointmentTypes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Appointments/-api-Appointments.request.yaml
+postman/collections/TCM Services API/api/Appointments/.resources/definition.yaml
+postman/collections/TCM Services API/api/Appointments/.resources/-api-Appointments.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Appointments/.resources/-api-Appointments.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Appointments/.resources/-api-Appointments.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Appointments/Book/-api-Appointments-Book.request.yaml
+postman/collections/TCM Services API/api/Appointments/Book/.resources/definition.yaml
+postman/collections/TCM Services API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Appointments/Book/.resources/-api-Appointments-Book.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Appointments/Check/-api-Appointments-Check.request.yaml
+postman/collections/TCM Services API/api/Appointments/Check/.resources/definition.yaml
+postman/collections/TCM Services API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Appointments/Check/.resources/-api-Appointments-Check.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Appointments/Search/-api-Appointments-Search.request.yaml
+postman/collections/TCM Services API/api/Appointments/Search/.resources/definition.yaml
+postman/collections/TCM Services API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Appointments/Search/.resources/-api-Appointments-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Appointments/Update/-api-Appointments-Update.request.yaml
+postman/collections/TCM Services API/api/Appointments/Update/.resources/definition.yaml
+postman/collections/TCM Services API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Appointments/Update/.resources/-api-Appointments-Update.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Centers/-api-Centers.request.yaml
+postman/collections/TCM Services API/api/Centers/.resources/definition.yaml
+postman/collections/TCM Services API/api/Centers/.resources/-api-Centers.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Centers/.resources/-api-Centers.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Centers/.resources/-api-Centers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/HealthCheck/-api-HealthCheck.request.yaml
+postman/collections/TCM Services API/api/HealthCheck/.resources/definition.yaml
+postman/collections/TCM Services API/api/HealthCheck/.resources/-api-HealthCheck.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/-api-ItemMasters-1.request.yaml
+postman/collections/TCM Services API/api/ItemMasters/-api-ItemMasters-2.request.yaml
+postman/collections/TCM Services API/api/ItemMasters/-api-ItemMasters.request.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/definition.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/.resources/-api-ItemMasters.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/{manufacturerSku}/-api-ItemMasters-manufacturerSku.request.yaml
+postman/collections/TCM Services API/api/ItemMasters/{manufacturerSku}/.resources/definition.yaml
+postman/collections/TCM Services API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ItemMasters/{manufacturerSku}/.resources/-api-ItemMasters-manufacturerSku.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/-api-ManufacturerColors-1.request.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/-api-ManufacturerColors-2.request.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/-api-ManufacturerColors.request.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/definition.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/.resources/-api-ManufacturerColors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/{code}/-api-ManufacturerColors-code.request.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/{code}/.resources/definition.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ManufacturerColors/{code}/.resources/-api-ManufacturerColors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/-api-Manufacturers-1.request.yaml
+postman/collections/TCM Services API/api/Manufacturers/-api-Manufacturers-2.request.yaml
+postman/collections/TCM Services API/api/Manufacturers/-api-Manufacturers.request.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/definition.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/.resources/-api-Manufacturers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/{code}/-api-Manufacturers-code.request.yaml
+postman/collections/TCM Services API/api/Manufacturers/{code}/.resources/definition.yaml
+postman/collections/TCM Services API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Manufacturers/{code}/.resources/-api-Manufacturers-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignClinics/-api-MarketingCampaignClinics.request.yaml
+postman/collections/TCM Services API/api/MarketingCampaignClinics/.resources/definition.yaml
+postman/collections/TCM Services API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignClinics/.resources/-api-MarketingCampaignClinics.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignRegions/-api-MarketingCampaignRegions.request.yaml
+postman/collections/TCM Services API/api/MarketingCampaignRegions/.resources/definition.yaml
+postman/collections/TCM Services API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaignRegions/.resources/-api-MarketingCampaignRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaigns/-api-MarketingCampaigns.request.yaml
+postman/collections/TCM Services API/api/MarketingCampaigns/.resources/definition.yaml
+postman/collections/TCM Services API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/MarketingCampaigns/.resources/-api-MarketingCampaigns.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Notes/-api-Notes-1.request.yaml
+postman/collections/TCM Services API/api/Notes/-api-Notes-2.request.yaml
+postman/collections/TCM Services API/api/Notes/-api-Notes.request.yaml
+postman/collections/TCM Services API/api/Notes/.resources/definition.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Notes/.resources/-api-Notes.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Orders/-api-Orders-1.request.yaml
+postman/collections/TCM Services API/api/Orders/-api-Orders.request.yaml
+postman/collections/TCM Services API/api/Orders/.resources/definition.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Orders/.resources/-api-Orders.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Orders/CreatePurchaseOrder/-api-Orders-CreatePurchaseOrder.request.yaml
+postman/collections/TCM Services API/api/Orders/CreatePurchaseOrder/.resources/definition.yaml
+postman/collections/TCM Services API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Orders/CreatePurchaseOrder/.resources/-api-Orders-CreatePurchaseOrder.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/.resources/definition.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/{id}/-api-Orders-GetPO-id.request.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/{id}/.resources/definition.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Orders/GetPO/{id}/.resources/-api-Orders-GetPO-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Patients-1/-api-Patients-1.request.yaml
+postman/collections/TCM Services API/api/Patients-1/-api-Patients-2.request.yaml
+postman/collections/TCM Services API/api/Patients-1/-api-Patients.request.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/definition.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Patients-1/.resources/-api-Patients.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Patients-1/{id}/-api-Patients-id.request.yaml
+postman/collections/TCM Services API/api/Patients-1/{id}/.resources/definition.yaml
+postman/collections/TCM Services API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Patients-1/{id}/.resources/-api-Patients-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Pricing/-api-Pricing.request.yaml
+postman/collections/TCM Services API/api/Pricing/.resources/definition.yaml
+postman/collections/TCM Services API/api/Pricing/.resources/-api-Pricing.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Pricing/.resources/-api-Pricing.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Pricing/.resources/-api-Pricing.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ProductCatalog/-api-ProductCatalog.request.yaml
+postman/collections/TCM Services API/api/ProductCatalog/.resources/definition.yaml
+postman/collections/TCM Services API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ProductCatalog/.resources/-api-ProductCatalog.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Providers/-api-Providers.request.yaml
+postman/collections/TCM Services API/api/Providers/.resources/definition.yaml
+postman/collections/TCM Services API/api/Providers/.resources/-api-Providers.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Providers/.resources/-api-Providers.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Providers/.resources/-api-Providers.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ReferralSourceRegions/-api-ReferralSourceRegions.request.yaml
+postman/collections/TCM Services API/api/ReferralSourceRegions/.resources/definition.yaml
+postman/collections/TCM Services API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ReferralSourceRegions/.resources/-api-ReferralSourceRegions.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/ReferralSources/-api-ReferralSources.request.yaml
+postman/collections/TCM Services API/api/ReferralSources/.resources/definition.yaml
+postman/collections/TCM Services API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/ReferralSources/.resources/-api-ReferralSources.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Screenings/-api-Screenings-1.request.yaml
+postman/collections/TCM Services API/api/Screenings/-api-Screenings-2.request.yaml
+postman/collections/TCM Services API/api/Screenings/-api-Screenings.request.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/definition.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Screenings/.resources/-api-Screenings.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Search/-api-Search.request.yaml
+postman/collections/TCM Services API/api/Search/.resources/definition.yaml
+postman/collections/TCM Services API/api/Search/.resources/-api-Search.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Search/.resources/-api-Search.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Search/.resources/-api-Search.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Validation/.resources/definition.yaml
+postman/collections/TCM Services API/api/Validation/Validate/-api-Validation-Validate.request.yaml
+postman/collections/TCM Services API/api/Validation/Validate/.resources/definition.yaml
+postman/collections/TCM Services API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Validation/Validate/.resources/-api-Validation-Validate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Vendors/-api-Vendors-1.request.yaml
+postman/collections/TCM Services API/api/Vendors/-api-Vendors-2.request.yaml
+postman/collections/TCM Services API/api/Vendors/-api-Vendors.request.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/definition.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-2.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-2.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors-2.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Vendors/.resources/-api-Vendors.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/Vendors/{code}/-api-Vendors-code.request.yaml
+postman/collections/TCM Services API/api/Vendors/{code}/.resources/definition.yaml
+postman/collections/TCM Services API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/Vendors/{code}/.resources/-api-Vendors-code.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/invoice/-api-invoice.request.yaml
+postman/collections/TCM Services API/api/invoice/.resources/definition.yaml
+postman/collections/TCM Services API/api/invoice/.resources/-api-invoice.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/invoice/.resources/-api-invoice.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/invoice/.resources/-api-invoice.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/invoice/Deliver/-api-invoice-Deliver.request.yaml
+postman/collections/TCM Services API/api/invoice/Deliver/.resources/definition.yaml
+postman/collections/TCM Services API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/invoice/Deliver/.resources/-api-invoice-Deliver.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/invoice/Generate/-api-invoice-Generate.request.yaml
+postman/collections/TCM Services API/api/invoice/Generate/.resources/definition.yaml
+postman/collections/TCM Services API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Generates Invoice File.example.yaml
+postman/collections/TCM Services API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/invoice/Generate/.resources/-api-invoice-Generate.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/-api-patients-insurance-1.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/-api-patients-insurance.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/.resources/-api-patients-insurance.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/EligibilitySearch/-api-patients-insurance-EligibilitySearch.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/EligibilitySearch/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/EligibilitySearch/.resources/-api-patients-insurance-EligibilitySearch.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/EligibilitySearch/.resources/-api-patients-insurance-EligibilitySearch.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/EligibilitySearch/.resources/-api-patients-insurance-EligibilitySearch.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits-1.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/-api-patients-insurance-VerificationOfBenefits.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits-1.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/.resources/-api-patients-insurance-VerificationOfBenefits.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/{id}/-api-patients-insurance-VerificationOfBenefits-get-id.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/get/{id}/.resources/-api-patients-insurance-VerificationOfBenefits-get-id.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.request.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/definition.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Internal Server Error.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/OK.example.yaml
+postman/collections/TCM Services API/api/patients/insurance/VerificationOfBenefits/getall/{patientnumber}/.resources/-api-patients-insurance-VerificationOfBenefits-getall-patientnum.resources/examples/Unauthorized.example.yaml
+postman/collections/TCM-Clinic/ClinicDetail Code Copy.request.yaml
+postman/collections/TCM-Clinic/ClinicDetail Code.request.yaml
+postman/collections/TCM-Clinic/ClinicDetail Dev.request.yaml
+postman/collections/TCM-Clinic/ClinicDetail.request.yaml
+postman/collections/TCM-Clinic/.resources/definition.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/ApiHealthCheck-Local.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/GetAllPartners.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/GetJobStatus.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/HealthCheck - Local.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/Manual Run - local.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-ApiHealthCheck.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-GetAllPartners.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-GetCarriersForPartner.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-GetJobStatus.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-HealthCheck.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-Manual Run.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/QA4-Terminate Job.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/UAT3-ApiHealthCheck.request.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/.resources/definition.yaml
+postman/collections/TCM.ThirdPartyPartnersJob/.resources/QA4-GetJobStatus.resources/examples/QA4-GetJobStatus.example.yaml
+postman/collections/ThirdPartyPartnerJob/01-TruHearingAPIHealthCheck.request.yaml
+postman/collections/ThirdPartyPartnerJob/02-HealthCheck.request.yaml
+postman/collections/ThirdPartyPartnerJob/03-GetAllPartners.request.yaml
+postman/collections/ThirdPartyPartnerJob/04-GetCarriersForPartner.request.yaml
+postman/collections/ThirdPartyPartnerJob/05-JobFunctionManualTrigger.request.yaml
+postman/collections/ThirdPartyPartnerJob/06-JobStatus.request.yaml
+postman/collections/ThirdPartyPartnerJob/07-TerminateJob.request.yaml
+postman/collections/ThirdPartyPartnerJob/New Request-1.request.yaml
+postman/collections/ThirdPartyPartnerJob/New Request.request.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/definition.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/01-TruHearingAPIHealthCheck.resources/examples/01-TruHearingAPIHealthCheck.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/02-HealthCheck.resources/examples/02-HealthCheck.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/03-GetAllPartners.resources/examples/03-GetAllPartners.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/04-GetCarriersForPartner.resources/examples/04-GetCarriersForPartner.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/06-JobStatus.resources/examples/06-JobStatus-1.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/06-JobStatus.resources/examples/06-JobStatus-2.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/06-JobStatus.resources/examples/06-JobStatus.example.yaml
+postman/collections/ThirdPartyPartnerJob/.resources/07-TerminateJob.resources/examples/07-TerminateJob.example.yaml
+postman/collections/eCommerce/1.request.yaml
+postman/collections/eCommerce/.resources/definition.yaml
+postman/collections/mobile/getName.request.yaml
+postman/collections/mobile/register.request.yaml
+postman/collections/mobile/.resources/definition.yaml
+postman/environments/Fortis Dev.environment.yaml
+postman/globals/workspace.globals.yaml
