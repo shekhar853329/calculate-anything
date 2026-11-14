@@ -7,7 +7,7 @@ const PARAGRAPHS = [
 ];
 
 export default function TypingSpeedTest() {
-  const [paragraph] = useState(() => PARAGRAPHS[Math.floor(Math.random() * PARAGRAPHS.length)]);
+  const [paragraph, setParagraph] = useState(PARAGRAPHS[0]);
   const [typed, setTyped] = useState('');
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
@@ -60,6 +60,7 @@ export default function TypingSpeedTest() {
   }
 
   function reset() {
+    setParagraph(PARAGRAPHS[Math.floor(Math.random() * PARAGRAPHS.length)]);
     setTyped('');
     setStarted(false);
     setFinished(false);

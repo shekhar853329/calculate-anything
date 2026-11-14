@@ -106,8 +106,8 @@ export default function HomeToolsDirectory() {
       <div className="bg-white dark:bg-gray-850 rounded-2xl border border-gray-200/90 dark:border-gray-800 p-4 sm:p-5 shadow-sm space-y-3.5">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <h1 className="text-xl sm:text-2xl font-black text-gray-900 dark:text-gray-100 tracking-tight">
-              Calculators & Tools
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
+              Online Calculators | Formatters | Generators | Editors | Tools
             </h1>
             <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
               {TOOLS.length} free, fast browser tools organized by category
@@ -147,11 +147,10 @@ export default function HomeToolsDirectory() {
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar text-xs">
           <button
             onClick={() => setSelectedCategory('all')}
-            className={`px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${
-              selectedCategory === 'all'
-                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-            }`}
+            className={`px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${selectedCategory === 'all'
+              ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
+              : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+              }`}
           >
             All Categories ({TOOLS.length})
           </button>
@@ -160,11 +159,10 @@ export default function HomeToolsDirectory() {
             <button
               key={cat.slug}
               onClick={() => setSelectedCategory(cat.slug)}
-              className={`px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${
-                selectedCategory === cat.slug
-                  ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className={`px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${selectedCategory === cat.slug
+                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
             >
               {cat.name.replace(' Calculators', '').replace(' Tools', '')} ({cat.count})
             </button>
@@ -172,11 +170,10 @@ export default function HomeToolsDirectory() {
 
           <button
             onClick={() => setSelectedCategory('popular')}
-            className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${
-              selectedCategory === 'popular'
-                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-            }`}
+            className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${selectedCategory === 'popular'
+              ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
+              : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+              }`}
           >
             <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
             <span>Popular ({popularTools.length})</span>
@@ -185,11 +182,10 @@ export default function HomeToolsDirectory() {
           {favoriteTools.length > 0 && (
             <button
               onClick={() => setSelectedCategory('bookmarks')}
-              className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${
-                selectedCategory === 'bookmarks'
-                  ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${selectedCategory === 'bookmarks'
+                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
             >
               <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />
               <span>Bookmarks ({favoriteTools.length})</span>
@@ -199,11 +195,10 @@ export default function HomeToolsDirectory() {
           {recentTools.length > 0 && (
             <button
               onClick={() => setSelectedCategory('recent')}
-              className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${
-                selectedCategory === 'recent'
-                  ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-xl font-medium transition-colors whitespace-nowrap shrink-0 ${selectedCategory === 'recent'
+                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20 font-semibold'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
             >
               <Clock className="w-3.5 h-3.5 text-blue-500" />
               <span>Recent ({recentTools.length})</span>
@@ -361,10 +356,10 @@ export default function HomeToolsDirectory() {
                 {selectedCategory === 'popular'
                   ? 'Popular Tools'
                   : selectedCategory === 'bookmarks'
-                  ? 'Bookmarked Tools'
-                  : selectedCategory === 'recent'
-                  ? 'Recently Visited Tools'
-                  : currentCategoryObj?.name || 'Tools'}
+                    ? 'Bookmarked Tools'
+                    : selectedCategory === 'recent'
+                      ? 'Recently Visited Tools'
+                      : currentCategoryObj?.name || 'Tools'}
               </h2>
               <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300">
                 {activeFilteredList.length} tools
