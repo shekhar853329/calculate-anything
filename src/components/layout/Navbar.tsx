@@ -5,6 +5,7 @@ import { TOOLS } from '../../data/tools';
 import { searchTools } from '../../lib/search';
 import type { Tool } from '../../data/tools';
 import { ToolIcon, getCategoryTheme } from '../common/IconHelper';
+import AnnouncementBanner from './AnnouncementBanner';
 
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
@@ -78,6 +79,7 @@ export default function Navbar() {
   return (
     <>
       <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-white/90 dark:bg-gray-900/90 border-b border-gray-200/80 dark:border-gray-800 transition-colors">
+        <AnnouncementBanner />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
           {/* Logo */}
           <a

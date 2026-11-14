@@ -106,6 +106,14 @@ export default function HomeToolsDirectory() {
       <div className="bg-white dark:bg-gray-850 rounded-2xl border border-gray-200/90 dark:border-gray-800 p-4 sm:p-5 shadow-sm space-y-3.5">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
+            <div className="flex items-center gap-2 flex-wrap mb-1.5">
+              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 border border-blue-200/60 dark:border-blue-800">
+                🚀 Launched 13 Nov 2026
+              </span>
+              <span className="text-xs text-gray-500 dark:text-gray-400">
+                Adding more tools regularly &bull; <a href="/contact" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">Drop a comment / feedback &rarr;</a>
+              </span>
+            </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
               Online Calculators | Formatters | Generators | Editors | Tools
             </h1>
