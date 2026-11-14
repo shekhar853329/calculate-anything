@@ -517,6 +517,29 @@ export const TOOLS: Tool[] = [
 
   // ─── Category 4: Developer Tools ──────────────────────────────────────────
   {
+    id: 'code-compiler',
+    name: 'Online Code Compiler',
+    slug: 'code-compiler',
+    category: 'Developer Tools',
+    categorySlug: 'developer',
+    description:
+      'Online multi-language code compiler and execution environment featuring a full Visual Studio Code interface. Write, compile, and run Python, C++, Java, JavaScript, Rust, Go, TypeScript, and more with instant output and stdin support.',
+    icon: 'Code2',
+    keywords: [
+      'code compiler',
+      'online compiler',
+      'online ide',
+      'vs code online',
+      'python compiler',
+      'c++ compiler',
+      'java compiler',
+      'run code online',
+      'multi language compiler',
+    ],
+    related: ['javascript-formatter', 'regex-tester', 'api-request-builder', 'json-formatter'],
+    popular: true,
+  },
+  {
     id: 'jwt-decoder',
     name: 'JWT Decoder',
     slug: 'jwt-decoder',

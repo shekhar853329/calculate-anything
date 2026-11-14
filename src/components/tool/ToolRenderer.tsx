@@ -53,6 +53,7 @@ const LoremIpsumGenerator = lazy(() => import('../tools/lorem-ipsum-generator'))
 const RichTextEditor = lazy(() => import('../tools/rich-text-editor'));
 
 // ── Developer Tools ──────────────────────────────────────────────────────────
+const CodeCompiler = lazy(() => import('../tools/code-compiler'));
 const JwtDecoder = lazy(() => import('../tools/jwt-decoder'));
 const RegexTester = lazy(() => import('../tools/regex-tester'));
 const UuidGenerator = lazy(() => import('../tools/uuid-generator'));
@@ -179,6 +180,7 @@ const TOOL_MAP: Record<string, React.ComponentType> = {
   'lorem-ipsum-generator': LoremIpsumGenerator,
   'rich-text-editor': RichTextEditor,
   // Developer Tools
+  'code-compiler': CodeCompiler,
   'jwt-decoder': JwtDecoder,
   'regex-tester': RegexTester,
   'uuid-generator': UuidGenerator,

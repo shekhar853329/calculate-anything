@@ -61,6 +61,7 @@ export const toolPaths: Record<string, string> = {
   'rich-text-editor': '../components/tools/rich-text-editor',
 
   // ── Developer Tools ─────────────────────────────────────────────────────
+  'code-compiler': '../components/tools/code-compiler',
   'jwt-decoder': '../components/tools/JwtDecoder',
   'regex-tester': '../components/tools/RegexTester',
   'uuid-generator': '../components/tools/UuidGenerator',
