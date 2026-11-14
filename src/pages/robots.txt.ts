@@ -7,7 +7,6 @@ export const GET: APIRoute = ({ site, url }) => {
 Allow: /
 Sitemap: ${origin}/sitemap.xml
 Sitemap: ${origin}/sitemap-index.xml
-Agentmap: ${origin}/.well-known/ard.json
 `,
     { headers: { 'Content-Type': 'text/plain; charset=utf-8' } }
   );
