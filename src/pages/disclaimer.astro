@@ -2,13 +2,29 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import { getSiteUrl } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
 
 const lastUpdated = '1 July 2025';
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const title = 'Disclaimer - CalculateAnything';
+const description = 'Read the CalculateAnything disclaimer regarding the accuracy and limitations of our online tools and calculators.';
+
+const schema = buildStaticPageSchema(origin, {
+  title,
+  headline: 'Disclaimer - CalculateAnything',
+  description,
+  path: '/disclaimer/',
+  datePublished: '2025-07-01T00:00:00+00:00',
+  dateModified: '2026-11-14T00:00:00+00:00',
+  breadcrumbLabel: 'Disclaimer',
+});
 ---
 <BaseLayout
-  title="Disclaimer - CalculateAnything"
-  description="Read the CalculateAnything disclaimer regarding the accuracy and limitations of our online tools and calculators."
+  title={title}
+  description={description}
   canonical="/disclaimer/"
+  schema={schema}
 >
   <Navbar client:load />
   <main class="max-w-3xl mx-auto px-4 py-12">

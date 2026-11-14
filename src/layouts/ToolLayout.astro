@@ -8,11 +8,11 @@ import RelatedTools from '../components/tool/RelatedTools';
 import FAQ from '../components/tool/FAQ';
 import { getRelatedTools } from '../data/tools';
 import { getSiteUrl } from '../utils/site';
+import { buildToolSchema } from '../utils/schema';
 
 const { tool } = Astro.props;
 const related = getRelatedTools(tool.slug);
 const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
-const toolUrl = `${origin}/tools/${tool.slug}/`;
 
 function getToolPageTitle(name: string): string {
   const full = `${name} - Free Online Tool | CalculateAnything`;
@@ -23,88 +23,14 @@ function getToolPageTitle(name: string): string {
 }
 
 const pageTitle = getToolPageTitle(tool.name);
-
-const schema = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'WebApplication',
-      '@id': `${toolUrl}#webapp`,
-      name: tool.name,
-      description: tool.description,
-      url: toolUrl,
-      applicationCategory: 'UtilityApplication',
-      operatingSystem: 'All',
-      browserRequirements: 'Requires JavaScript. Requires HTML5.',
-      offers: {
-        '@type': 'Offer',
-        price: '0',
-        priceCurrency: 'USD',
-      },
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': `${toolUrl}#faq`,
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: `What is ${tool.name}?`,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: `${tool.name} is a free online tool that helps you ${tool.description.charAt(0).toLowerCase()}${tool.description.slice(1)} It runs entirely in your browser — no sign-up or installation required.`,
-          },
-        },
-        {
-          '@type': 'Question',
-          name: `Is ${tool.name} free to use?`,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: `Yes, ${tool.name} is completely free. There are no hidden charges, subscriptions, or account requirements. You can use it as many times as you like.`,
-          },
-        },
-        {
-          '@type': 'Question',
-          name: `How accurate is ${tool.name}?`,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: `${tool.name} uses industry-standard algorithms and formulas to ensure accurate results. All calculations are performed locally in your browser for speed and privacy. If you spot an issue, please let us know via the Contact page.`,
-          },
-        },
-      ],
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': `${toolUrl}#breadcrumb`,
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: `${origin}/`,
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: tool.category,
-          item: `${origin}/category/${tool.categorySlug}/`,
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: tool.name,
-          item: toolUrl,
-        },
-      ],
-    },
-  ],
-});
+const schema = buildToolSchema(origin, tool, pageTitle);
 ---
 <BaseLayout
   title={pageTitle}
   description={tool.description}
   canonical={`/tools/${tool.slug}/`}
+  schema={schema}
 >
-  <script type="application/ld+json" set:html={schema} />
   <Navbar client:load />
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-2.5 pb-10">

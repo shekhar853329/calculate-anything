@@ -2,16 +2,30 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
-import { getSiteHostname } from '../utils/site';
+import { getSiteUrl, getSiteHostname } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
 
 const lastUpdated = '1 July 2025';
-const siteOrigin = Astro.site ? Astro.site.origin : Astro.url.origin;
+const siteOrigin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
 const siteHost = getSiteHostname(siteOrigin);
+const title = 'Privacy Policy - CalculateAnything';
+const description = 'Read the CalculateAnything privacy policy to understand how we handle data, cookies, and your personal information.';
+
+const schema = buildStaticPageSchema(siteOrigin, {
+  title,
+  headline: 'Privacy Policy - CalculateAnything',
+  description,
+  path: '/privacy-policy/',
+  datePublished: '2025-07-01T00:00:00+00:00',
+  dateModified: '2026-11-14T00:00:00+00:00',
+  breadcrumbLabel: 'Privacy Policy',
+});
 ---
 <BaseLayout
-  title="Privacy Policy - CalculateAnything"
-  description="Read the CalculateAnything privacy policy to understand how we handle data, cookies, and your personal information."
+  title={title}
+  description={description}
   canonical="/privacy-policy/"
+  schema={schema}
 >
   <Navbar client:load />
   <main class="max-w-3xl mx-auto px-4 py-12">

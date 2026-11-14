@@ -5,6 +5,8 @@ import Footer from '../components/layout/Footer';
 import { CATEGORIES, getToolsByCategory } from '../data/tools';
 import { ToolIcon, getCategoryTheme } from '../components/common/IconHelper';
 import { FileCode, ArrowUpRight } from 'lucide-react';
+import { getSiteUrl } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
 
 const MAIN_PAGES = [
   { name: 'Home', href: '/', desc: 'Landing page with search, trending tools, and category browser' },
@@ -15,12 +17,25 @@ const MAIN_PAGES = [
   { name: 'Terms of Service', href: '/terms/', desc: 'Usage guidelines and terms of service' },
   { name: 'Disclaimer', href: '/disclaimer/', desc: 'Educational and informational calculation disclaimers' },
 ];
+
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const title = 'Sitemap - Full Directory of Free Tools | CalculateAnything';
+const description = 'Explore the full sitemap of CalculateAnything. Access all 110+ calculators, converters, formatting tools, and category directories in one place.';
+
+const schema = buildStaticPageSchema(origin, {
+  title,
+  headline: 'Website Sitemap - CalculateAnything',
+  description,
+  path: '/sitemap/',
+  breadcrumbLabel: 'Sitemap',
+});
 ---
 
 <BaseLayout
-  title="Sitemap - Full Directory of Free Tools | CalculateAnything"
-  description="Explore the full sitemap of CalculateAnything. Access all 110+ calculators, converters, formatting tools, and category directories in one place."
+  title={title}
+  description={description}
   canonical="/sitemap/"
+  schema={schema}
 >
   <Navbar client:load />
 

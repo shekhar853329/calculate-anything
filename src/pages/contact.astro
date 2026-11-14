@@ -2,11 +2,27 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import { getSiteUrl } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
+
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const title = 'Contact Us - CalculateAnything';
+const description = 'Get in touch with the CalculateAnything team. Send us feedback, bug reports, or feature suggestions.';
+
+const schema = buildStaticPageSchema(origin, {
+  title,
+  headline: 'Contact & Feedback - CalculateAnything',
+  description,
+  path: '/contact/',
+  type: 'ContactPage',
+  breadcrumbLabel: 'Contact',
+});
 ---
 <BaseLayout
-  title="Contact Us - CalculateAnything"
-  description="Get in touch with the CalculateAnything team. Send us feedback, bug reports, or feature suggestions."
+  title={title}
+  description={description}
   canonical="/contact/"
+  schema={schema}
 >
   <Navbar client:load />
   <main class="max-w-2xl mx-auto px-4 py-12">

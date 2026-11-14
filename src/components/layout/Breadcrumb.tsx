@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 interface BreadcrumbProps {
   category: string;
   categorySlug: string;
@@ -12,30 +10,6 @@ export default function Breadcrumb({ category, categorySlug, toolName }: Breadcr
     { label: category, href: `/category/${categorySlug}/` },
     { label: toolName, href: undefined },
   ];
-
-  // Inject JSON-LD breadcrumb structured data
-  useEffect(() => {
-    const origin = typeof window !== 'undefined' ? window.location.origin : '';
-    const schema = {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: items.map((item, idx) => ({
-        '@type': 'ListItem',
-        position: idx + 1,
-        name: item.label,
-        ...(item.href ? { item: `${origin}${item.href}` } : {}),
-      })),
-    };
-    const existing = document.getElementById('breadcrumb-ld');
-    if (existing) existing.remove();
-    const script = document.createElement('script');
-    script.id = 'breadcrumb-ld';
-    script.type = 'application/ld+json';
-    script.textContent = JSON.stringify(schema);
-    document.head.appendChild(script);
-    return () => { document.getElementById('breadcrumb-ld')?.remove(); };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [category, categorySlug, toolName]);
 
   return (
       <nav aria-label="Breadcrumb" className="mb-1.5">

@@ -3,12 +3,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 import ToolsDirectory from '../../components/tools/ToolsDirectory';
+import { TOOLS } from '../../data/tools';
+import { getSiteUrl } from '../../utils/site';
+import { buildAllToolsSchema } from '../../utils/schema';
+
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const schema = buildAllToolsSchema(origin, TOOLS);
 ---
 
 <BaseLayout
   title="All 110+ Free Online Calculators & Tools | CalculateAnything"
   description="Explore the complete collection of 110+ free calculators, converters, formatters, and utilities. Fast, responsive, and 100% private in your browser."
   canonical="/tools/"
+  schema={schema}
 >
   <Navbar client:load />
 

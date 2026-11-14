@@ -4,6 +4,8 @@ import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 import { CATEGORIES, getToolsByCategory } from '../../data/tools';
 import { ToolIcon, getCategoryTheme } from '../../components/common/IconHelper';
+import { getSiteUrl } from '../../utils/site';
+import { buildCategorySchema } from '../../utils/schema';
 
 export async function getStaticPaths() {
   return CATEGORIES.map(cat => ({
@@ -15,11 +17,14 @@ export async function getStaticPaths() {
 const { category } = Astro.props;
 const tools = getToolsByCategory(category.slug);
 const theme = getCategoryTheme(category.slug);
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const schema = buildCategorySchema(origin, category, tools);
 ---
 <BaseLayout
   title={`${category.name} - Free Online Tools | CalculateAnything`}
   description={`Browse ${category.count} free ${category.name.toLowerCase()} online. No sign-up required.`}
   canonical={`/category/${category.slug}/`}
+  schema={schema}
 >
   <Navbar client:load />
 

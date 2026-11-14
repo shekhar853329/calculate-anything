@@ -2,11 +2,27 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import { getSiteUrl } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
+
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const title = 'About CalculateAnything - Free Online Tools for Everyone';
+const description = 'Learn about CalculateAnything — a free, ad-supported platform providing 110+ online tools including calculators, converters, formatters, and productivity tools.';
+
+const schema = buildStaticPageSchema(origin, {
+  title,
+  headline: 'About CalculateAnything - Free Online Tools for Everyone',
+  description,
+  path: '/about/',
+  type: 'AboutPage',
+  breadcrumbLabel: 'About',
+});
 ---
 <BaseLayout
-  title="About CalculateAnything - Free Online Tools for Everyone"
-  description="Learn about CalculateAnything — a free, ad-supported platform providing 110+ online tools including calculators, converters, formatters, and productivity tools."
+  title={title}
+  description={description}
   canonical="/about/"
+  schema={schema}
 >
   <Navbar client:load />
   <main class="max-w-3xl mx-auto px-4 py-12">

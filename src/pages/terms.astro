@@ -2,13 +2,29 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import { getSiteUrl } from '../utils/site';
+import { buildStaticPageSchema } from '../utils/schema';
 
 const lastUpdated = '1 July 2025';
+const origin = (Astro.site ? Astro.site.origin : getSiteUrl()).replace(/\/$/, '');
+const title = 'Terms and Conditions - CalculateAnything';
+const description = 'Read the terms and conditions governing your use of the CalculateAnything website and tools.';
+
+const schema = buildStaticPageSchema(origin, {
+  title,
+  headline: 'Terms & Conditions - CalculateAnything',
+  description,
+  path: '/terms/',
+  datePublished: '2025-07-01T00:00:00+00:00',
+  dateModified: '2026-11-14T00:00:00+00:00',
+  breadcrumbLabel: 'Terms & Conditions',
+});
 ---
 <BaseLayout
-  title="Terms and Conditions - CalculateAnything"
-  description="Read the terms and conditions governing your use of the CalculateAnything website and tools."
+  title={title}
+  description={description}
   canonical="/terms/"
+  schema={schema}
 >
   <Navbar client:load />
   <main class="max-w-3xl mx-auto px-4 py-12">

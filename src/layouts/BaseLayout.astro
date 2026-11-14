@@ -7,6 +7,7 @@ const {
   description = 'Free online calculators, converters, and tools for everyone.',
   canonical,
   ogImage = '/og-default.png',
+  schema,
 } = Astro.props;
 
 const siteOrigin = Astro.site ? Astro.site.origin : Astro.url.origin;
@@ -49,6 +50,12 @@ const fullOgImage = ogImage.startsWith('http')
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="ard" href="/.well-known/ard.json" type="application/json" />
+  {schema && (
+    <script
+      type="application/ld+json"
+      set:html={typeof schema === 'string' ? schema : JSON.stringify(schema)}
+    />
+  )}
   <script is:inline>
     (function() {
       var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
