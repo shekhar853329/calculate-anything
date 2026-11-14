@@ -111,7 +111,7 @@ export default function HomeToolsDirectory() {
                 🚀 Launched 13 Nov 2026
               </span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
-                Adding more tools regularly &bull; <a href="/contact" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">Drop a comment / feedback &rarr;</a>
+                Adding more tools regularly &bull; <a href="/contact/" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">Drop a comment / feedback &rarr;</a>
               </span>
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
@@ -225,7 +225,7 @@ export default function HomeToolsDirectory() {
               {recentTools.slice(0, 5).map((tool) => (
                 <a
                   key={tool.slug}
-                  href={`/tools/${tool.slug}`}
+                  href={`/tools/${tool.slug}/`}
                   className="px-2 py-0.5 rounded-md bg-gray-50 dark:bg-gray-800 border border-gray-200/60 dark:border-gray-700/60 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-300 transition-colors"
                 >
                   {tool.name}
@@ -287,7 +287,7 @@ export default function HomeToolsDirectory() {
                         {cat.tools.length}
                       </span>
                       <a
-                        href={`/category/${cat.slug}`}
+                        href={`/category/${cat.slug}/`}
                         title={`View all ${cat.name}`}
                         className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 p-0.5 rounded transition-colors text-xs font-bold"
                       >
@@ -301,7 +301,7 @@ export default function HomeToolsDirectory() {
                     {cat.tools.map((tool) => (
                       <li key={tool.slug}>
                         <a
-                          href={`/tools/${tool.slug}`}
+                          href={`/tools/${tool.slug}/`}
                           title={`${tool.name} — ${tool.description}`}
                           className="group flex items-center justify-between px-2 py-1.5 rounded-lg text-xs text-gray-700 dark:text-gray-300 hover:bg-blue-50/80 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                         >
@@ -390,7 +390,7 @@ export default function HomeToolsDirectory() {
                 return (
                   <a
                     key={tool.slug}
-                    href={`/tools/${tool.slug}`}
+                    href={`/tools/${tool.slug}/`}
                     className="group flex flex-col justify-between p-3.5 rounded-xl border border-gray-200/90 dark:border-gray-800 bg-white dark:bg-gray-850 hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-md transition-all"
                   >
                     <div>

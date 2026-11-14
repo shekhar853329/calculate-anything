@@ -2,23 +2,23 @@ import { Wrench } from 'lucide-react';
 import { useOnlineUsers } from '../../hooks/useOnlineUsers';
 
 const CATEGORIES = [
-  { name: 'Date & Age', href: '/category/date-age' },
-  { name: 'Mathematics', href: '/category/mathematics' },
-  { name: 'Text & Formatting', href: '/category/text-formatting' },
-  { name: 'Developer Tools', href: '/category/developer' },
-  { name: 'Unit Conversion', href: '/category/unit-conversion' },
-  { name: 'Finance & Business', href: '/category/finance' },
-  { name: 'Image & File', href: '/category/image-file' },
-  { name: 'Productivity', href: '/category/productivity' },
+  { name: 'Date & Age', href: '/category/date-age/' },
+  { name: 'Mathematics', href: '/category/mathematics/' },
+  { name: 'Text & Formatting', href: '/category/text-formatting/' },
+  { name: 'Developer Tools', href: '/category/developer/' },
+  { name: 'Unit Conversion', href: '/category/unit-conversion/' },
+  { name: 'Finance & Business', href: '/category/finance/' },
+  { name: 'Image & File', href: '/category/image-file/' },
+  { name: 'Productivity', href: '/category/productivity/' },
 ];
 
 const LINKS = [
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
-  { label: 'Sitemap', href: '/sitemap' },
-  { label: 'Privacy Policy', href: '/privacy-policy' },
-  { label: 'Terms & Conditions', href: '/terms' },
-  { label: 'Disclaimer', href: '/disclaimer' },
+  { label: 'About', href: '/about/' },
+  { label: 'Contact', href: '/contact/' },
+  { label: 'Sitemap', href: '/sitemap/' },
+  { label: 'Privacy Policy', href: '/privacy-policy/' },
+  { label: 'Terms & Conditions', href: '/terms/' },
+  { label: 'Disclaimer', href: '/disclaimer/' },
 ];
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 mt-16">
-      <div className="max-w-7xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Brand */}
           <div>

@@ -11,14 +11,14 @@ CalculateAnything is an open web suite of 110+ calculation and conversion tools 
 
 ## Core Categories
 
-- [Date & Age Calculators](${baseUrl}/category/date-age): Tools for birthdays, age differences, elapsed days, working days, and time intervals.
-- [Finance & Business Calculators](${baseUrl}/category/finance): Loan EMI, SIP, mutual funds, interest rates, salary breakdown, and tax estimations.
-- [Mathematics Calculators](${baseUrl}/category/mathematics): Scientific calculations, percentages, fractions, standard deviations, and ratios.
-- [Developer Tools](${baseUrl}/category/developer): JSON formatters, Base64 encoders, UUID generators, regex testers, hash generators, and JWT decoders.
-- [Unit & Conversion Tools](${baseUrl}/category/unit-conversion): Converters for length, weight, temperature, data storage, speed, area, and volume.
-- [Text & Formatting Tools](${baseUrl}/category/text-formatting): Text case changers, difference checkers, word counters, and Markdown tools.
-- [Image & File Tools](${baseUrl}/category/image-file): In-browser image compressor, resizer, cropper, WebP converter, and PDF utilities.
-- [Random & Productivity Tools](${baseUrl}/category/productivity): Pomodoro timer, stopwatch, password generator, and randomizers.
+- [Date & Age Calculators](${baseUrl}/category/date-age/): Tools for birthdays, age differences, elapsed days, working days, and time intervals.
+- [Finance & Business Calculators](${baseUrl}/category/finance/): Loan EMI, SIP, mutual funds, interest rates, salary breakdown, and tax estimations.
+- [Mathematics Calculators](${baseUrl}/category/mathematics/): Scientific calculations, percentages, fractions, standard deviations, and ratios.
+- [Developer Tools](${baseUrl}/category/developer/): JSON formatters, Base64 encoders, UUID generators, regex testers, hash generators, and JWT decoders.
+- [Unit & Conversion Tools](${baseUrl}/category/unit-conversion/): Converters for length, weight, temperature, data storage, speed, area, and volume.
+- [Text & Formatting Tools](${baseUrl}/category/text-formatting/): Text case changers, difference checkers, word counters, and Markdown tools.
+- [Image & File Tools](${baseUrl}/category/image-file/): In-browser image compressor, resizer, cropper, WebP converter, and PDF utilities.
+- [Random & Productivity Tools](${baseUrl}/category/productivity/): Pomodoro timer, stopwatch, password generator, and randomizers.
 
 ## Popular Tools
 
@@ -26,7 +26,7 @@ CalculateAnything is an open web suite of 110+ calculation and conversion tools 
 
 const popularTools = TOOLS.filter(t => t.popular);
 popularTools.forEach(t => {
-  llmsTxt += `- [${t.name}](${baseUrl}/tools/${t.slug}): ${t.description}\n`;
+  llmsTxt += `- [${t.name}](${baseUrl}/tools/${t.slug}/): ${t.description}\n`;
 });
 
 llmsTxt += `\n## All Tools\n\n`;
@@ -36,18 +36,18 @@ categories.forEach(cat => {
   llmsTxt += `### ${cat}\n\n`;
   const catTools = TOOLS.filter(t => t.category === cat);
   catTools.forEach(t => {
-    llmsTxt += `- [${t.name}](${baseUrl}/tools/${t.slug}): ${t.description}\n`;
+    llmsTxt += `- [${t.name}](${baseUrl}/tools/${t.slug}/): ${t.description}\n`;
   });
   llmsTxt += '\n';
 });
 
 llmsTxt += `## Site Information
 
-- [About CalculateAnything](${baseUrl}/about): Architecture, client-side privacy commitments, and tool performance.
-- [Privacy Policy](${baseUrl}/privacy-policy): Privacy guarantee detailing zero tracking and client-side processing.
-- [Terms of Service](${baseUrl}/terms): Usage terms for free public tools.
-- [Disclaimer](${baseUrl}/disclaimer): Calculation accuracy and educational usage guidance.
-- [Contact](${baseUrl}/contact): Support, feedback, and feature requests.
+- [About CalculateAnything](${baseUrl}/about/): Architecture, client-side privacy commitments, and tool performance.
+- [Privacy Policy](${baseUrl}/privacy-policy/): Privacy guarantee detailing zero tracking and client-side processing.
+- [Terms of Service](${baseUrl}/terms/): Usage terms for free public tools.
+- [Disclaimer](${baseUrl}/disclaimer/): Calculation accuracy and educational usage guidance.
+- [Contact](${baseUrl}/contact/): Support, feedback, and feature requests.
 
 ## Optional
 
@@ -68,11 +68,11 @@ CalculateAnything provides client-side computational utilities across date/age, 
 
 TOOLS.forEach(t => {
   llmsFull += `### ${t.name}
-- **URL**: ${baseUrl}/tools/${t.slug}
+- **URL**: ${baseUrl}/tools/${t.slug}/
 - **Category**: ${t.category}
 - **Description**: ${t.description}
 - **Keywords**: ${t.keywords.join(', ')}
-- **Related Tools**: ${t.related.map(r => `${baseUrl}/tools/${r}`).join(', ')}
+- **Related Tools**: ${t.related.map(r => `${baseUrl}/tools/${r}/`).join(', ')}
 
 `;
 });

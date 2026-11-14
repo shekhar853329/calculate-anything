@@ -9,9 +9,9 @@ import AnnouncementBanner from './AnnouncementBanner';
 
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
-  { label: 'All Tools', href: '/tools' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'All Tools', href: '/tools/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Contact', href: '/contact/' },
 ];
 
 const SUGGESTED_QUICK = ['Age Calculator', 'BMI Calculator', 'JSON Formatter', 'EMI Calculator'];
@@ -218,7 +218,7 @@ export default function Navbar() {
                   return (
                     <li key={tool.slug} role="option" aria-selected="false">
                       <a
-                        href={`/tools/${tool.slug}`}
+                        href={`/tools/${tool.slug}/`}
                         onClick={() => { setSearchOpen(false); setQuery(''); setResults([]); }}
                         className="flex items-center gap-3.5 px-5 py-3.5 hover:bg-gray-50 dark:hover:bg-gray-800/60 transition-colors"
                       >
@@ -257,7 +257,7 @@ export default function Navbar() {
                     return (
                       <a
                         key={tool.slug}
-                        href={`/tools/${tool.slug}`}
+                        href={`/tools/${tool.slug}/`}
                         onClick={() => setSearchOpen(false)}
                         className="px-3 py-1.5 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-blue-500 hover:text-blue-600 text-xs font-medium text-gray-700 dark:text-gray-300 transition-colors"
                       >

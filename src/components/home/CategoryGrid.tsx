@@ -17,7 +17,7 @@ export default function CategoryGrid() {
           </p>
         </div>
         <a
-          href="/tools"
+          href="/tools/"
           className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors inline-flex items-center gap-1 self-start sm:self-auto"
         >
           View all tools &rarr;
@@ -30,7 +30,7 @@ export default function CategoryGrid() {
           return (
             <li key={cat.slug}>
               <a
-                href={`/category/${cat.slug}`}
+                href={`/category/${cat.slug}/`}
                 className="group relative flex flex-col p-5 rounded-2xl border border-gray-200/90 dark:border-gray-800 bg-white dark:bg-gray-850 hover:bg-gradient-to-b hover:from-white hover:to-gray-50/80 dark:hover:bg-gray-800 hover:border-blue-400 dark:hover:border-blue-500/80 hover:shadow-lg hover:shadow-blue-500/5 hover:-translate-y-0.5 transition-all duration-200 text-left"
                 aria-label={`${cat.name} — ${cat.count} tools`}
               >

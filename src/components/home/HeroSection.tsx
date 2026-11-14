@@ -114,7 +114,7 @@ export default function HeroSection() {
                 return (
                   <li key={tool.slug} role="option" aria-selected="false">
                     <a
-                      href={`/tools/${tool.slug}`}
+                      href={`/tools/${tool.slug}/`}
                       onClick={() => setShowDropdown(false)}
                       className="flex items-center gap-3.5 px-4.5 py-3 hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors"
                     >
@@ -146,7 +146,7 @@ export default function HeroSection() {
           {TRENDING_SEARCHES.map((item) => (
             <a
               key={item.slug}
-              href={`/tools/${item.slug}`}
+              href={`/tools/${item.slug}/`}
               className="px-2.5 py-1 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-blue-50 hover:text-blue-600 dark:hover:bg-gray-700 dark:hover:text-blue-400 transition-colors"
             >
               {item.name}

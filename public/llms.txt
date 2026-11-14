@@ -6,171 +6,171 @@ CalculateAnything is an open web suite of 110+ calculation and conversion tools 
 
 ## Core Categories
 
-- [Date & Age Calculators](https://calculate-anything.in/category/date-age): Tools for birthdays, age differences, elapsed days, working days, and time intervals.
-- [Finance & Business Calculators](https://calculate-anything.in/category/finance): Loan EMI, SIP, mutual funds, interest rates, salary breakdown, and tax estimations.
-- [Mathematics Calculators](https://calculate-anything.in/category/mathematics): Scientific calculations, percentages, fractions, standard deviations, and ratios.
-- [Developer Tools](https://calculate-anything.in/category/developer): JSON formatters, Base64 encoders, UUID generators, regex testers, hash generators, and JWT decoders.
-- [Unit & Conversion Tools](https://calculate-anything.in/category/unit-conversion): Converters for length, weight, temperature, data storage, speed, area, and volume.
-- [Text & Formatting Tools](https://calculate-anything.in/category/text-formatting): Text case changers, difference checkers, word counters, and Markdown tools.
-- [Image & File Tools](https://calculate-anything.in/category/image-file): In-browser image compressor, resizer, cropper, WebP converter, and PDF utilities.
-- [Random & Productivity Tools](https://calculate-anything.in/category/productivity): Pomodoro timer, stopwatch, password generator, and randomizers.
+- [Date & Age Calculators](https://calculate-anything.in/category/date-age/): Tools for birthdays, age differences, elapsed days, working days, and time intervals.
+- [Finance & Business Calculators](https://calculate-anything.in/category/finance/): Loan EMI, SIP, mutual funds, interest rates, salary breakdown, and tax estimations.
+- [Mathematics Calculators](https://calculate-anything.in/category/mathematics/): Scientific calculations, percentages, fractions, standard deviations, and ratios.
+- [Developer Tools](https://calculate-anything.in/category/developer/): JSON formatters, Base64 encoders, UUID generators, regex testers, hash generators, and JWT decoders.
+- [Unit & Conversion Tools](https://calculate-anything.in/category/unit-conversion/): Converters for length, weight, temperature, data storage, speed, area, and volume.
+- [Text & Formatting Tools](https://calculate-anything.in/category/text-formatting/): Text case changers, difference checkers, word counters, and Markdown tools.
+- [Image & File Tools](https://calculate-anything.in/category/image-file/): In-browser image compressor, resizer, cropper, WebP converter, and PDF utilities.
+- [Random & Productivity Tools](https://calculate-anything.in/category/productivity/): Pomodoro timer, stopwatch, password generator, and randomizers.
 
 ## Popular Tools
 
-- [Age Calculator](https://calculate-anything.in/tools/age-calculator): Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Find out how many days until your next birthday.
-- [Scientific Calculator](https://calculate-anything.in/tools/scientific-calculator): A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.
-- [BMI Calculator](https://calculate-anything.in/tools/bmi-calculator): Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.
-- [JSON Formatter](https://calculate-anything.in/tools/json-formatter): Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.
-- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
-- [Hash Generator](https://calculate-anything.in/tools/hash-generator): Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.
-- [QR Code Generator](https://calculate-anything.in/tools/qr-code-generator): Generate QR codes for URLs, text, Wi-Fi credentials, vCards, and more. Download as PNG or SVG.
-- [Password Generator](https://calculate-anything.in/tools/password-generator): Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.
-- [Temperature Converter](https://calculate-anything.in/tools/temperature-converter): Convert temperatures between Celsius, Fahrenheit, Kelvin, and Rankine with instant results.
+- [Age Calculator](https://calculate-anything.in/tools/age-calculator/): Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Find out how many days until your next birthday.
+- [Scientific Calculator](https://calculate-anything.in/tools/scientific-calculator/): A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.
+- [BMI Calculator](https://calculate-anything.in/tools/bmi-calculator/): Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.
+- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor/): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
+- [JSON Formatter](https://calculate-anything.in/tools/json-formatter/): Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.
+- [Hash Generator](https://calculate-anything.in/tools/hash-generator/): Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.
+- [QR Code Generator](https://calculate-anything.in/tools/qr-code-generator/): Create custom QR codes for URLs, text, Wi-Fi passwords, vCards, and emails. Download high-resolution vector SVG or PNG images instantly.
+- [Password Generator](https://calculate-anything.in/tools/password-generator/): Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.
+- [Temperature Converter](https://calculate-anything.in/tools/temperature-converter/): Convert temperatures instantly between Celsius (°C), Fahrenheit (°F), Kelvin (K), and Rankine (°R) with step-by-step conversion formulas.
 
 ## All Tools
 
 ### Date & Age Calculators
 
-- [Age Calculator](https://calculate-anything.in/tools/age-calculator): Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Find out how many days until your next birthday.
-- [Age Difference Calculator](https://calculate-anything.in/tools/age-difference-calculator): Find the exact age difference between two people or two dates. Displays the gap in years, months, and days.
-- [Date Difference Calculator](https://calculate-anything.in/tools/date-difference-calculator): Calculate the number of days, weeks, months, and years between any two dates. Useful for project timelines and event planning.
-- [Date Add/Subtract Calculator](https://calculate-anything.in/tools/date-add-subtract): Add or subtract days, weeks, months, or years from any date to find a past or future date quickly.
-- [Days Until Calculator](https://calculate-anything.in/tools/days-until-calculator): Find out exactly how many days remain until any upcoming event, holiday, or deadline.
-- [Birthday Calculator](https://calculate-anything.in/tools/birthday-calculator): Discover what day of the week you were born, your birth number, next birthday countdown, and upcoming birthdays for any date.
-- [Leap Year Checker](https://calculate-anything.in/tools/leap-year-checker): Quickly check whether any given year is a leap year and find the nearest past and future leap years.
-- [Working Days Calculator](https://calculate-anything.in/tools/working-days-calculator): Calculate the number of business (working) days between two dates, excluding weekends and optional public holidays.
-- [Time Duration Calculator](https://calculate-anything.in/tools/time-duration-calculator): Add or subtract time values and calculate the total duration between two time points in hours, minutes, and seconds.
-- [Unix Timestamp Converter](https://calculate-anything.in/tools/unix-timestamp-converter): Convert Unix timestamps to human-readable dates and vice versa. Supports millisecond and second precision.
+- [Age Calculator](https://calculate-anything.in/tools/age-calculator/): Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Find out how many days until your next birthday.
+- [Age Difference Calculator](https://calculate-anything.in/tools/age-difference-calculator/): Find the exact age difference between two people or two dates. Displays the gap in years, months, and days.
+- [Date Difference Calculator](https://calculate-anything.in/tools/date-difference-calculator/): Calculate the number of days, weeks, months, and years between any two dates. Useful for project timelines and event planning.
+- [Date Add/Subtract Calculator](https://calculate-anything.in/tools/date-add-subtract/): Add or subtract days, weeks, months, or years from any date. Instantly calculate past or future target dates with calendar leap year support.
+- [Days Until Calculator](https://calculate-anything.in/tools/days-until-calculator/): Calculate exactly how many days, hours, and minutes remain until any upcoming event, holiday, birthday, or deadline with instant countdown.
+- [Birthday Calculator](https://calculate-anything.in/tools/birthday-calculator/): Discover what day of the week you were born, your birth number, next birthday countdown, and upcoming birthdays for any date.
+- [Leap Year Checker](https://calculate-anything.in/tools/leap-year-checker/): Quickly check whether any given year is a leap year and find the nearest past and future leap years.
+- [Working Days Calculator](https://calculate-anything.in/tools/working-days-calculator/): Calculate the number of business (working) days between two dates, excluding weekends and optional public holidays.
+- [Time Duration Calculator](https://calculate-anything.in/tools/time-duration-calculator/): Add or subtract time values and calculate the total duration between two time points in hours, minutes, and seconds.
+- [Unix Timestamp Converter](https://calculate-anything.in/tools/unix-timestamp-converter/): Convert Unix timestamps to human-readable dates and vice versa. Supports millisecond and second precision.
 
 ### Mathematics Calculators
 
-- [Scientific Calculator](https://calculate-anything.in/tools/scientific-calculator): A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.
-- [Percentage Calculator](https://calculate-anything.in/tools/percentage-calculator): Calculate percentages, percentage change, percentage of a number, and reverse percentages with ease.
-- [Fraction Calculator](https://calculate-anything.in/tools/fraction-calculator): Add, subtract, multiply, and divide fractions and mixed numbers. Automatically simplifies results to the lowest terms.
-- [Ratio Calculator](https://calculate-anything.in/tools/ratio-calculator): Simplify ratios, find equivalent ratios, and solve proportion problems for any set of numbers.
-- [Average Calculator](https://calculate-anything.in/tools/average-calculator): Compute the mean, median, mode, and range for any list of numbers. Great for statistics and data analysis.
-- [Square Root Calculator](https://calculate-anything.in/tools/square-root-calculator): Calculate the square root, cube root, or any nth root of a number instantly with step-by-step explanation.
-- [Power Calculator](https://calculate-anything.in/tools/power-calculator): Calculate a base raised to any exponent, including negative and fractional powers, with detailed results.
-- [Prime Number Checker](https://calculate-anything.in/tools/prime-number-checker): Check whether a number is prime or composite, and find all prime factors with a complete factorization breakdown.
-- [LCM & HCF Calculator](https://calculate-anything.in/tools/lcm-hcf-calculator): Find the Least Common Multiple (LCM) and Highest Common Factor (HCF/GCD) of two or more numbers.
-- [Factorial Calculator](https://calculate-anything.in/tools/factorial-calculator): Calculate the factorial of any non-negative integer and explore permutations and combinations.
-- [Random Number Generator](https://calculate-anything.in/tools/random-number-generator): Generate one or multiple random numbers within a custom range. Supports integers and decimal values.
-- [BMI Calculator](https://calculate-anything.in/tools/bmi-calculator): Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.
-- [GPA Calculator](https://calculate-anything.in/tools/gpa-calculator): Calculate your cumulative GPA or semester GPA by entering your course grades and credit hours.
-- [Standard Deviation Calculator](https://calculate-anything.in/tools/standard-deviation-calculator): Compute the population and sample standard deviation, variance, and other descriptive statistics for a dataset.
-- [Profit & Loss Calculator](https://calculate-anything.in/tools/profit-loss-calculator): Calculate profit, loss, profit percentage, and loss percentage given cost price and selling price.
+- [Scientific Calculator](https://calculate-anything.in/tools/scientific-calculator/): A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.
+- [Percentage Calculator](https://calculate-anything.in/tools/percentage-calculator/): Calculate percentages, percentage change, percentage of a number, and reverse percentages with ease.
+- [Fraction Calculator](https://calculate-anything.in/tools/fraction-calculator/): Add, subtract, multiply, and divide fractions and mixed numbers. Automatically simplifies results to the lowest terms.
+- [Ratio Calculator](https://calculate-anything.in/tools/ratio-calculator/): Simplify ratios, find equivalent ratios, and solve proportions for A:B = C:D. Free online math ratio solver with step-by-step simplification.
+- [Average Calculator](https://calculate-anything.in/tools/average-calculator/): Compute the mean, median, mode, and range for any list of numbers. Great for statistics and data analysis.
+- [Square Root Calculator](https://calculate-anything.in/tools/square-root-calculator/): Calculate the square root, cube root, or any nth root of a number instantly with step-by-step explanation.
+- [Power Calculator](https://calculate-anything.in/tools/power-calculator/): Calculate a base raised to any exponent, including negative and fractional powers, with detailed results.
+- [Prime Number Checker](https://calculate-anything.in/tools/prime-number-checker/): Check whether a number is prime or composite, and find all prime factors with a complete factorization breakdown.
+- [LCM & HCF Calculator](https://calculate-anything.in/tools/lcm-hcf-calculator/): Find the Least Common Multiple (LCM) and Highest Common Factor (HCF / GCD) of two or more numbers instantly with step-by-step prime factorizations.
+- [Factorial Calculator](https://calculate-anything.in/tools/factorial-calculator/): Calculate the factorial (n!) of any non-negative integer with precision. Includes permutation and combination formulas for math and probability.
+- [Random Number Generator](https://calculate-anything.in/tools/random-number-generator/): Generate one or multiple random numbers within a custom range. Supports integers and decimal values.
+- [BMI Calculator](https://calculate-anything.in/tools/bmi-calculator/): Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.
+- [GPA Calculator](https://calculate-anything.in/tools/gpa-calculator/): Calculate your cumulative and semester GPA easily. Enter course grades and credit hours to determine your grade point average on standard 4.0 scale.
+- [Standard Deviation Calculator](https://calculate-anything.in/tools/standard-deviation-calculator/): Compute the population and sample standard deviation, variance, and other descriptive statistics for a dataset.
+- [Profit & Loss Calculator](https://calculate-anything.in/tools/profit-loss-calculator/): Calculate profit, loss, profit percentage, and loss margin given cost price and selling price. Essential financial tool for business and trading.
 
 ### Text & Formatting Tools
 
-- [JSON Formatter](https://calculate-anything.in/tools/json-formatter): Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.
-- [Text Case Converter](https://calculate-anything.in/tools/text-case-converter): Convert text between uppercase, lowercase, title case, sentence case, camelCase, snake_case, and kebab-case.
-- [Word & Character Counter](https://calculate-anything.in/tools/word-character-counter): Count words, characters (with and without spaces), sentences, paragraphs, and lines in any block of text.
-- [Text Difference Checker](https://calculate-anything.in/tools/text-difference-checker): Compare two blocks of text side-by-side and highlight the differences line by line, word by word, or character by character.
-- [Text Formatter](https://calculate-anything.in/tools/text-formatter): Remove extra spaces, fix line breaks, trim whitespace, and clean up pasted text from documents or PDFs.
-- [Markdown Previewer](https://calculate-anything.in/tools/markdown-previewer): Write Markdown and see a live formatted preview side-by-side. Supports tables, code blocks, images, and GFM extensions.
-- [HTML Formatter](https://calculate-anything.in/tools/html-formatter): Beautify and minify HTML markup with proper indentation and syntax validation.
-- [CSS Formatter](https://calculate-anything.in/tools/css-formatter): Beautify and minify CSS stylesheets with proper indentation, sorting, and validation.
-- [JavaScript Formatter](https://calculate-anything.in/tools/javascript-formatter): Format and beautify JavaScript or TypeScript code with configurable indentation and style options.
-- [XML Formatter](https://calculate-anything.in/tools/xml-formatter): Beautify and validate XML documents with proper indentation and structure checking.
-- [SQL Formatter](https://calculate-anything.in/tools/sql-formatter): Format and beautify SQL queries with proper indentation and keyword capitalization for better readability.
-- [URL Encoder/Decoder](https://calculate-anything.in/tools/url-encoder-decoder): Encode special characters in URLs for safe transmission or decode percent-encoded URLs back to plain text.
-- [Base64 Encoder/Decoder](https://calculate-anything.in/tools/base64-encoder-decoder): Encode plain text or binary data to Base64 format and decode Base64 strings back to their original content.
-- [HTML Entity Encoder/Decoder](https://calculate-anything.in/tools/html-entity-encoder-decoder): Convert special characters to HTML entities and decode HTML entities back to readable characters.
-- [Lorem Ipsum Generator](https://calculate-anything.in/tools/lorem-ipsum-generator): Generate placeholder Lorem Ipsum text by paragraphs, sentences, words, or bytes for use in design mockups and prototypes.
-- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
+- [Rich Text Editor](https://calculate-anything.in/tools/rich-text-editor/): Full-featured WYSIWYG rich text editor powered by open-source TinyMCE. Format text, insert tables, media, code, and export to HTML or plain text offline.
+- [JSON Formatter](https://calculate-anything.in/tools/json-formatter/): Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.
+- [Text Case Converter](https://calculate-anything.in/tools/text-case-converter/): Convert text between uppercase, lowercase, title case, sentence case, camelCase, snake_case, and kebab-case.
+- [Word & Character Counter](https://calculate-anything.in/tools/word-character-counter/): Count words, characters (with and without spaces), sentences, paragraphs, and lines in any block of text.
+- [Text Difference Checker](https://calculate-anything.in/tools/text-difference-checker/): Compare two blocks of text side-by-side and highlight the differences line by line, word by word, or character by character.
+- [Text Formatter](https://calculate-anything.in/tools/text-formatter/): Remove extra spaces, fix line breaks, trim whitespace, and clean up pasted text from documents or PDFs.
+- [Markdown Previewer](https://calculate-anything.in/tools/markdown-previewer/): Write Markdown and see a live formatted preview side-by-side. Supports tables, code blocks, images, and GFM extensions.
+- [HTML Formatter](https://calculate-anything.in/tools/html-formatter/): Beautify, format, and minify HTML markup instantly. Clean up messy code with customizable indentation, tag formatting, and syntax validation.
+- [CSS Formatter](https://calculate-anything.in/tools/css-formatter/): Beautify, format, and minify CSS code online. Clean up stylesheets with custom indentation, CSS property sorting, and syntax error checking.
+- [JavaScript Formatter](https://calculate-anything.in/tools/javascript-formatter/): Format, beautify, and clean up JavaScript and TypeScript code online with configurable indentation, bracket spacing, and syntax highlighting.
+- [XML Formatter](https://calculate-anything.in/tools/xml-formatter/): Format, beautify, and validate XML documents online. Clean up messy XML feeds and files with structured indentation and tree hierarchy view.
+- [SQL Formatter](https://calculate-anything.in/tools/sql-formatter/): Format and beautify SQL queries with proper indentation and keyword capitalization for better readability.
+- [URL Encoder/Decoder](https://calculate-anything.in/tools/url-encoder-decoder/): Encode special characters in URLs for safe transmission or decode percent-encoded URLs back to plain text.
+- [Base64 Encoder/Decoder](https://calculate-anything.in/tools/base64-encoder-decoder/): Encode plain text or binary data to Base64 format and decode Base64 strings back to their original content.
+- [HTML Entity Encoder/Decoder](https://calculate-anything.in/tools/html-entity-encoder-decoder/): Encode special characters into HTML entities or decode entity codes back to plain text. Supports named, decimal, and hexadecimal formats.
+- [Lorem Ipsum Generator](https://calculate-anything.in/tools/lorem-ipsum-generator/): Generate placeholder Lorem Ipsum text by paragraphs, sentences, words, or bytes for use in design mockups and prototypes.
 
 ### Developer Tools
 
-- [JWT Decoder](https://calculate-anything.in/tools/jwt-decoder): Decode and inspect JSON Web Tokens (JWT) to view the header, payload, and signature without needing a secret key.
-- [Regex Tester](https://calculate-anything.in/tools/regex-tester): Test and debug regular expressions against sample text in real time, with match highlighting and group capture details.
-- [UUID Generator](https://calculate-anything.in/tools/uuid-generator): Generate RFC-compliant UUIDs (v1, v4) in bulk. Copy individual or multiple UUIDs with a single click.
-- [Cron Expression Generator](https://calculate-anything.in/tools/cron-expression-generator): Build and validate cron expressions visually. Instantly see the next scheduled run times for any cron schedule.
-- [Hash Generator](https://calculate-anything.in/tools/hash-generator): Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.
-- [Color Code Converter](https://calculate-anything.in/tools/color-code-converter): Convert color codes between HEX, RGB, HSL, HSV, and CMYK formats with a visual color picker.
-- [CSS Gradient Generator](https://calculate-anything.in/tools/css-gradient-generator): Create beautiful linear, radial, and conic CSS gradients visually and copy the generated CSS code.
-- [QR Code Generator](https://calculate-anything.in/tools/qr-code-generator): Generate QR codes for URLs, text, Wi-Fi credentials, vCards, and more. Download as PNG or SVG.
-- [Password Generator](https://calculate-anything.in/tools/password-generator): Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.
-- [SQL Query Formatter](https://calculate-anything.in/tools/sql-query-formatter): Format and indent complex SQL queries for improved readability. Supports MySQL, PostgreSQL, and standard SQL dialects.
-- [HTTP Status Code Lookup](https://calculate-anything.in/tools/http-status-code-lookup): Look up any HTTP status code to get its official name, description, and usage guidelines.
-- [MIME Type Lookup](https://calculate-anything.in/tools/mime-type-lookup): Look up MIME types by file extension or search by MIME type to find associated file extensions.
-- [IP Address Information Tool](https://calculate-anything.in/tools/ip-address-info): Look up geolocation, ISP, and network details for any IP address (IPv4 or IPv6). Also detects your current IP.
-- [User-Agent Parser](https://calculate-anything.in/tools/user-agent-parser): Parse any User-Agent string to identify the browser, operating system, device type, and engine details.
-- [HTML to Markdown Converter](https://calculate-anything.in/tools/html-to-markdown-converter): Convert HTML markup to clean Markdown syntax, preserving headings, lists, links, tables, and inline formatting.
-- [JSON to CSV Converter](https://calculate-anything.in/tools/json-to-csv-converter): Convert JSON arrays to CSV format and download the resulting file for use in spreadsheets or data tools.
-- [CSV to JSON Converter](https://calculate-anything.in/tools/csv-to-json-converter): Convert CSV data to JSON format with automatic header detection and optional nested object output.
-- [JSON Schema Validator](https://calculate-anything.in/tools/json-schema-validator): Validate JSON data against a JSON Schema (Draft-07 or later) and get detailed error messages for invalid fields.
-- [SVG Optimizer](https://calculate-anything.in/tools/svg-optimizer): Optimize and minify SVG files by removing unnecessary metadata, comments, and redundant elements to reduce file size.
-- [API Request Builder](https://calculate-anything.in/tools/api-request-builder): Build and send HTTP requests (GET, POST, PUT, DELETE) with custom headers, query params, and body. View formatted responses.
+- [JWT Decoder](https://calculate-anything.in/tools/jwt-decoder/): Decode and inspect JSON Web Tokens (JWT) to view the header, payload, and signature without needing a secret key.
+- [Regex Tester](https://calculate-anything.in/tools/regex-tester/): Test and debug regular expressions against sample text in real time, with match highlighting and group capture details.
+- [UUID Generator](https://calculate-anything.in/tools/uuid-generator/): Generate RFC-compliant UUIDs (v1, v4) in bulk. Copy individual or multiple UUIDs with a single click.
+- [Cron Expression Generator](https://calculate-anything.in/tools/cron-expression-generator/): Build and validate cron expressions visually. Instantly see the next scheduled run times for any cron schedule.
+- [Hash Generator](https://calculate-anything.in/tools/hash-generator/): Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.
+- [Color Code Converter](https://calculate-anything.in/tools/color-code-converter/): Convert color codes between HEX, RGB, HSL, HSV, and CMYK formats with an interactive visual color picker and real-time live preview.
+- [CSS Gradient Generator](https://calculate-anything.in/tools/css-gradient-generator/): Design linear, radial, and conic CSS gradients visually. Adjust color stops, angles, and blend modes, then copy cross-browser CSS code.
+- [QR Code Generator](https://calculate-anything.in/tools/qr-code-generator/): Create custom QR codes for URLs, text, Wi-Fi passwords, vCards, and emails. Download high-resolution vector SVG or PNG images instantly.
+- [Password Generator](https://calculate-anything.in/tools/password-generator/): Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.
+- [SQL Query Formatter](https://calculate-anything.in/tools/sql-query-formatter/): Format and indent complex SQL queries for improved readability. Supports MySQL, PostgreSQL, and standard SQL dialects.
+- [HTTP Status Code Lookup](https://calculate-anything.in/tools/http-status-code-lookup/): Quickly look up HTTP status codes (1xx, 2xx, 3xx, 4xx, 5xx). View official RFC definitions, causes, and troubleshooting guidelines.
+- [MIME Type Lookup](https://calculate-anything.in/tools/mime-type-lookup/): Search MIME types by file extension or find associated extensions by media type. Complete directory for web developers and API designers.
+- [IP Address Information Tool](https://calculate-anything.in/tools/ip-address-info/): Look up geolocation, ISP, and network details for any IP address (IPv4 or IPv6). Also detects your current IP.
+- [User-Agent Parser](https://calculate-anything.in/tools/user-agent-parser/): Parse any User-Agent string to identify the browser, operating system, device type, and engine details.
+- [HTML to Markdown Converter](https://calculate-anything.in/tools/html-to-markdown-converter/): Convert HTML markup to clean Markdown syntax, preserving headings, lists, links, tables, and inline formatting.
+- [JSON to CSV Converter](https://calculate-anything.in/tools/json-to-csv-converter/): Convert JSON arrays to CSV format and download the resulting file for use in spreadsheets or data tools.
+- [CSV to JSON Converter](https://calculate-anything.in/tools/csv-to-json-converter/): Convert CSV data to clean JSON format online with automatic header detection, custom delimiters, and formatted or minified output options.
+- [JSON Schema Validator](https://calculate-anything.in/tools/json-schema-validator/): Validate JSON data against a JSON Schema (Draft-07 or later) and get detailed error messages for invalid fields.
+- [SVG Optimizer](https://calculate-anything.in/tools/svg-optimizer/): Optimize and minify SVG files by removing unnecessary metadata, comments, and redundant elements to reduce file size.
+- [API Request Builder](https://calculate-anything.in/tools/api-request-builder/): Build and send HTTP requests (GET, POST, PUT, DELETE) with custom headers, query params, and body. View formatted responses.
 
 ### Unit & Conversion Tools
 
-- [Length Converter](https://calculate-anything.in/tools/length-converter): Convert between meters, kilometers, miles, feet, inches, centimeters, and many more length units.
-- [Weight Converter](https://calculate-anything.in/tools/weight-converter): Convert weight and mass between kilograms, pounds, grams, ounces, tons, and other units.
-- [Temperature Converter](https://calculate-anything.in/tools/temperature-converter): Convert temperatures between Celsius, Fahrenheit, Kelvin, and Rankine with instant results.
-- [Data Storage Converter](https://calculate-anything.in/tools/data-storage-converter): Convert between bits, bytes, kilobytes, megabytes, gigabytes, terabytes, and beyond using binary or decimal prefixes.
-- [Speed Converter](https://calculate-anything.in/tools/speed-converter): Convert speed between km/h, mph, m/s, knots, and other velocity units for travel, physics, and engineering.
-- [Time Converter](https://calculate-anything.in/tools/time-converter): Convert between seconds, minutes, hours, days, weeks, months, and years with decimal precision.
-- [Area Converter](https://calculate-anything.in/tools/area-converter): Convert between square meters, square feet, acres, hectares, square kilometers, and many more area units.
-- [Volume Converter](https://calculate-anything.in/tools/volume-converter): Convert between liters, milliliters, gallons, pints, cups, cubic meters, and other volume units.
-- [Number to Words Converter](https://calculate-anything.in/tools/number-to-words-converter): Convert any number to its English word representation. Useful for writing cheques or formal documents.
-- [Roman Numeral Converter](https://calculate-anything.in/tools/roman-numeral-converter): Convert between Arabic numerals and Roman numerals. Supports numbers from 1 to 3,999.
+- [Length Converter](https://calculate-anything.in/tools/length-converter/): Convert length and distance between meters, feet, inches, miles, kilometers, yards, and nautical units with real-time bidirectional conversion.
+- [Weight Converter](https://calculate-anything.in/tools/weight-converter/): Convert weight and mass between kilograms, pounds (lbs), grams, ounces (oz), stones, and tons with instant, high-precision calculations.
+- [Temperature Converter](https://calculate-anything.in/tools/temperature-converter/): Convert temperatures instantly between Celsius (°C), Fahrenheit (°F), Kelvin (K), and Rankine (°R) with step-by-step conversion formulas.
+- [Data Storage Converter](https://calculate-anything.in/tools/data-storage-converter/): Convert between bits, bytes, kilobytes, megabytes, gigabytes, terabytes, and beyond using binary or decimal prefixes.
+- [Speed Converter](https://calculate-anything.in/tools/speed-converter/): Convert speed between km/h, mph, m/s, knots, and other velocity units for travel, physics, and engineering.
+- [Time Converter](https://calculate-anything.in/tools/time-converter/): Convert between seconds, minutes, hours, days, weeks, months, and years with high precision. Ideal for time tracking, billing, and scheduling.
+- [Area Converter](https://calculate-anything.in/tools/area-converter/): Convert between square meters, square feet, acres, hectares, square kilometers, and many more area units.
+- [Volume Converter](https://calculate-anything.in/tools/volume-converter/): Convert volume between liters, milliliters, gallons, fluid ounces, pints, cups, cubic meters, and cubic feet with instant calculation.
+- [Number to Words Converter](https://calculate-anything.in/tools/number-to-words-converter/): Convert any number to its English word representation. Useful for writing cheques or formal documents.
+- [Roman Numeral Converter](https://calculate-anything.in/tools/roman-numeral-converter/): Convert numbers between Arabic numerals and Roman numerals (1 to 3,999). Includes explanation of Roman numeral rules and calculation breakdown.
 
 ### Finance & Business Calculators
 
-- [EMI Calculator](https://calculate-anything.in/tools/emi-calculator): Calculate your monthly EMI for home, car, or personal loans based on principal, interest rate, and tenure. Includes amortization schedule.
-- [GST Calculator](https://calculate-anything.in/tools/gst-calculator): Calculate GST-inclusive and GST-exclusive prices for different GST slabs (5%, 12%, 18%, 28%). Shows CGST, SGST, and IGST breakdowns.
-- [SIP Calculator](https://calculate-anything.in/tools/sip-calculator): Calculate the future value of your Systematic Investment Plan (SIP) investments and estimate returns over time.
-- [FD Calculator](https://calculate-anything.in/tools/fd-calculator): Calculate the maturity amount and interest earned on a Fixed Deposit for different compounding frequencies.
-- [RD Calculator](https://calculate-anything.in/tools/rd-calculator): Calculate the maturity value of a Recurring Deposit by entering the monthly deposit amount, interest rate, and tenure.
-- [Simple Interest Calculator](https://calculate-anything.in/tools/simple-interest-calculator): Calculate simple interest and total amount for any principal, rate of interest, and time period.
-- [Compound Interest Calculator](https://calculate-anything.in/tools/compound-interest-calculator): Calculate compound interest with different compounding frequencies (daily, monthly, quarterly, annually) and see the power of compounding.
-- [Discount Calculator](https://calculate-anything.in/tools/discount-calculator): Calculate the discounted price, discount amount, and savings percentage for any original price and discount rate.
-- [Salary Calculator](https://calculate-anything.in/tools/salary-calculator): Convert salary between hourly, daily, weekly, monthly, and annual figures. Includes basic tax and deduction estimations.
-- [Income Tax Calculator](https://calculate-anything.in/tools/income-tax-calculator): Estimate your income tax liability under the old and new tax regimes for the current financial year.
+- [EMI Calculator](https://calculate-anything.in/tools/emi-calculator/): Calculate your monthly EMI for home, car, or personal loans based on principal, interest rate, and tenure. Includes amortization schedule.
+- [GST Calculator](https://calculate-anything.in/tools/gst-calculator/): Calculate GST-inclusive and GST-exclusive prices for different GST slabs (5%, 12%, 18%, 28%). Shows CGST, SGST, and IGST breakdowns.
+- [SIP Calculator](https://calculate-anything.in/tools/sip-calculator/): Calculate the future value of your Systematic Investment Plan (SIP) investments and estimate returns over time.
+- [FD Calculator](https://calculate-anything.in/tools/fd-calculator/): Calculate the maturity amount and interest earned on a Fixed Deposit for different compounding frequencies.
+- [RD Calculator](https://calculate-anything.in/tools/rd-calculator/): Calculate the maturity value of a Recurring Deposit by entering the monthly deposit amount, interest rate, and tenure.
+- [Simple Interest Calculator](https://calculate-anything.in/tools/simple-interest-calculator/): Calculate simple interest (SI = P×R×T/100) and total accumulated amount for any principal, annual interest rate, and duration in years or months.
+- [Compound Interest Calculator](https://calculate-anything.in/tools/compound-interest-calculator/): Calculate compound interest with different compounding frequencies (daily, monthly, quarterly, annually) and see the power of compounding.
+- [Discount Calculator](https://calculate-anything.in/tools/discount-calculator/): Calculate the discounted price, discount amount, and savings percentage for any original price and discount rate.
+- [Salary Calculator](https://calculate-anything.in/tools/salary-calculator/): Convert salary between hourly, daily, weekly, monthly, and annual figures. Includes basic tax and deduction estimations.
+- [Income Tax Calculator](https://calculate-anything.in/tools/income-tax-calculator/): Estimate your income tax liability under the old and new tax regimes for the current financial year.
 
 ### Image & File Tools
 
-- [Image Compressor](https://calculate-anything.in/tools/image-compressor): Compress JPEG, PNG, and WebP images in the browser without uploading to a server. Adjust quality and see real-time size reduction.
-- [Image Resizer](https://calculate-anything.in/tools/image-resizer): Resize images to exact pixel dimensions or by percentage while maintaining aspect ratio. Download the resized image instantly.
-- [Image to PDF Converter](https://calculate-anything.in/tools/image-to-pdf-converter): Convert one or multiple images (JPG, PNG, WebP) into a single PDF document. Control page size and orientation.
-- [PDF Merger](https://calculate-anything.in/tools/pdf-merger): Merge multiple PDF files into a single document. Reorder pages by drag-and-drop before combining.
-- [PDF Splitter](https://calculate-anything.in/tools/pdf-splitter): Split a PDF into individual pages or extract a specific page range as a new PDF file.
-- [Background Remover](https://calculate-anything.in/tools/background-remover): Automatically remove the background from photos using AI-powered segmentation, all processed client-side for privacy.
-- [PNG to JPG Converter](https://calculate-anything.in/tools/png-to-jpg-converter): Convert PNG images to JPG format with adjustable quality settings. Handles transparency by applying a background color.
-- [JPG to PNG Converter](https://calculate-anything.in/tools/jpg-to-png-converter): Convert JPG/JPEG images to lossless PNG format, preserving maximum image quality.
-- [WebP Converter](https://calculate-anything.in/tools/webp-converter): Convert images to and from WebP format. Smaller file sizes with comparable quality to JPEG and PNG.
-- [Image Cropper](https://calculate-anything.in/tools/image-cropper): Crop images to any size or aspect ratio using an interactive drag-and-drop interface. Download the cropped image instantly.
-- [Favicon Generator](https://calculate-anything.in/tools/favicon-generator): Generate favicon.ico and all required web app icon sizes (16x16 to 512x512) from any image.
-- [QR Code Scanner](https://calculate-anything.in/tools/qr-code-scanner): Scan and decode QR codes from an uploaded image or directly from your webcam using the browser camera.
-- [PDF Page Counter](https://calculate-anything.in/tools/pdf-page-counter): Upload a PDF and instantly find out the total number of pages, file size, and basic metadata.
-- [PDF to Image Converter](https://calculate-anything.in/tools/pdf-to-image-converter): Convert PDF pages to PNG or JPEG images. Select individual pages or convert the entire document.
-- [Image Metadata Viewer](https://calculate-anything.in/tools/image-metadata-viewer): View EXIF, IPTC, and XMP metadata from JPEG and TIFF images. See camera settings, GPS coordinates, and more.
+- [Image Compressor](https://calculate-anything.in/tools/image-compressor/): Compress JPEG, PNG, and WebP images in the browser without uploading to a server. Adjust quality and see real-time size reduction.
+- [Image Resizer](https://calculate-anything.in/tools/image-resizer/): Resize images to exact pixel dimensions or by percentage while maintaining aspect ratio. Download the resized image instantly.
+- [Image to PDF Converter](https://calculate-anything.in/tools/image-to-pdf-converter/): Convert one or multiple images (JPG, PNG, WebP) into a single PDF document. Control page size and orientation.
+- [PDF Merger](https://calculate-anything.in/tools/pdf-merger/): Combine multiple PDF files into one document in seconds. Reorder pages with drag-and-drop in your browser with 100% client-side privacy.
+- [PDF Splitter](https://calculate-anything.in/tools/pdf-splitter/): Split PDF documents into separate pages or extract specific page ranges securely in your browser. Fast, private, with zero upload to any server.
+- [Background Remover](https://calculate-anything.in/tools/background-remover/): Automatically remove the background from photos using AI-powered segmentation, all processed client-side for privacy.
+- [PNG to JPG Converter](https://calculate-anything.in/tools/png-to-jpg-converter/): Convert PNG images to JPG format with adjustable quality settings. Handles transparency by applying a background color.
+- [JPG to PNG Converter](https://calculate-anything.in/tools/jpg-to-png-converter/): Convert JPG and JPEG images to high-quality PNG format online. Runs completely client-side in your browser for total privacy and instant downloads.
+- [WebP Converter](https://calculate-anything.in/tools/webp-converter/): Convert images to and from WebP format for fast web performance. Reduce file size while keeping crisp quality directly in your browser.
+- [Image Cropper](https://calculate-anything.in/tools/image-cropper/): Crop images to any size or aspect ratio using an interactive drag-and-drop interface. Download the cropped image instantly.
+- [Favicon Generator](https://calculate-anything.in/tools/favicon-generator/): Generate complete favicon packages (ICO, PNG 16x16 to 512x512, Apple touch icons) from any image with HTML link tags ready to copy.
+- [QR Code Scanner](https://calculate-anything.in/tools/qr-code-scanner/): Scan and decode QR codes from an uploaded image or directly from your webcam using the browser camera.
+- [PDF Page Counter](https://calculate-anything.in/tools/pdf-page-counter/): Count pages in any PDF document instantly and inspect file size, page dimensions, and document metadata completely client-side in your browser.
+- [PDF to Image Converter](https://calculate-anything.in/tools/pdf-to-image-converter/): Extract and convert PDF pages into high-resolution PNG or JPG images. Download single pages or all pages packaged as a ZIP archive.
+- [Image Metadata Viewer](https://calculate-anything.in/tools/image-metadata-viewer/): View EXIF, IPTC, and XMP metadata from JPEG and TIFF images. See camera settings, GPS coordinates, and more.
 
 ### Random & Productivity Tools
 
-- [Random Name Picker](https://calculate-anything.in/tools/random-name-picker): Enter a list of names and randomly pick one or more winners. Perfect for giveaways, classroom selections, and team decisions.
-- [Random Password Generator](https://calculate-anything.in/tools/random-password-generator): Generate multiple strong random passwords at once with configurable length and character rules.
-- [Random Team Generator](https://calculate-anything.in/tools/random-team-generator): Split a list of names into balanced random teams. Specify the number of teams or team size.
-- [Decision Maker](https://calculate-anything.in/tools/decision-maker): Enter your choices and let the Decision Maker randomly pick one for you. Supports Yes/No, custom options, and weighted choices.
-- [Stopwatch](https://calculate-anything.in/tools/stopwatch): A precise browser-based stopwatch with lap recording, pause/resume, and export of lap times.
-- [Countdown Timer](https://calculate-anything.in/tools/countdown-timer): Set a custom countdown timer with an audio alert when it reaches zero. Supports hours, minutes, and seconds.
-- [Pomodoro Timer](https://calculate-anything.in/tools/pomodoro-timer): Boost your focus with the Pomodoro technique. Customizable work and break intervals with session tracking.
-- [Meeting Time Calculator](https://calculate-anything.in/tools/meeting-time-calculator): Find the best meeting time across multiple time zones. Enter participants and their locations to calculate overlap.
-- [Checklist Generator](https://calculate-anything.in/tools/checklist-generator): Create interactive checklists, to-do lists, and task trackers. Save progress to local storage and export as PDF or text.
-- [Text to Speech](https://calculate-anything.in/tools/text-to-speech): Convert written text to audio using the browser's Web Speech API. Choose from available voices, speed, and pitch.
-- [Speech to Text](https://calculate-anything.in/tools/speech-to-text): Transcribe your voice to text in real time using the browser's Web Speech Recognition API. No sign-up required.
-- [Typing Speed Test](https://calculate-anything.in/tools/typing-speed-test): Measure your typing speed in WPM (words per minute) and accuracy with timed typing tests and performance history.
-- [Password Strength Checker](https://calculate-anything.in/tools/password-strength-checker): Evaluate password strength instantly with entropy analysis, common pattern detection, and improvement suggestions.
-- [Reading Time Calculator](https://calculate-anything.in/tools/reading-time-calculator): Estimate the reading time for any article or document based on word count and average reading speed.
-- [Internet Speed Unit Converter](https://calculate-anything.in/tools/internet-speed-unit-converter): Convert between internet speed units: Kbps, Mbps, Gbps, KB/s, MB/s, and GB/s. Calculate download time for any file size.
+- [Random Name Picker](https://calculate-anything.in/tools/random-name-picker/): Enter a list of names and randomly pick one or more winners. Perfect for giveaways, classroom selections, and team decisions.
+- [Random Password Generator](https://calculate-anything.in/tools/random-password-generator/): Generate secure, randomized passwords in bulk with customizable length, symbols, numbers, and uppercase letters. Fast and completely client-side.
+- [Random Team Generator](https://calculate-anything.in/tools/random-team-generator/): Quickly generate balanced random teams or groups from any list of names. Perfect for classrooms, sports, hackathons, and office activities.
+- [Decision Maker](https://calculate-anything.in/tools/decision-maker/): Enter your choices and let the Decision Maker randomly pick one for you. Supports Yes/No, custom options, and weighted choices.
+- [Stopwatch](https://calculate-anything.in/tools/stopwatch/): Accurate online stopwatch with split lap times, pause/resume, keyboard shortcuts, and export options. Free and runs smoothly in any web browser.
+- [Countdown Timer](https://calculate-anything.in/tools/countdown-timer/): Set a custom countdown timer with an audio alert when it reaches zero. Supports hours, minutes, and seconds.
+- [Pomodoro Timer](https://calculate-anything.in/tools/pomodoro-timer/): Boost your focus with the Pomodoro technique. Customizable work and break intervals with session tracking.
+- [Meeting Time Calculator](https://calculate-anything.in/tools/meeting-time-calculator/): Find the best meeting time across multiple time zones. Enter participants and their locations to calculate overlap.
+- [Checklist Generator](https://calculate-anything.in/tools/checklist-generator/): Create interactive checklists, to-do lists, and task trackers. Save progress to local storage and export as PDF or text.
+- [Text to Speech](https://calculate-anything.in/tools/text-to-speech/): Convert written text to audio using the browser's Web Speech API. Choose from available voices, speed, and pitch.
+- [Speech to Text](https://calculate-anything.in/tools/speech-to-text/): Transcribe your voice to text in real time using the browser's Web Speech Recognition API. No sign-up required.
+- [Typing Speed Test](https://calculate-anything.in/tools/typing-speed-test/): Measure your typing speed in WPM (words per minute) and accuracy with timed typing tests and performance history.
+- [Password Strength Checker](https://calculate-anything.in/tools/password-strength-checker/): Evaluate password strength instantly with entropy analysis, common pattern detection, and improvement suggestions.
+- [Reading Time Calculator](https://calculate-anything.in/tools/reading-time-calculator/): Estimate the reading time for any article or document based on word count and average reading speed.
+- [Internet Speed Unit Converter](https://calculate-anything.in/tools/internet-speed-unit-converter/): Convert between internet speed units: Kbps, Mbps, Gbps, KB/s, MB/s, and GB/s. Calculate download time for any file size.
 
 ## Site Information
 
-- [About CalculateAnything](https://calculate-anything.in/about): Architecture, client-side privacy commitments, and tool performance.
-- [Privacy Policy](https://calculate-anything.in/privacy-policy): Privacy guarantee detailing zero tracking and client-side processing.
-- [Terms of Service](https://calculate-anything.in/terms): Usage terms for free public tools.
-- [Disclaimer](https://calculate-anything.in/disclaimer): Calculation accuracy and educational usage guidance.
-- [Contact](https://calculate-anything.in/contact): Support, feedback, and feature requests.
+- [About CalculateAnything](https://calculate-anything.in/about/): Architecture, client-side privacy commitments, and tool performance.
+- [Privacy Policy](https://calculate-anything.in/privacy-policy/): Privacy guarantee detailing zero tracking and client-side processing.
+- [Terms of Service](https://calculate-anything.in/terms/): Usage terms for free public tools.
+- [Disclaimer](https://calculate-anything.in/disclaimer/): Calculation accuracy and educational usage guidance.
+- [Contact](https://calculate-anything.in/contact/): Support, feedback, and feature requests.
 
 ## Optional
 

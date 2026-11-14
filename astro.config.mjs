@@ -8,6 +8,7 @@ const site = process.env.SITE_URL || (isDev ? 'http://localhost:4321' : 'https:/
 
 export default defineConfig({
   site,
+  trailingSlash: 'always',
   output: 'static',
   integrations: [
     react(),

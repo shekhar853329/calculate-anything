@@ -9,7 +9,7 @@ interface BreadcrumbProps {
 export default function Breadcrumb({ category, categorySlug, toolName }: BreadcrumbProps) {
   const items = [
     { label: 'Home', href: '/' },
-    { label: category, href: `/category/${categorySlug}` },
+    { label: category, href: `/category/${categorySlug}/` },
     { label: toolName, href: undefined },
   ];
 

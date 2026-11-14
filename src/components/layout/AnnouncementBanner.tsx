@@ -40,7 +40,7 @@ export default function AnnouncementBanner() {
             <span className="hidden md:inline text-blue-100"> Have any suggestions?</span>
           </p>
           <a
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white text-blue-700 hover:bg-blue-50 font-semibold text-xs transition-colors shrink-0 shadow-sm group"
           >
             <MessageSquare className="w-3.5 h-3.5 text-blue-600 group-hover:scale-110 transition-transform" aria-hidden="true" />

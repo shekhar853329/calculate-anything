@@ -32,13 +32,13 @@ export default function ToolHeader({ tool }: ToolHeaderProps) {
                 {tool.name}
               </h1>
               <a
-                href={`/category/${tool.categorySlug}`}
+                href={`/category/${tool.categorySlug}/`}
                 className={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full transition-opacity hover:opacity-80 shrink-0 ${theme.badgeBg}`}
               >
                 {tool.category}
               </a>
             </div>
-            <p className="text-xs text-gray-500 dark:text-gray-400 truncate max-w-xl hidden sm:block">
+            <p className="text-xs text-gray-500 dark:text-gray-400 truncate max-w-3xl hidden sm:block">
               {tool.description}
             </p>
           </div>

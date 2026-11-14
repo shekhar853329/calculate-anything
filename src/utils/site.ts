@@ -49,16 +49,27 @@ export function getSiteHostname(fallbackOrigin?: string): string {
 
 /**
  * Formats a canonical URL given a path (relative or absolute) and optional origin override.
+ * Always ensures the canonical URL is clean and includes a trailing slash (unless referencing a static file like .xml or .txt).
  */
 export function getCanonicalUrl(pathOrUrl?: string, originOverride?: string): string {
   const base = (originOverride || getSiteUrl()).replace(/\/$/, '');
   if (!pathOrUrl || pathOrUrl === '/') {
-    return base;
+    return `${base}/`;
   }
   if (pathOrUrl.startsWith('http://') || pathOrUrl.startsWith('https://')) {
-    return pathOrUrl;
+    try {
+      const u = new URL(pathOrUrl);
+      if (!u.pathname.endsWith('/') && !u.pathname.match(/\.[a-zA-Z0-9]+$/)) {
+        u.pathname = `${u.pathname}/`;
+      }
+      return u.toString();
+    } catch {
+      return pathOrUrl;
+    }
   }
   const cleanPath = pathOrUrl.startsWith('/') ? pathOrUrl : `/${pathOrUrl}`;
-  return `${base}${cleanPath}`;
+  const hasExt = Boolean(cleanPath.match(/\.[a-zA-Z0-9]+$/));
+  const withTrailingSlash = cleanPath.endsWith('/') || hasExt ? cleanPath : `${cleanPath}/`;
+  return `${base}${withTrailingSlash}`;
 }
 

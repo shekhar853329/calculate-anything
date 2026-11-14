@@ -107,7 +107,7 @@ export default function ToolsDirectory() {
             return (
               <a
                 key={tool.slug}
-                href={`/tools/${tool.slug}`}
+                href={`/tools/${tool.slug}/`}
                 className="group relative flex flex-col justify-between p-5 rounded-2xl border border-gray-200/90 dark:border-gray-800 bg-white dark:bg-gray-850 hover:bg-gradient-to-b hover:from-white hover:to-blue-50/20 dark:hover:bg-gray-800 hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/5 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <div>

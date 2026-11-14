@@ -1,29 +1,30 @@
 import type { APIRoute } from 'astro';
 import { TOOLS, CATEGORIES } from '../data/tools';
+import { getSiteUrl } from '../utils/site';
 
 export const GET: APIRoute = ({ site, url }) => {
-  const origin = (site ? site.origin : url.origin).replace(/\/$/, '');
+  const origin = (site ? site.origin : (url?.origin || getSiteUrl())).replace(/\/$/, '');
   const now = new Date().toISOString().split('T')[0];
 
   const staticPages = [
     { url: '/', priority: '1.0', changefreq: 'daily' },
-    { url: '/tools', priority: '0.9', changefreq: 'daily' },
-    { url: '/sitemap', priority: '0.7', changefreq: 'weekly' },
-    { url: '/about', priority: '0.6', changefreq: 'monthly' },
-    { url: '/contact', priority: '0.6', changefreq: 'monthly' },
-    { url: '/privacy-policy', priority: '0.4', changefreq: 'yearly' },
-    { url: '/terms', priority: '0.4', changefreq: 'yearly' },
-    { url: '/disclaimer', priority: '0.4', changefreq: 'yearly' },
+    { url: '/tools/', priority: '0.9', changefreq: 'daily' },
+    { url: '/sitemap/', priority: '0.7', changefreq: 'weekly' },
+    { url: '/about/', priority: '0.6', changefreq: 'monthly' },
+    { url: '/contact/', priority: '0.6', changefreq: 'monthly' },
+    { url: '/privacy-policy/', priority: '0.4', changefreq: 'yearly' },
+    { url: '/terms/', priority: '0.4', changefreq: 'yearly' },
+    { url: '/disclaimer/', priority: '0.4', changefreq: 'yearly' },
   ];
 
   const categoryPages = CATEGORIES.map((cat) => ({
-    url: `/category/${cat.slug}`,
+    url: `/category/${cat.slug}/`,
     priority: '0.8',
     changefreq: 'weekly',
   }));
 
   const toolPages = TOOLS.map((tool) => ({
-    url: `/tools/${tool.slug}`,
+    url: `/tools/${tool.slug}/`,
     priority: tool.popular ? '0.9' : '0.8',
     changefreq: 'weekly',
   }));

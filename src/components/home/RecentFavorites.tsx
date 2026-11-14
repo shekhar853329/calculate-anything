@@ -12,7 +12,7 @@ function ToolCard({ tool }: { tool: Tool }) {
 
   return (
     <a
-      href={`/tools/${tool.slug}`}
+      href={`/tools/${tool.slug}/`}
       className="group flex items-center gap-3.5 p-3.5 rounded-xl border border-gray-200/90 dark:border-gray-800 bg-white dark:bg-gray-850 hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-md transition-all"
     >
       <div

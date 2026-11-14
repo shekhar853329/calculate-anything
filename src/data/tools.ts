@@ -23,7 +23,7 @@ export const TOOLS: Tool[] = [
       'Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Find out how many days until your next birthday.',
     icon: 'Calendar',
     keywords: ['age', 'birthday', 'date of birth', 'years old', 'calculate age'],
-    related: ['age-difference-calculator', 'birthday-calculator', 'date-difference-calculator'],
+    related: ['age-difference-calculator', 'birthday-calculator', 'date-difference-calculator', 'date-add-subtract'],
     popular: true,
   },
   {
@@ -36,7 +36,7 @@ export const TOOLS: Tool[] = [
       'Find the exact age difference between two people or two dates. Displays the gap in years, months, and days.',
     icon: 'CalendarRange',
     keywords: ['age difference', 'age gap', 'compare ages', 'two birthdays'],
-    related: ['age-calculator', 'date-difference-calculator', 'birthday-calculator'],
+    related: ['age-calculator', 'date-difference-calculator', 'birthday-calculator', 'date-add-subtract'],
   },
   {
     id: 'date-difference-calculator',
@@ -48,7 +48,7 @@ export const TOOLS: Tool[] = [
       'Calculate the number of days, weeks, months, and years between any two dates. Useful for project timelines and event planning.',
     icon: 'CalendarDays',
     keywords: ['date difference', 'days between dates', 'date range', 'duration'],
-    related: ['age-calculator', 'working-days-calculator', 'days-until-calculator'],
+    related: ['age-calculator', 'working-days-calculator', 'days-until-calculator', 'age-difference-calculator'],
   },
   {
     id: 'date-add-subtract',
@@ -57,10 +57,10 @@ export const TOOLS: Tool[] = [
     category: 'Date & Age Calculators',
     categorySlug: 'date-age',
     description:
-      'Add or subtract days, weeks, months, or years from any date to find a past or future date quickly.',
+      'Add or subtract days, weeks, months, or years from any date. Instantly calculate past or future target dates with calendar leap year support.',
     icon: 'CalendarPlus',
     keywords: ['add days', 'subtract days', 'future date', 'past date', 'date arithmetic'],
-    related: ['date-difference-calculator', 'working-days-calculator', 'days-until-calculator'],
+    related: ['date-difference-calculator', 'working-days-calculator', 'days-until-calculator', 'age-calculator'],
   },
   {
     id: 'days-until-calculator',
@@ -69,10 +69,10 @@ export const TOOLS: Tool[] = [
     category: 'Date & Age Calculators',
     categorySlug: 'date-age',
     description:
-      'Find out exactly how many days remain until any upcoming event, holiday, or deadline.',
+      'Calculate exactly how many days, hours, and minutes remain until any upcoming event, holiday, birthday, or deadline with instant countdown.',
     icon: 'Clock',
     keywords: ['days until', 'countdown', 'days remaining', 'event countdown'],
-    related: ['date-difference-calculator', 'date-add-subtract', 'birthday-calculator'],
+    related: ['date-difference-calculator', 'date-add-subtract', 'birthday-calculator', 'age-calculator'],
   },
   {
     id: 'birthday-calculator',
@@ -84,7 +84,7 @@ export const TOOLS: Tool[] = [
       'Discover what day of the week you were born, your birth number, next birthday countdown, and upcoming birthdays for any date.',
     icon: 'Cake',
     keywords: ['birthday', 'birth date', 'day of week', 'birth number', 'next birthday'],
-    related: ['age-calculator', 'age-difference-calculator', 'days-until-calculator'],
+    related: ['age-calculator', 'age-difference-calculator', 'days-until-calculator', 'date-difference-calculator'],
   },
   {
     id: 'leap-year-checker',
@@ -96,7 +96,7 @@ export const TOOLS: Tool[] = [
       'Quickly check whether any given year is a leap year and find the nearest past and future leap years.',
     icon: 'CalendarCheck',
     keywords: ['leap year', 'divisible by 4', 'february 29', 'year check'],
-    related: ['date-difference-calculator', 'date-add-subtract', 'days-until-calculator'],
+    related: ['date-difference-calculator', 'date-add-subtract', 'days-until-calculator', 'age-calculator'],
   },
   {
     id: 'working-days-calculator',
@@ -108,7 +108,7 @@ export const TOOLS: Tool[] = [
       'Calculate the number of business (working) days between two dates, excluding weekends and optional public holidays.',
     icon: 'Briefcase',
     keywords: ['working days', 'business days', 'weekdays', 'exclude weekends', 'holidays'],
-    related: ['date-difference-calculator', 'date-add-subtract', 'meeting-time-calculator'],
+    related: ['date-difference-calculator', 'date-add-subtract', 'meeting-time-calculator', 'age-calculator'],
   },
   {
     id: 'time-duration-calculator',
@@ -120,7 +120,7 @@ export const TOOLS: Tool[] = [
       'Add or subtract time values and calculate the total duration between two time points in hours, minutes, and seconds.',
     icon: 'Timer',
     keywords: ['time duration', 'time difference', 'hours minutes', 'elapsed time'],
-    related: ['date-difference-calculator', 'stopwatch', 'countdown-timer'],
+    related: ['date-difference-calculator', 'stopwatch', 'countdown-timer', 'age-calculator'],
   },
   {
     id: 'unix-timestamp-converter',
@@ -132,7 +132,7 @@ export const TOOLS: Tool[] = [
       'Convert Unix timestamps to human-readable dates and vice versa. Supports millisecond and second precision.',
     icon: 'Hash',
     keywords: ['unix timestamp', 'epoch time', 'timestamp converter', 'posix time'],
-    related: ['date-difference-calculator', 'time-duration-calculator', 'date-add-subtract'],
+    related: ['date-difference-calculator', 'time-duration-calculator', 'date-add-subtract', 'age-calculator'],
   },
 
   // ─── Category 2: Mathematics Calculators ──────────────────────────────────
@@ -146,7 +146,7 @@ export const TOOLS: Tool[] = [
       'A full-featured scientific calculator with trigonometric, logarithmic, exponential, and statistical functions for advanced mathematical computations.',
     icon: 'Calculator',
     keywords: ['scientific calculator', 'trigonometry', 'logarithm', 'math', 'sin cos tan'],
-    related: ['percentage-calculator', 'square-root-calculator', 'power-calculator'],
+    related: ['percentage-calculator', 'square-root-calculator', 'power-calculator', 'fraction-calculator'],
     popular: true,
   },
   {
@@ -159,7 +159,7 @@ export const TOOLS: Tool[] = [
       'Calculate percentages, percentage change, percentage of a number, and reverse percentages with ease.',
     icon: 'Percent',
     keywords: ['percentage', 'percent of', 'percentage change', 'discount', 'increase decrease'],
-    related: ['scientific-calculator', 'profit-loss-calculator', 'discount-calculator'],
+    related: ['scientific-calculator', 'profit-loss-calculator', 'discount-calculator', 'fraction-calculator'],
   },
   {
     id: 'fraction-calculator',
@@ -171,7 +171,7 @@ export const TOOLS: Tool[] = [
       'Add, subtract, multiply, and divide fractions and mixed numbers. Automatically simplifies results to the lowest terms.',
     icon: 'Divide',
     keywords: ['fraction', 'mixed numbers', 'simplify fraction', 'numerator denominator'],
-    related: ['scientific-calculator', 'ratio-calculator', 'lcm-hcf-calculator'],
+    related: ['scientific-calculator', 'ratio-calculator', 'lcm-hcf-calculator', 'percentage-calculator'],
   },
   {
     id: 'ratio-calculator',
@@ -180,10 +180,10 @@ export const TOOLS: Tool[] = [
     category: 'Mathematics Calculators',
     categorySlug: 'mathematics',
     description:
-      'Simplify ratios, find equivalent ratios, and solve proportion problems for any set of numbers.',
+      'Simplify ratios, find equivalent ratios, and solve proportions for A:B = C:D. Free online math ratio solver with step-by-step simplification.',
     icon: 'SplitSquareHorizontal',
     keywords: ['ratio', 'proportion', 'simplify ratio', 'equivalent ratio'],
-    related: ['fraction-calculator', 'percentage-calculator', 'average-calculator'],
+    related: ['fraction-calculator', 'percentage-calculator', 'average-calculator', 'scientific-calculator'],
   },
   {
     id: 'average-calculator',
@@ -195,7 +195,7 @@ export const TOOLS: Tool[] = [
       'Compute the mean, median, mode, and range for any list of numbers. Great for statistics and data analysis.',
     icon: 'BarChart2',
     keywords: ['average', 'mean', 'median', 'mode', 'statistics'],
-    related: ['standard-deviation-calculator', 'scientific-calculator', 'gpa-calculator'],
+    related: ['standard-deviation-calculator', 'scientific-calculator', 'gpa-calculator', 'percentage-calculator'],
   },
   {
     id: 'square-root-calculator',
@@ -207,7 +207,7 @@ export const TOOLS: Tool[] = [
       'Calculate the square root, cube root, or any nth root of a number instantly with step-by-step explanation.',
     icon: 'Radical',
     keywords: ['square root', 'cube root', 'nth root', 'radical'],
-    related: ['scientific-calculator', 'power-calculator', 'factorial-calculator'],
+    related: ['scientific-calculator', 'power-calculator', 'factorial-calculator', 'percentage-calculator'],
   },
   {
     id: 'power-calculator',
@@ -219,7 +219,7 @@ export const TOOLS: Tool[] = [
       'Calculate a base raised to any exponent, including negative and fractional powers, with detailed results.',
     icon: 'Zap',
     keywords: ['power', 'exponent', 'base', 'raise to power', 'exponentiation'],
-    related: ['square-root-calculator', 'scientific-calculator', 'factorial-calculator'],
+    related: ['square-root-calculator', 'scientific-calculator', 'factorial-calculator', 'percentage-calculator'],
   },
   {
     id: 'prime-number-checker',
@@ -231,7 +231,7 @@ export const TOOLS: Tool[] = [
       'Check whether a number is prime or composite, and find all prime factors with a complete factorization breakdown.',
     icon: 'Shield',
     keywords: ['prime number', 'prime checker', 'composite', 'prime factors', 'factorization'],
-    related: ['lcm-hcf-calculator', 'factorial-calculator', 'scientific-calculator'],
+    related: ['lcm-hcf-calculator', 'factorial-calculator', 'scientific-calculator', 'percentage-calculator'],
   },
   {
     id: 'lcm-hcf-calculator',
@@ -240,10 +240,10 @@ export const TOOLS: Tool[] = [
     category: 'Mathematics Calculators',
     categorySlug: 'mathematics',
     description:
-      'Find the Least Common Multiple (LCM) and Highest Common Factor (HCF/GCD) of two or more numbers.',
+      'Find the Least Common Multiple (LCM) and Highest Common Factor (HCF / GCD) of two or more numbers instantly with step-by-step prime factorizations.',
     icon: 'GitMerge',
     keywords: ['lcm', 'hcf', 'gcd', 'least common multiple', 'greatest common divisor'],
-    related: ['prime-number-checker', 'fraction-calculator', 'factorial-calculator'],
+    related: ['prime-number-checker', 'fraction-calculator', 'factorial-calculator', 'scientific-calculator'],
   },
   {
     id: 'factorial-calculator',
@@ -252,10 +252,10 @@ export const TOOLS: Tool[] = [
     category: 'Mathematics Calculators',
     categorySlug: 'mathematics',
     description:
-      'Calculate the factorial of any non-negative integer and explore permutations and combinations.',
+      'Calculate the factorial (n!) of any non-negative integer with precision. Includes permutation and combination formulas for math and probability.',
     icon: 'Sigma',
     keywords: ['factorial', 'permutation', 'combination', 'n!', 'combinatorics'],
-    related: ['scientific-calculator', 'prime-number-checker', 'lcm-hcf-calculator'],
+    related: ['scientific-calculator', 'prime-number-checker', 'lcm-hcf-calculator', 'percentage-calculator'],
   },
   {
     id: 'random-number-generator',
@@ -267,7 +267,7 @@ export const TOOLS: Tool[] = [
       'Generate one or multiple random numbers within a custom range. Supports integers and decimal values.',
     icon: 'Shuffle',
     keywords: ['random number', 'random generator', 'dice roll', 'lottery', 'random integer'],
-    related: ['random-name-picker', 'random-password-generator', 'random-team-generator'],
+    related: ['random-name-picker', 'random-password-generator', 'random-team-generator', 'scientific-calculator'],
   },
   {
     id: 'bmi-calculator',
@@ -279,7 +279,7 @@ export const TOOLS: Tool[] = [
       'Calculate your Body Mass Index (BMI) using height and weight in metric or imperial units, with a health classification result.',
     icon: 'Activity',
     keywords: ['bmi', 'body mass index', 'weight height', 'obesity', 'health'],
-    related: ['scientific-calculator', 'average-calculator', 'standard-deviation-calculator'],
+    related: ['scientific-calculator', 'average-calculator', 'standard-deviation-calculator', 'percentage-calculator'],
     popular: true,
   },
   {
@@ -289,10 +289,10 @@ export const TOOLS: Tool[] = [
     category: 'Mathematics Calculators',
     categorySlug: 'mathematics',
     description:
-      'Calculate your cumulative GPA or semester GPA by entering your course grades and credit hours.',
+      'Calculate your cumulative and semester GPA easily. Enter course grades and credit hours to determine your grade point average on standard 4.0 scale.',
     icon: 'GraduationCap',
     keywords: ['gpa', 'grade point average', 'semester gpa', 'cgpa', 'academic'],
-    related: ['average-calculator', 'percentage-calculator', 'scientific-calculator'],
+    related: ['average-calculator', 'percentage-calculator', 'scientific-calculator', 'fraction-calculator'],
   },
   {
     id: 'standard-deviation-calculator',
@@ -304,7 +304,7 @@ export const TOOLS: Tool[] = [
       'Compute the population and sample standard deviation, variance, and other descriptive statistics for a dataset.',
     icon: 'TrendingUp',
     keywords: ['standard deviation', 'variance', 'statistics', 'mean', 'data analysis'],
-    related: ['average-calculator', 'scientific-calculator', 'gpa-calculator'],
+    related: ['average-calculator', 'scientific-calculator', 'gpa-calculator', 'percentage-calculator'],
   },
   {
     id: 'profit-loss-calculator',
@@ -313,10 +313,10 @@ export const TOOLS: Tool[] = [
     category: 'Mathematics Calculators',
     categorySlug: 'mathematics',
     description:
-      'Calculate profit, loss, profit percentage, and loss percentage given cost price and selling price.',
+      'Calculate profit, loss, profit percentage, and loss margin given cost price and selling price. Essential financial tool for business and trading.',
     icon: 'TrendingDown',
     keywords: ['profit loss', 'profit percentage', 'cost price', 'selling price', 'margin'],
-    related: ['percentage-calculator', 'discount-calculator', 'gst-calculator'],
+    related: ['percentage-calculator', 'discount-calculator', 'gst-calculator', 'scientific-calculator'],
   },
 
   // ─── Category 3: Text & Formatting Tools ──────────────────────────────────
@@ -343,7 +343,7 @@ export const TOOLS: Tool[] = [
       'Beautify, minify, and validate JSON data instantly. Supports syntax highlighting and error detection for malformed JSON.',
     icon: 'Braces',
     keywords: ['json formatter', 'json beautify', 'json minify', 'json validator', 'pretty print'],
-    related: ['xml-formatter', 'json-to-csv-converter', 'json-schema-validator'],
+    related: ['xml-formatter', 'json-to-csv-converter', 'json-schema-validator', 'rich-text-editor'],
     popular: true,
   },
   {
@@ -356,7 +356,7 @@ export const TOOLS: Tool[] = [
       'Convert text between uppercase, lowercase, title case, sentence case, camelCase, snake_case, and kebab-case.',
     icon: 'CaseSensitive',
     keywords: ['text case', 'uppercase', 'lowercase', 'title case', 'camelcase', 'snake_case'],
-    related: ['word-character-counter', 'text-formatter', 'lorem-ipsum-generator'],
+    related: ['word-character-counter', 'text-formatter', 'lorem-ipsum-generator', 'rich-text-editor'],
   },
   {
     id: 'word-character-counter',
@@ -368,7 +368,7 @@ export const TOOLS: Tool[] = [
       'Count words, characters (with and without spaces), sentences, paragraphs, and lines in any block of text.',
     icon: 'FileText',
     keywords: ['word count', 'character count', 'text analysis', 'sentence count', 'paragraph'],
-    related: ['text-case-converter', 'reading-time-calculator', 'text-formatter'],
+    related: ['text-case-converter', 'reading-time-calculator', 'text-formatter', 'rich-text-editor'],
   },
   {
     id: 'text-difference-checker',
@@ -380,7 +380,7 @@ export const TOOLS: Tool[] = [
       'Compare two blocks of text side-by-side and highlight the differences line by line, word by word, or character by character.',
     icon: 'GitCompare',
     keywords: ['text diff', 'compare text', 'diff checker', 'text comparison'],
-    related: ['text-formatter', 'json-formatter', 'xml-formatter'],
+    related: ['text-formatter', 'json-formatter', 'xml-formatter', 'rich-text-editor'],
   },
   {
     id: 'text-formatter',
@@ -392,7 +392,7 @@ export const TOOLS: Tool[] = [
       'Remove extra spaces, fix line breaks, trim whitespace, and clean up pasted text from documents or PDFs.',
     icon: 'AlignLeft',
     keywords: ['text formatter', 'clean text', 'remove spaces', 'trim whitespace'],
-    related: ['text-case-converter', 'word-character-counter', 'text-difference-checker'],
+    related: ['text-case-converter', 'word-character-counter', 'text-difference-checker', 'rich-text-editor'],
   },
   {
     id: 'markdown-previewer',
@@ -404,7 +404,7 @@ export const TOOLS: Tool[] = [
       'Write Markdown and see a live formatted preview side-by-side. Supports tables, code blocks, images, and GFM extensions.',
     icon: 'FileCode',
     keywords: ['markdown', 'markdown preview', 'markdown editor', 'readme', 'gfm'],
-    related: ['html-formatter', 'text-formatter', 'html-to-markdown-converter'],
+    related: ['html-formatter', 'text-formatter', 'html-to-markdown-converter', 'rich-text-editor'],
   },
   {
     id: 'html-formatter',
@@ -413,10 +413,10 @@ export const TOOLS: Tool[] = [
     category: 'Text & Formatting Tools',
     categorySlug: 'text-formatting',
     description:
-      'Beautify and minify HTML markup with proper indentation and syntax validation.',
+      'Beautify, format, and minify HTML markup instantly. Clean up messy code with customizable indentation, tag formatting, and syntax validation.',
     icon: 'Code',
     keywords: ['html formatter', 'html beautify', 'html minify', 'pretty html'],
-    related: ['css-formatter', 'javascript-formatter', 'markdown-previewer'],
+    related: ['css-formatter', 'javascript-formatter', 'markdown-previewer', 'rich-text-editor'],
   },
   {
     id: 'css-formatter',
@@ -425,10 +425,10 @@ export const TOOLS: Tool[] = [
     category: 'Text & Formatting Tools',
     categorySlug: 'text-formatting',
     description:
-      'Beautify and minify CSS stylesheets with proper indentation, sorting, and validation.',
+      'Beautify, format, and minify CSS code online. Clean up stylesheets with custom indentation, CSS property sorting, and syntax error checking.',
     icon: 'Paintbrush',
     keywords: ['css formatter', 'css beautify', 'css minify', 'stylesheet formatter'],
-    related: ['html-formatter', 'javascript-formatter', 'css-gradient-generator'],
+    related: ['html-formatter', 'javascript-formatter', 'css-gradient-generator', 'rich-text-editor'],
   },
   {
     id: 'javascript-formatter',
@@ -437,10 +437,10 @@ export const TOOLS: Tool[] = [
     category: 'Text & Formatting Tools',
     categorySlug: 'text-formatting',
     description:
-      'Format and beautify JavaScript or TypeScript code with configurable indentation and style options.',
+      'Format, beautify, and clean up JavaScript and TypeScript code online with configurable indentation, bracket spacing, and syntax highlighting.',
     icon: 'FileJson',
     keywords: ['javascript formatter', 'js beautify', 'prettier', 'code formatter', 'typescript'],
-    related: ['html-formatter', 'css-formatter', 'json-formatter'],
+    related: ['html-formatter', 'css-formatter', 'json-formatter', 'rich-text-editor'],
   },
   {
     id: 'xml-formatter',
@@ -449,10 +449,10 @@ export const TOOLS: Tool[] = [
     category: 'Text & Formatting Tools',
     categorySlug: 'text-formatting',
     description:
-      'Beautify and validate XML documents with proper indentation and structure checking.',
+      'Format, beautify, and validate XML documents online. Clean up messy XML feeds and files with structured indentation and tree hierarchy view.',
     icon: 'FileCode2',
     keywords: ['xml formatter', 'xml beautify', 'xml validator', 'xml parser'],
-    related: ['json-formatter', 'html-formatter', 'sql-formatter'],
+    related: ['json-formatter', 'html-formatter', 'sql-formatter', 'rich-text-editor'],
   },
   {
     id: 'sql-formatter',
@@ -464,7 +464,7 @@ export const TOOLS: Tool[] = [
       'Format and beautify SQL queries with proper indentation and keyword capitalization for better readability.',
     icon: 'Database',
     keywords: ['sql formatter', 'sql beautify', 'sql query', 'database query'],
-    related: ['json-formatter', 'xml-formatter', 'sql-query-formatter'],
+    related: ['json-formatter', 'xml-formatter', 'sql-query-formatter', 'rich-text-editor'],
   },
   {
     id: 'url-encoder-decoder',
@@ -476,7 +476,7 @@ export const TOOLS: Tool[] = [
       'Encode special characters in URLs for safe transmission or decode percent-encoded URLs back to plain text.',
     icon: 'Link',
     keywords: ['url encode', 'url decode', 'percent encoding', 'uri encode', 'query string'],
-    related: ['base64-encoder-decoder', 'html-entity-encoder-decoder', 'jwt-decoder'],
+    related: ['base64-encoder-decoder', 'html-entity-encoder-decoder', 'jwt-decoder', 'rich-text-editor'],
   },
   {
     id: 'base64-encoder-decoder',
@@ -488,7 +488,7 @@ export const TOOLS: Tool[] = [
       'Encode plain text or binary data to Base64 format and decode Base64 strings back to their original content.',
     icon: 'Binary',
     keywords: ['base64', 'encode decode', 'base64 image', 'binary encoding'],
-    related: ['url-encoder-decoder', 'html-entity-encoder-decoder', 'hash-generator'],
+    related: ['url-encoder-decoder', 'html-entity-encoder-decoder', 'hash-generator', 'rich-text-editor'],
   },
   {
     id: 'html-entity-encoder-decoder',
@@ -497,10 +497,10 @@ export const TOOLS: Tool[] = [
     category: 'Text & Formatting Tools',
     categorySlug: 'text-formatting',
     description:
-      'Convert special characters to HTML entities and decode HTML entities back to readable characters.',
+      'Encode special characters into HTML entities or decode entity codes back to plain text. Supports named, decimal, and hexadecimal formats.',
     icon: 'Replace',
     keywords: ['html entity', 'html encode', 'html decode', 'special characters', 'escape'],
-    related: ['url-encoder-decoder', 'base64-encoder-decoder', 'html-formatter'],
+    related: ['url-encoder-decoder', 'base64-encoder-decoder', 'html-formatter', 'rich-text-editor'],
   },
   {
     id: 'lorem-ipsum-generator',
@@ -512,7 +512,7 @@ export const TOOLS: Tool[] = [
       'Generate placeholder Lorem Ipsum text by paragraphs, sentences, words, or bytes for use in design mockups and prototypes.',
     icon: 'PenLine',
     keywords: ['lorem ipsum', 'placeholder text', 'dummy text', 'filler text'],
-    related: ['word-character-counter', 'text-formatter', 'text-case-converter'],
+    related: ['word-character-counter', 'text-formatter', 'text-case-converter', 'rich-text-editor'],
   },
 
   // ─── Category 4: Developer Tools ──────────────────────────────────────────
@@ -526,7 +526,7 @@ export const TOOLS: Tool[] = [
       'Decode and inspect JSON Web Tokens (JWT) to view the header, payload, and signature without needing a secret key.',
     icon: 'KeyRound',
     keywords: ['jwt', 'json web token', 'decode jwt', 'bearer token', 'authentication'],
-    related: ['hash-generator', 'base64-encoder-decoder', 'url-encoder-decoder'],
+    related: ['hash-generator', 'base64-encoder-decoder', 'url-encoder-decoder', 'regex-tester'],
   },
   {
     id: 'regex-tester',
@@ -538,7 +538,7 @@ export const TOOLS: Tool[] = [
       'Test and debug regular expressions against sample text in real time, with match highlighting and group capture details.',
     icon: 'Search',
     keywords: ['regex', 'regular expression', 'pattern matching', 'regex tester'],
-    related: ['text-difference-checker', 'javascript-formatter', 'json-formatter'],
+    related: ['text-difference-checker', 'javascript-formatter', 'json-formatter', 'jwt-decoder'],
   },
   {
     id: 'uuid-generator',
@@ -550,7 +550,7 @@ export const TOOLS: Tool[] = [
       'Generate RFC-compliant UUIDs (v1, v4) in bulk. Copy individual or multiple UUIDs with a single click.',
     icon: 'Fingerprint',
     keywords: ['uuid', 'guid', 'unique id', 'random id', 'identifier'],
-    related: ['hash-generator', 'password-generator', 'random-number-generator'],
+    related: ['hash-generator', 'password-generator', 'random-number-generator', 'jwt-decoder'],
   },
   {
     id: 'cron-expression-generator',
@@ -562,7 +562,7 @@ export const TOOLS: Tool[] = [
       'Build and validate cron expressions visually. Instantly see the next scheduled run times for any cron schedule.',
     icon: 'Clock4',
     keywords: ['cron', 'cron expression', 'scheduler', 'crontab', 'schedule'],
-    related: ['unix-timestamp-converter', 'time-duration-calculator', 'countdown-timer'],
+    related: ['unix-timestamp-converter', 'time-duration-calculator', 'countdown-timer', 'jwt-decoder'],
   },
   {
     id: 'hash-generator',
@@ -574,7 +574,7 @@ export const TOOLS: Tool[] = [
       'Generate MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text or file input instantly.',
     icon: 'ShieldCheck',
     keywords: ['hash', 'md5', 'sha256', 'sha512', 'checksum', 'cryptographic hash'],
-    related: ['password-generator', 'uuid-generator', 'base64-encoder-decoder'],
+    related: ['password-generator', 'uuid-generator', 'base64-encoder-decoder', 'jwt-decoder'],
     popular: true,
   },
   {
@@ -584,10 +584,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Convert color codes between HEX, RGB, HSL, HSV, and CMYK formats with a visual color picker.',
+      'Convert color codes between HEX, RGB, HSL, HSV, and CMYK formats with an interactive visual color picker and real-time live preview.',
     icon: 'Palette',
     keywords: ['color converter', 'hex to rgb', 'rgb to hsl', 'color code', 'color picker'],
-    related: ['css-gradient-generator', 'css-formatter', 'svg-optimizer'],
+    related: ['css-gradient-generator', 'css-formatter', 'svg-optimizer', 'jwt-decoder'],
   },
   {
     id: 'css-gradient-generator',
@@ -596,10 +596,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Create beautiful linear, radial, and conic CSS gradients visually and copy the generated CSS code.',
+      'Design linear, radial, and conic CSS gradients visually. Adjust color stops, angles, and blend modes, then copy cross-browser CSS code.',
     icon: 'Layers',
     keywords: ['css gradient', 'linear gradient', 'radial gradient', 'background gradient'],
-    related: ['color-code-converter', 'css-formatter', 'svg-optimizer'],
+    related: ['color-code-converter', 'css-formatter', 'svg-optimizer', 'jwt-decoder'],
   },
   {
     id: 'qr-code-generator',
@@ -608,10 +608,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Generate QR codes for URLs, text, Wi-Fi credentials, vCards, and more. Download as PNG or SVG.',
+      'Create custom QR codes for URLs, text, Wi-Fi passwords, vCards, and emails. Download high-resolution vector SVG or PNG images instantly.',
     icon: 'QrCode',
     keywords: ['qr code', 'qr generator', 'barcode', 'qr code download', 'wifi qr'],
-    related: ['qr-code-scanner', 'uuid-generator', 'barcode'],
+    related: ['qr-code-scanner', 'uuid-generator', 'jwt-decoder', 'regex-tester'],
     popular: true,
   },
   {
@@ -624,7 +624,7 @@ export const TOOLS: Tool[] = [
       'Generate strong, secure passwords with custom length, character sets, symbols, and numbers. Includes strength indicator.',
     icon: 'Lock',
     keywords: ['password generator', 'strong password', 'secure password', 'random password'],
-    related: ['password-strength-checker', 'random-password-generator', 'hash-generator'],
+    related: ['password-strength-checker', 'random-password-generator', 'hash-generator', 'jwt-decoder'],
     popular: true,
   },
   {
@@ -637,7 +637,7 @@ export const TOOLS: Tool[] = [
       'Format and indent complex SQL queries for improved readability. Supports MySQL, PostgreSQL, and standard SQL dialects.',
     icon: 'TableProperties',
     keywords: ['sql formatter', 'sql query', 'database', 'mysql', 'postgresql'],
-    related: ['sql-formatter', 'json-formatter', 'json-to-csv-converter'],
+    related: ['sql-formatter', 'json-formatter', 'json-to-csv-converter', 'jwt-decoder'],
   },
   {
     id: 'http-status-code-lookup',
@@ -646,10 +646,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Look up any HTTP status code to get its official name, description, and usage guidelines.',
+      'Quickly look up HTTP status codes (1xx, 2xx, 3xx, 4xx, 5xx). View official RFC definitions, causes, and troubleshooting guidelines.',
     icon: 'Globe',
     keywords: ['http status', '404', '200', '500', 'status code', 'http response'],
-    related: ['mime-type-lookup', 'api-request-builder', 'ip-address-info'],
+    related: ['mime-type-lookup', 'api-request-builder', 'ip-address-info', 'jwt-decoder'],
   },
   {
     id: 'mime-type-lookup',
@@ -658,10 +658,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Look up MIME types by file extension or search by MIME type to find associated file extensions.',
+      'Search MIME types by file extension or find associated extensions by media type. Complete directory for web developers and API designers.',
     icon: 'FileSearch',
     keywords: ['mime type', 'content type', 'file extension', 'media type'],
-    related: ['http-status-code-lookup', 'api-request-builder', 'json-formatter'],
+    related: ['http-status-code-lookup', 'api-request-builder', 'json-formatter', 'jwt-decoder'],
   },
   {
     id: 'ip-address-info',
@@ -673,7 +673,7 @@ export const TOOLS: Tool[] = [
       'Look up geolocation, ISP, and network details for any IP address (IPv4 or IPv6). Also detects your current IP.',
     icon: 'MapPin',
     keywords: ['ip address', 'ip lookup', 'geolocation', 'isp', 'ipv4 ipv6'],
-    related: ['http-status-code-lookup', 'user-agent-parser', 'mime-type-lookup'],
+    related: ['http-status-code-lookup', 'user-agent-parser', 'mime-type-lookup', 'jwt-decoder'],
   },
   {
     id: 'user-agent-parser',
@@ -685,7 +685,7 @@ export const TOOLS: Tool[] = [
       'Parse any User-Agent string to identify the browser, operating system, device type, and engine details.',
     icon: 'Monitor',
     keywords: ['user agent', 'browser detection', 'os detection', 'device parser'],
-    related: ['ip-address-info', 'http-status-code-lookup', 'regex-tester'],
+    related: ['ip-address-info', 'http-status-code-lookup', 'regex-tester', 'jwt-decoder'],
   },
   {
     id: 'html-to-markdown-converter',
@@ -697,7 +697,7 @@ export const TOOLS: Tool[] = [
       'Convert HTML markup to clean Markdown syntax, preserving headings, lists, links, tables, and inline formatting.',
     icon: 'ArrowRightLeft',
     keywords: ['html to markdown', 'convert html', 'markdown converter', 'html parser'],
-    related: ['markdown-previewer', 'html-formatter', 'text-formatter'],
+    related: ['markdown-previewer', 'html-formatter', 'text-formatter', 'jwt-decoder'],
   },
   {
     id: 'json-to-csv-converter',
@@ -709,7 +709,7 @@ export const TOOLS: Tool[] = [
       'Convert JSON arrays to CSV format and download the resulting file for use in spreadsheets or data tools.',
     icon: 'Table',
     keywords: ['json to csv', 'json converter', 'csv export', 'data conversion'],
-    related: ['csv-to-json-converter', 'json-formatter', 'json-schema-validator'],
+    related: ['csv-to-json-converter', 'json-formatter', 'json-schema-validator', 'jwt-decoder'],
   },
   {
     id: 'csv-to-json-converter',
@@ -718,10 +718,10 @@ export const TOOLS: Tool[] = [
     category: 'Developer Tools',
     categorySlug: 'developer',
     description:
-      'Convert CSV data to JSON format with automatic header detection and optional nested object output.',
+      'Convert CSV data to clean JSON format online with automatic header detection, custom delimiters, and formatted or minified output options.',
     icon: 'FileInput',
     keywords: ['csv to json', 'csv converter', 'parse csv', 'data import'],
-    related: ['json-to-csv-converter', 'json-formatter', 'sql-query-formatter'],
+    related: ['json-to-csv-converter', 'json-formatter', 'sql-query-formatter', 'jwt-decoder'],
   },
   {
     id: 'json-schema-validator',
@@ -733,7 +733,7 @@ export const TOOLS: Tool[] = [
       'Validate JSON data against a JSON Schema (Draft-07 or later) and get detailed error messages for invalid fields.',
     icon: 'ClipboardCheck',
     keywords: ['json schema', 'json validator', 'schema validation', 'ajv', 'json draft'],
-    related: ['json-formatter', 'json-to-csv-converter', 'csv-to-json-converter'],
+    related: ['json-formatter', 'json-to-csv-converter', 'csv-to-json-converter', 'jwt-decoder'],
   },
   {
     id: 'svg-optimizer',
@@ -745,7 +745,7 @@ export const TOOLS: Tool[] = [
       'Optimize and minify SVG files by removing unnecessary metadata, comments, and redundant elements to reduce file size.',
     icon: 'Maximize2',
     keywords: ['svg optimizer', 'svgo', 'svg minify', 'vector optimization'],
-    related: ['image-compressor', 'css-gradient-generator', 'color-code-converter'],
+    related: ['image-compressor', 'css-gradient-generator', 'color-code-converter', 'jwt-decoder'],
   },
   {
     id: 'api-request-builder',
@@ -757,7 +757,7 @@ export const TOOLS: Tool[] = [
       'Build and send HTTP requests (GET, POST, PUT, DELETE) with custom headers, query params, and body. View formatted responses.',
     icon: 'Send',
     keywords: ['api request', 'http client', 'rest api', 'postman alternative', 'fetch'],
-    related: ['http-status-code-lookup', 'json-formatter', 'jwt-decoder'],
+    related: ['http-status-code-lookup', 'json-formatter', 'jwt-decoder', 'regex-tester'],
   },
 
   // ─── Category 5: Unit & Conversion Tools ──────────────────────────────────
@@ -768,10 +768,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert between meters, kilometers, miles, feet, inches, centimeters, and many more length units.',
+      'Convert length and distance between meters, feet, inches, miles, kilometers, yards, and nautical units with real-time bidirectional conversion.',
     icon: 'Ruler',
     keywords: ['length converter', 'meter feet', 'km miles', 'unit conversion', 'distance'],
-    related: ['weight-converter', 'area-converter', 'speed-converter'],
+    related: ['weight-converter', 'area-converter', 'speed-converter', 'temperature-converter'],
   },
   {
     id: 'weight-converter',
@@ -780,10 +780,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert weight and mass between kilograms, pounds, grams, ounces, tons, and other units.',
+      'Convert weight and mass between kilograms, pounds (lbs), grams, ounces (oz), stones, and tons with instant, high-precision calculations.',
     icon: 'Scale',
     keywords: ['weight converter', 'kg to lbs', 'pounds kilograms', 'mass conversion'],
-    related: ['length-converter', 'bmi-calculator', 'volume-converter'],
+    related: ['length-converter', 'bmi-calculator', 'volume-converter', 'temperature-converter'],
   },
   {
     id: 'temperature-converter',
@@ -792,10 +792,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert temperatures between Celsius, Fahrenheit, Kelvin, and Rankine with instant results.',
+      'Convert temperatures instantly between Celsius (°C), Fahrenheit (°F), Kelvin (K), and Rankine (°R) with step-by-step conversion formulas.',
     icon: 'Thermometer',
     keywords: ['temperature converter', 'celsius fahrenheit', 'kelvin', 'convert temperature'],
-    related: ['length-converter', 'weight-converter', 'speed-converter'],
+    related: ['length-converter', 'weight-converter', 'speed-converter', 'data-storage-converter'],
     popular: true,
   },
   {
@@ -808,7 +808,7 @@ export const TOOLS: Tool[] = [
       'Convert between bits, bytes, kilobytes, megabytes, gigabytes, terabytes, and beyond using binary or decimal prefixes.',
     icon: 'HardDrive',
     keywords: ['data storage', 'bytes megabytes', 'gb to mb', 'file size converter'],
-    related: ['internet-speed-unit-converter', 'length-converter', 'number-to-words-converter'],
+    related: ['internet-speed-unit-converter', 'length-converter', 'number-to-words-converter', 'weight-converter'],
   },
   {
     id: 'speed-converter',
@@ -820,7 +820,7 @@ export const TOOLS: Tool[] = [
       'Convert speed between km/h, mph, m/s, knots, and other velocity units for travel, physics, and engineering.',
     icon: 'Gauge',
     keywords: ['speed converter', 'kmh to mph', 'velocity', 'knots', 'meter per second'],
-    related: ['length-converter', 'time-converter', 'temperature-converter'],
+    related: ['length-converter', 'time-converter', 'temperature-converter', 'weight-converter'],
   },
   {
     id: 'time-converter',
@@ -829,10 +829,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert between seconds, minutes, hours, days, weeks, months, and years with decimal precision.',
+      'Convert between seconds, minutes, hours, days, weeks, months, and years with high precision. Ideal for time tracking, billing, and scheduling.',
     icon: 'Hourglass',
     keywords: ['time converter', 'seconds to hours', 'minutes hours', 'time unit'],
-    related: ['time-duration-calculator', 'speed-converter', 'unix-timestamp-converter'],
+    related: ['time-duration-calculator', 'speed-converter', 'unix-timestamp-converter', 'length-converter'],
   },
   {
     id: 'area-converter',
@@ -844,7 +844,7 @@ export const TOOLS: Tool[] = [
       'Convert between square meters, square feet, acres, hectares, square kilometers, and many more area units.',
     icon: 'Square',
     keywords: ['area converter', 'square meter', 'acres hectares', 'sq ft to sq m'],
-    related: ['length-converter', 'volume-converter', 'weight-converter'],
+    related: ['length-converter', 'volume-converter', 'weight-converter', 'temperature-converter'],
   },
   {
     id: 'volume-converter',
@@ -853,10 +853,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert between liters, milliliters, gallons, pints, cups, cubic meters, and other volume units.',
+      'Convert volume between liters, milliliters, gallons, fluid ounces, pints, cups, cubic meters, and cubic feet with instant calculation.',
     icon: 'Container',
     keywords: ['volume converter', 'liters to gallons', 'ml to oz', 'cubic meters'],
-    related: ['weight-converter', 'area-converter', 'length-converter'],
+    related: ['weight-converter', 'area-converter', 'length-converter', 'temperature-converter'],
   },
   {
     id: 'number-to-words-converter',
@@ -868,7 +868,7 @@ export const TOOLS: Tool[] = [
       'Convert any number to its English word representation. Useful for writing cheques or formal documents.',
     icon: 'Type',
     keywords: ['number to words', 'spell number', 'number in words', 'check writing'],
-    related: ['roman-numeral-converter', 'data-storage-converter', 'scientific-calculator'],
+    related: ['roman-numeral-converter', 'data-storage-converter', 'scientific-calculator', 'length-converter'],
   },
   {
     id: 'roman-numeral-converter',
@@ -877,10 +877,10 @@ export const TOOLS: Tool[] = [
     category: 'Unit & Conversion Tools',
     categorySlug: 'unit-conversion',
     description:
-      'Convert between Arabic numerals and Roman numerals. Supports numbers from 1 to 3,999.',
+      'Convert numbers between Arabic numerals and Roman numerals (1 to 3,999). Includes explanation of Roman numeral rules and calculation breakdown.',
     icon: 'Columns',
     keywords: ['roman numerals', 'roman numeral converter', 'arabic to roman', 'numeral'],
-    related: ['number-to-words-converter', 'scientific-calculator', 'factorial-calculator'],
+    related: ['number-to-words-converter', 'scientific-calculator', 'factorial-calculator', 'length-converter'],
   },
 
   // ─── Category 6: Finance & Business Calculators ───────────────────────────
@@ -894,7 +894,7 @@ export const TOOLS: Tool[] = [
       'Calculate your monthly EMI for home, car, or personal loans based on principal, interest rate, and tenure. Includes amortization schedule.',
     icon: 'CreditCard',
     keywords: ['emi calculator', 'loan emi', 'monthly installment', 'home loan', 'car loan'],
-    related: ['simple-interest-calculator', 'compound-interest-calculator', 'fd-calculator'],
+    related: ['simple-interest-calculator', 'compound-interest-calculator', 'fd-calculator', 'gst-calculator'],
   },
   {
     id: 'gst-calculator',
@@ -906,7 +906,7 @@ export const TOOLS: Tool[] = [
       'Calculate GST-inclusive and GST-exclusive prices for different GST slabs (5%, 12%, 18%, 28%). Shows CGST, SGST, and IGST breakdowns.',
     icon: 'Receipt',
     keywords: ['gst calculator', 'goods services tax', 'gst inclusive', 'cgst sgst igst'],
-    related: ['discount-calculator', 'profit-loss-calculator', 'salary-calculator'],
+    related: ['discount-calculator', 'profit-loss-calculator', 'salary-calculator', 'emi-calculator'],
   },
   {
     id: 'sip-calculator',
@@ -918,7 +918,7 @@ export const TOOLS: Tool[] = [
       'Calculate the future value of your Systematic Investment Plan (SIP) investments and estimate returns over time.',
     icon: 'TrendingUp',
     keywords: ['sip calculator', 'mutual fund', 'systematic investment', 'investment returns'],
-    related: ['fd-calculator', 'rd-calculator', 'compound-interest-calculator'],
+    related: ['fd-calculator', 'rd-calculator', 'compound-interest-calculator', 'emi-calculator'],
   },
   {
     id: 'fd-calculator',
@@ -930,7 +930,7 @@ export const TOOLS: Tool[] = [
       'Calculate the maturity amount and interest earned on a Fixed Deposit for different compounding frequencies.',
     icon: 'PiggyBank',
     keywords: ['fd calculator', 'fixed deposit', 'maturity amount', 'bank interest'],
-    related: ['rd-calculator', 'sip-calculator', 'compound-interest-calculator'],
+    related: ['rd-calculator', 'sip-calculator', 'compound-interest-calculator', 'emi-calculator'],
   },
   {
     id: 'rd-calculator',
@@ -942,7 +942,7 @@ export const TOOLS: Tool[] = [
       'Calculate the maturity value of a Recurring Deposit by entering the monthly deposit amount, interest rate, and tenure.',
     icon: 'Wallet',
     keywords: ['rd calculator', 'recurring deposit', 'maturity value', 'monthly deposit'],
-    related: ['fd-calculator', 'sip-calculator', 'simple-interest-calculator'],
+    related: ['fd-calculator', 'sip-calculator', 'simple-interest-calculator', 'emi-calculator'],
   },
   {
     id: 'simple-interest-calculator',
@@ -951,10 +951,10 @@ export const TOOLS: Tool[] = [
     category: 'Finance & Business Calculators',
     categorySlug: 'finance',
     description:
-      'Calculate simple interest and total amount for any principal, rate of interest, and time period.',
+      'Calculate simple interest (SI = P×R×T/100) and total accumulated amount for any principal, annual interest rate, and duration in years or months.',
     icon: 'DollarSign',
     keywords: ['simple interest', 'si calculator', 'principal rate time', 'interest'],
-    related: ['compound-interest-calculator', 'emi-calculator', 'fd-calculator'],
+    related: ['compound-interest-calculator', 'emi-calculator', 'fd-calculator', 'gst-calculator'],
   },
   {
     id: 'compound-interest-calculator',
@@ -966,7 +966,7 @@ export const TOOLS: Tool[] = [
       'Calculate compound interest with different compounding frequencies (daily, monthly, quarterly, annually) and see the power of compounding.',
     icon: 'BarChart',
     keywords: ['compound interest', 'compounding', 'annual interest', 'investment growth'],
-    related: ['simple-interest-calculator', 'sip-calculator', 'fd-calculator'],
+    related: ['simple-interest-calculator', 'sip-calculator', 'fd-calculator', 'emi-calculator'],
   },
   {
     id: 'discount-calculator',
@@ -978,7 +978,7 @@ export const TOOLS: Tool[] = [
       'Calculate the discounted price, discount amount, and savings percentage for any original price and discount rate.',
     icon: 'Tag',
     keywords: ['discount calculator', 'sale price', 'percentage off', 'savings'],
-    related: ['percentage-calculator', 'gst-calculator', 'profit-loss-calculator'],
+    related: ['percentage-calculator', 'gst-calculator', 'profit-loss-calculator', 'emi-calculator'],
   },
   {
     id: 'salary-calculator',
@@ -990,7 +990,7 @@ export const TOOLS: Tool[] = [
       'Convert salary between hourly, daily, weekly, monthly, and annual figures. Includes basic tax and deduction estimations.',
     icon: 'Banknote',
     keywords: ['salary calculator', 'annual salary', 'hourly rate', 'monthly salary', 'ctc'],
-    related: ['income-tax-calculator', 'gst-calculator', 'discount-calculator'],
+    related: ['income-tax-calculator', 'gst-calculator', 'discount-calculator', 'emi-calculator'],
   },
   {
     id: 'income-tax-calculator',
@@ -1002,7 +1002,7 @@ export const TOOLS: Tool[] = [
       'Estimate your income tax liability under the old and new tax regimes for the current financial year.',
     icon: 'Landmark',
     keywords: ['income tax', 'tax calculator', 'tax slab', 'new tax regime', 'old tax regime'],
-    related: ['salary-calculator', 'gst-calculator', 'compound-interest-calculator'],
+    related: ['salary-calculator', 'gst-calculator', 'compound-interest-calculator', 'emi-calculator'],
   },
 
   // ─── Category 7: Image & File Tools ───────────────────────────────────────
@@ -1016,7 +1016,7 @@ export const TOOLS: Tool[] = [
       'Compress JPEG, PNG, and WebP images in the browser without uploading to a server. Adjust quality and see real-time size reduction.',
     icon: 'Image',
     keywords: ['image compressor', 'compress image', 'reduce image size', 'optimize image'],
-    related: ['image-resizer', 'png-to-jpg-converter', 'svg-optimizer'],
+    related: ['image-resizer', 'png-to-jpg-converter', 'svg-optimizer', 'image-to-pdf-converter'],
   },
   {
     id: 'image-resizer',
@@ -1028,7 +1028,7 @@ export const TOOLS: Tool[] = [
       'Resize images to exact pixel dimensions or by percentage while maintaining aspect ratio. Download the resized image instantly.',
     icon: 'Maximize',
     keywords: ['image resizer', 'resize image', 'scale image', 'image dimensions'],
-    related: ['image-compressor', 'image-cropper', 'png-to-jpg-converter'],
+    related: ['image-compressor', 'image-cropper', 'png-to-jpg-converter', 'image-to-pdf-converter'],
   },
   {
     id: 'image-to-pdf-converter',
@@ -1040,7 +1040,7 @@ export const TOOLS: Tool[] = [
       'Convert one or multiple images (JPG, PNG, WebP) into a single PDF document. Control page size and orientation.',
     icon: 'FileImage',
     keywords: ['image to pdf', 'jpg to pdf', 'png to pdf', 'convert image pdf'],
-    related: ['pdf-to-image-converter', 'pdf-merger', 'image-compressor'],
+    related: ['pdf-to-image-converter', 'pdf-merger', 'image-compressor', 'image-resizer'],
   },
   {
     id: 'pdf-merger',
@@ -1049,10 +1049,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Merge multiple PDF files into a single document. Reorder pages by drag-and-drop before combining.',
+      'Combine multiple PDF files into one document in seconds. Reorder pages with drag-and-drop in your browser with 100% client-side privacy.',
     icon: 'FilePlus',
     keywords: ['pdf merger', 'merge pdf', 'combine pdf', 'join pdf files'],
-    related: ['pdf-splitter', 'image-to-pdf-converter', 'pdf-page-counter'],
+    related: ['pdf-splitter', 'image-to-pdf-converter', 'pdf-page-counter', 'image-compressor'],
   },
   {
     id: 'pdf-splitter',
@@ -1061,10 +1061,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Split a PDF into individual pages or extract a specific page range as a new PDF file.',
+      'Split PDF documents into separate pages or extract specific page ranges securely in your browser. Fast, private, with zero upload to any server.',
     icon: 'Scissors',
     keywords: ['pdf splitter', 'split pdf', 'extract pages', 'pdf pages'],
-    related: ['pdf-merger', 'pdf-page-counter', 'pdf-to-image-converter'],
+    related: ['pdf-merger', 'pdf-page-counter', 'pdf-to-image-converter', 'image-compressor'],
   },
   {
     id: 'background-remover',
@@ -1076,7 +1076,7 @@ export const TOOLS: Tool[] = [
       'Automatically remove the background from photos using AI-powered segmentation, all processed client-side for privacy.',
     icon: 'Eraser',
     keywords: ['background remover', 'remove background', 'transparent background', 'cut out'],
-    related: ['image-compressor', 'image-resizer', 'png-to-jpg-converter'],
+    related: ['image-compressor', 'image-resizer', 'png-to-jpg-converter', 'image-to-pdf-converter'],
   },
   {
     id: 'png-to-jpg-converter',
@@ -1088,7 +1088,7 @@ export const TOOLS: Tool[] = [
       'Convert PNG images to JPG format with adjustable quality settings. Handles transparency by applying a background color.',
     icon: 'FileType',
     keywords: ['png to jpg', 'convert png', 'image format', 'jpg converter'],
-    related: ['jpg-to-png-converter', 'webp-converter', 'image-compressor'],
+    related: ['jpg-to-png-converter', 'webp-converter', 'image-compressor', 'image-resizer'],
   },
   {
     id: 'jpg-to-png-converter',
@@ -1097,10 +1097,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Convert JPG/JPEG images to lossless PNG format, preserving maximum image quality.',
+      'Convert JPG and JPEG images to high-quality PNG format online. Runs completely client-side in your browser for total privacy and instant downloads.',
     icon: 'FileType2',
     keywords: ['jpg to png', 'convert jpg', 'jpeg to png', 'lossless image'],
-    related: ['png-to-jpg-converter', 'webp-converter', 'image-compressor'],
+    related: ['png-to-jpg-converter', 'webp-converter', 'image-compressor', 'image-resizer'],
   },
   {
     id: 'webp-converter',
@@ -1109,10 +1109,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Convert images to and from WebP format. Smaller file sizes with comparable quality to JPEG and PNG.',
+      'Convert images to and from WebP format for fast web performance. Reduce file size while keeping crisp quality directly in your browser.',
     icon: 'ImagePlus',
     keywords: ['webp converter', 'webp image', 'convert to webp', 'webp format'],
-    related: ['png-to-jpg-converter', 'jpg-to-png-converter', 'image-compressor'],
+    related: ['png-to-jpg-converter', 'jpg-to-png-converter', 'image-compressor', 'image-resizer'],
   },
   {
     id: 'image-cropper',
@@ -1124,7 +1124,7 @@ export const TOOLS: Tool[] = [
       'Crop images to any size or aspect ratio using an interactive drag-and-drop interface. Download the cropped image instantly.',
     icon: 'Crop',
     keywords: ['image cropper', 'crop image', 'trim image', 'aspect ratio'],
-    related: ['image-resizer', 'image-compressor', 'background-remover'],
+    related: ['image-resizer', 'image-compressor', 'background-remover', 'image-to-pdf-converter'],
   },
   {
     id: 'favicon-generator',
@@ -1133,10 +1133,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Generate favicon.ico and all required web app icon sizes (16x16 to 512x512) from any image.',
+      'Generate complete favicon packages (ICO, PNG 16x16 to 512x512, Apple touch icons) from any image with HTML link tags ready to copy.',
     icon: 'Star',
     keywords: ['favicon generator', 'favicon ico', 'web icon', 'site icon'],
-    related: ['image-resizer', 'png-to-jpg-converter', 'svg-optimizer'],
+    related: ['image-resizer', 'png-to-jpg-converter', 'svg-optimizer', 'image-compressor'],
   },
   {
     id: 'qr-code-scanner',
@@ -1148,7 +1148,7 @@ export const TOOLS: Tool[] = [
       'Scan and decode QR codes from an uploaded image or directly from your webcam using the browser camera.',
     icon: 'ScanLine',
     keywords: ['qr code scanner', 'scan qr', 'decode qr', 'barcode reader', 'qr reader'],
-    related: ['qr-code-generator', 'image-compressor', 'image-metadata-viewer'],
+    related: ['qr-code-generator', 'image-compressor', 'image-metadata-viewer', 'image-resizer'],
   },
   {
     id: 'pdf-page-counter',
@@ -1157,10 +1157,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Upload a PDF and instantly find out the total number of pages, file size, and basic metadata.',
+      'Count pages in any PDF document instantly and inspect file size, page dimensions, and document metadata completely client-side in your browser.',
     icon: 'FileDigit',
     keywords: ['pdf page count', 'count pdf pages', 'pdf info', 'pdf metadata'],
-    related: ['pdf-merger', 'pdf-splitter', 'pdf-to-image-converter'],
+    related: ['pdf-merger', 'pdf-splitter', 'pdf-to-image-converter', 'image-compressor'],
   },
   {
     id: 'pdf-to-image-converter',
@@ -1169,10 +1169,10 @@ export const TOOLS: Tool[] = [
     category: 'Image & File Tools',
     categorySlug: 'image-file',
     description:
-      'Convert PDF pages to PNG or JPEG images. Select individual pages or convert the entire document.',
+      'Extract and convert PDF pages into high-resolution PNG or JPG images. Download single pages or all pages packaged as a ZIP archive.',
     icon: 'FileScan',
     keywords: ['pdf to image', 'pdf to png', 'pdf to jpg', 'convert pdf pages'],
-    related: ['image-to-pdf-converter', 'pdf-splitter', 'pdf-page-counter'],
+    related: ['image-to-pdf-converter', 'pdf-splitter', 'pdf-page-counter', 'image-compressor'],
   },
   {
     id: 'image-metadata-viewer',
@@ -1184,7 +1184,7 @@ export const TOOLS: Tool[] = [
       'View EXIF, IPTC, and XMP metadata from JPEG and TIFF images. See camera settings, GPS coordinates, and more.',
     icon: 'Info',
     keywords: ['exif viewer', 'image metadata', 'exif data', 'photo info', 'gps exif'],
-    related: ['image-compressor', 'qr-code-scanner', 'pdf-page-counter'],
+    related: ['image-compressor', 'qr-code-scanner', 'pdf-page-counter', 'image-resizer'],
   },
 
   // ─── Category 8: Random & Productivity Tools ──────────────────────────────
@@ -1198,7 +1198,7 @@ export const TOOLS: Tool[] = [
       'Enter a list of names and randomly pick one or more winners. Perfect for giveaways, classroom selections, and team decisions.',
     icon: 'Users',
     keywords: ['random name picker', 'name wheel', 'random picker', 'giveaway picker'],
-    related: ['random-team-generator', 'decision-maker', 'random-number-generator'],
+    related: ['random-team-generator', 'decision-maker', 'random-number-generator', 'random-password-generator'],
   },
   {
     id: 'random-password-generator',
@@ -1207,10 +1207,10 @@ export const TOOLS: Tool[] = [
     category: 'Random & Productivity Tools',
     categorySlug: 'productivity',
     description:
-      'Generate multiple strong random passwords at once with configurable length and character rules.',
+      'Generate secure, randomized passwords in bulk with customizable length, symbols, numbers, and uppercase letters. Fast and completely client-side.',
     icon: 'KeySquare',
     keywords: ['random password', 'password generator', 'secure password', 'bulk password'],
-    related: ['password-generator', 'password-strength-checker', 'hash-generator'],
+    related: ['password-generator', 'password-strength-checker', 'hash-generator', 'random-name-picker'],
   },
   {
     id: 'random-team-generator',
@@ -1219,10 +1219,10 @@ export const TOOLS: Tool[] = [
     category: 'Random & Productivity Tools',
     categorySlug: 'productivity',
     description:
-      'Split a list of names into balanced random teams. Specify the number of teams or team size.',
+      'Quickly generate balanced random teams or groups from any list of names. Perfect for classrooms, sports, hackathons, and office activities.',
     icon: 'Group',
     keywords: ['random teams', 'team generator', 'split teams', 'group generator'],
-    related: ['random-name-picker', 'decision-maker', 'checklist-generator'],
+    related: ['random-name-picker', 'decision-maker', 'checklist-generator', 'random-password-generator'],
   },
   {
     id: 'decision-maker',
@@ -1234,7 +1234,7 @@ export const TOOLS: Tool[] = [
       'Enter your choices and let the Decision Maker randomly pick one for you. Supports Yes/No, custom options, and weighted choices.',
     icon: 'HelpCircle',
     keywords: ['decision maker', 'yes no', 'random choice', 'pick random', 'wheel of fortune'],
-    related: ['random-name-picker', 'random-team-generator', 'random-number-generator'],
+    related: ['random-name-picker', 'random-team-generator', 'random-number-generator', 'random-password-generator'],
   },
   {
     id: 'stopwatch',
@@ -1243,10 +1243,10 @@ export const TOOLS: Tool[] = [
     category: 'Random & Productivity Tools',
     categorySlug: 'productivity',
     description:
-      'A precise browser-based stopwatch with lap recording, pause/resume, and export of lap times.',
+      'Accurate online stopwatch with split lap times, pause/resume, keyboard shortcuts, and export options. Free and runs smoothly in any web browser.',
     icon: 'StopCircle',
     keywords: ['stopwatch', 'lap timer', 'time tracking', 'chrono'],
-    related: ['countdown-timer', 'pomodoro-timer', 'time-duration-calculator'],
+    related: ['countdown-timer', 'pomodoro-timer', 'time-duration-calculator', 'random-name-picker'],
   },
   {
     id: 'countdown-timer',
@@ -1258,7 +1258,7 @@ export const TOOLS: Tool[] = [
       'Set a custom countdown timer with an audio alert when it reaches zero. Supports hours, minutes, and seconds.',
     icon: 'TimerOff',
     keywords: ['countdown timer', 'timer', 'count down', 'alarm timer'],
-    related: ['stopwatch', 'pomodoro-timer', 'days-until-calculator'],
+    related: ['stopwatch', 'pomodoro-timer', 'days-until-calculator', 'random-name-picker'],
   },
   {
     id: 'pomodoro-timer',
@@ -1270,7 +1270,7 @@ export const TOOLS: Tool[] = [
       'Boost your focus with the Pomodoro technique. Customizable work and break intervals with session tracking.',
     icon: 'Clock',
     keywords: ['pomodoro', 'pomodoro timer', 'focus timer', 'productivity', 'work break'],
-    related: ['countdown-timer', 'stopwatch', 'typing-speed-test'],
+    related: ['countdown-timer', 'stopwatch', 'typing-speed-test', 'random-name-picker'],
   },
   {
     id: 'meeting-time-calculator',
@@ -1282,7 +1282,7 @@ export const TOOLS: Tool[] = [
       'Find the best meeting time across multiple time zones. Enter participants and their locations to calculate overlap.',
     icon: 'CalendarClock',
     keywords: ['meeting time', 'time zone', 'world clock', 'schedule meeting'],
-    related: ['working-days-calculator', 'time-converter', 'countdown-timer'],
+    related: ['working-days-calculator', 'time-converter', 'countdown-timer', 'random-name-picker'],
   },
   {
     id: 'checklist-generator',
@@ -1294,7 +1294,7 @@ export const TOOLS: Tool[] = [
       'Create interactive checklists, to-do lists, and task trackers. Save progress to local storage and export as PDF or text.',
     icon: 'CheckSquare',
     keywords: ['checklist', 'to-do list', 'task list', 'checklist generator', 'todo'],
-    related: ['random-team-generator', 'decision-maker', 'reading-time-calculator'],
+    related: ['random-team-generator', 'decision-maker', 'reading-time-calculator', 'random-name-picker'],
   },
   {
     id: 'text-to-speech',
@@ -1306,7 +1306,7 @@ export const TOOLS: Tool[] = [
       'Convert written text to audio using the browser\'s Web Speech API. Choose from available voices, speed, and pitch.',
     icon: 'Volume2',
     keywords: ['text to speech', 'tts', 'read aloud', 'voice', 'speech synthesis'],
-    related: ['speech-to-text', 'reading-time-calculator', 'word-character-counter'],
+    related: ['speech-to-text', 'reading-time-calculator', 'word-character-counter', 'random-name-picker'],
   },
   {
     id: 'speech-to-text',
@@ -1318,7 +1318,7 @@ export const TOOLS: Tool[] = [
       'Transcribe your voice to text in real time using the browser\'s Web Speech Recognition API. No sign-up required.',
     icon: 'Mic',
     keywords: ['speech to text', 'voice to text', 'transcribe', 'voice recognition', 'stt'],
-    related: ['text-to-speech', 'word-character-counter', 'typing-speed-test'],
+    related: ['text-to-speech', 'word-character-counter', 'typing-speed-test', 'random-name-picker'],
   },
   {
     id: 'typing-speed-test',
@@ -1330,7 +1330,7 @@ export const TOOLS: Tool[] = [
       'Measure your typing speed in WPM (words per minute) and accuracy with timed typing tests and performance history.',
     icon: 'Keyboard',
     keywords: ['typing speed', 'wpm', 'typing test', 'words per minute', 'accuracy'],
-    related: ['speech-to-text', 'text-to-speech', 'word-character-counter'],
+    related: ['speech-to-text', 'text-to-speech', 'word-character-counter', 'random-name-picker'],
   },
   {
     id: 'password-strength-checker',
@@ -1342,7 +1342,7 @@ export const TOOLS: Tool[] = [
       'Evaluate password strength instantly with entropy analysis, common pattern detection, and improvement suggestions.',
     icon: 'ShieldAlert',
     keywords: ['password strength', 'password checker', 'secure password', 'entropy', 'password policy'],
-    related: ['password-generator', 'random-password-generator', 'hash-generator'],
+    related: ['password-generator', 'random-password-generator', 'hash-generator', 'random-name-picker'],
   },
   {
     id: 'reading-time-calculator',
@@ -1354,7 +1354,7 @@ export const TOOLS: Tool[] = [
       'Estimate the reading time for any article or document based on word count and average reading speed.',
     icon: 'BookOpen',
     keywords: ['reading time', 'read time estimator', 'words per minute', 'article length'],
-    related: ['word-character-counter', 'text-to-speech', 'lorem-ipsum-generator'],
+    related: ['word-character-counter', 'text-to-speech', 'lorem-ipsum-generator', 'random-name-picker'],
   },
   {
     id: 'internet-speed-unit-converter',
@@ -1366,7 +1366,7 @@ export const TOOLS: Tool[] = [
       'Convert between internet speed units: Kbps, Mbps, Gbps, KB/s, MB/s, and GB/s. Calculate download time for any file size.',
     icon: 'Wifi',
     keywords: ['internet speed', 'mbps converter', 'bandwidth', 'download speed', 'kbps gbps'],
-    related: ['data-storage-converter', 'speed-converter', 'time-converter'],
+    related: ['data-storage-converter', 'speed-converter', 'time-converter', 'random-name-picker'],
   },
 ];
 
@@ -1396,5 +1396,18 @@ export function getPopularTools(): Tool[] {
 export function getRelatedTools(slug: string): Tool[] {
   const tool = getToolBySlug(slug);
   if (!tool) return [];
-  return tool.related.map(s => getToolBySlug(s)).filter(Boolean) as Tool[];
+  const primary = (tool.related || [])
+    .map(s => getToolBySlug(s))
+    .filter(Boolean) as Tool[];
+
+  if (primary.length >= 4) {
+    return primary.slice(0, 4);
+  }
+
+  // Fallback: fill up to 4 tools from the same category
+  const siblings = getToolsByCategory(tool.categorySlug).filter(
+    t => t.slug !== tool.slug && !primary.some(p => p.slug === t.slug)
+  );
+
+  return [...primary, ...siblings].slice(0, 4);
 }

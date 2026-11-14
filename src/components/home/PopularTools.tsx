@@ -30,7 +30,7 @@ export default function PopularTools() {
           </p>
         </div>
         <a
-          href="/tools"
+          href="/tools/"
           className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors inline-flex items-center gap-1 self-start sm:self-auto"
         >
           All 110+ tools &rarr;
@@ -43,7 +43,7 @@ export default function PopularTools() {
           return (
             <li key={tool.slug}>
               <a
-                href={`/tools/${tool.slug}`}
+                href={`/tools/${tool.slug}/`}
                 className="group relative flex flex-col justify-between h-full p-5 rounded-2xl border border-gray-200/90 dark:border-gray-800 bg-white dark:bg-gray-850 hover:bg-gradient-to-b hover:from-white hover:to-blue-50/20 dark:hover:bg-gray-800 hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/5 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <div>
